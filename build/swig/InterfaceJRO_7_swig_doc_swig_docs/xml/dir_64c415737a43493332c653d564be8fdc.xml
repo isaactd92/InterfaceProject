@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_64c415737a43493332c653d564be8fdc" kind="dir">
+    <compoundname>JarsControl</compoundname>
+    <innerdir refid="dir_e17b8c8c46e03d21da83f0b6c691743e">RdpToolsBeta</innerdir>
+    <innerdir refid="dir_4afd3838205623820acc2c781f745d72">SP601</innerdir>
+    <innerfile refid="JarsControl_8h">JarsControl.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/"/>
+  </compounddef>
+</doxygen>

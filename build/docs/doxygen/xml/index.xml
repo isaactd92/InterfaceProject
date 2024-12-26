@@ -1,0 +1,447 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="struct__BasicHeader" kind="struct"><name>_BasicHeader</name>
+    <member refid="struct__BasicHeader_1a461e829d4d07d706cd2e12f4c09fe2bb" kind="variable"><name>nHeaderTotallength</name></member>
+    <member refid="struct__BasicHeader_1a534994750402c2afd8f9f478a5ba7a94" kind="variable"><name>nHeaderBasiclength</name></member>
+    <member refid="struct__BasicHeader_1a3ca85523702521305482fb0c930c0e4c" kind="variable"><name>nHeaderVer</name></member>
+    <member refid="struct__BasicHeader_1a2dcbc08d1bcf9c32dba64431de4673ee" kind="variable"><name>nBlockCounter</name></member>
+    <member refid="struct__BasicHeader_1ab2f87b6ca375cee352e379ebb97b04de" kind="variable"><name>FullTime</name></member>
+    <member refid="struct__BasicHeader_1af37c04e71ace072c6b096b4c16708ef4" kind="variable"><name>nError</name></member>
+  </compound>
+  <compound refid="struct__GlobPParam" kind="struct"><name>_GlobPParam</name>
+    <member refid="struct__GlobPParam_1ac78c669920bf569e8a7d00554d6f5848" kind="variable"><name>FixPP</name></member>
+    <member refid="struct__GlobPParam_1a693efaed127aba9634e79fa2d3be69b6" kind="variable"><name>bCreateDayDir</name></member>
+    <member refid="struct__GlobPParam_1a3845b5041fa3d0721ec7561ac067b4ac" kind="variable"><name>bNameInDirectory</name></member>
+    <member refid="struct__GlobPParam_1a3e2167701b356ea0c4ff1203ca225b42" kind="variable"><name>m_bBeginOnStart</name></member>
+    <member refid="struct__GlobPParam_1a6e6910602fe132199cbb7735770f39ac" kind="variable"><name>Dyn_nSpectraComb</name></member>
+    <member refid="struct__GlobPParam_1ac28bdb8b27ff1dc65f63569f004497f2" kind="variable"><name>Dyn_nCardSequence</name></member>
+    <member refid="struct__GlobPParam_1aa6af1a2e02f84a740dbbd62254227838" kind="variable"><name>m_sExpName</name></member>
+    <member refid="struct__GlobPParam_1acccf4e334a87f3904ff87e2a2ee45174" kind="variable"><name>m_sBaseDirectory</name></member>
+    <member refid="struct__GlobPParam_1ac1e2afd4dcbc0a377157bf865c35e473" kind="variable"><name>m_sCurrentDirectory</name></member>
+    <member refid="struct__GlobPParam_1acb17955b429ff620f32650c17e75378d" kind="variable"><name>Dyn_sfDataH0</name></member>
+    <member refid="struct__GlobPParam_1ade3106de6332e22811a749cb392f757d" kind="variable"><name>Dyn_sfDataDH</name></member>
+    <member refid="struct__GlobPParam_1a41bfddd12107ed7d9c1bfa1bfa529f69" kind="variable"><name>m_nFFTPoints</name></member>
+    <member refid="struct__GlobPParam_1a0abce01487be8839d4e3ce356246eb51" kind="variable"><name>m_nProfilesperBlock</name></member>
+    <member refid="struct__GlobPParam_1a4e4bde5e3d036d9e786677cb2000d74a" kind="variable"><name>m_nCards</name></member>
+    <member refid="struct__GlobPParam_1a0a256f650bf0fae7505237525edbb3a4" kind="variable"><name>m_nHeaderVER</name></member>
+    <member refid="struct__GlobPParam_1acac23143ab72087cd7f9c74a9ee1edb1" kind="variable"><name>m_nCohIntStride</name></member>
+    <member refid="struct__GlobPParam_1ae30abd17287791fd995b537243fa020c" kind="variable"><name>m_nProcessCodes</name></member>
+    <member refid="struct__GlobPParam_1a02b3553070bd8306474f1245e91d881a" kind="variable"><name>m_nProcessBauds</name></member>
+    <member refid="struct__GlobPParam_1ac7e32c61d064ce3f42f307129ae11762" kind="variable"><name>m_nProcessWindows</name></member>
+    <member refid="struct__GlobPParam_1a62eefa9d6266e9e6ece155e2fb1faaaf" kind="variable"><name>m_nDecodingFlags</name></member>
+    <member refid="struct__GlobPParam_1aefdafd8770077e7a6807947ef6e11281" kind="variable"><name>m_nProf2Join</name></member>
+    <member refid="struct__GlobPParam_1a2263cceb9863b25c2dc9c560853d0c43" kind="variable"><name>m_nFileSetDigits</name></member>
+    <member refid="struct__GlobPParam_1a5dba9ea228db92a1ceecf0dd1a07a801" kind="variable"><name>Dyn_snDataNSA</name></member>
+  </compound>
+  <compound refid="struct__GlobRCParam" kind="struct"><name>_GlobRCParam</name>
+    <member refid="struct__GlobRCParam_1a3266169525e2a7d77be441ba398a105a" kind="variable"><name>FixRCP</name></member>
+    <member refid="struct__GlobRCParam_1acb9b5f114b14fe854692c899cf4e9493" kind="variable"><name>Dyn_snCode</name></member>
+    <member refid="struct__GlobRCParam_1a8b244f458d9be125672a50fe93be9a33" kind="variable"><name>Dyn_sfAcqH0</name></member>
+    <member refid="struct__GlobRCParam_1abc125c5fd3f6736a5df976d249f7ae42" kind="variable"><name>Dyn_sfAcqDH</name></member>
+    <member refid="struct__GlobRCParam_1ac5ffc72deb6c2beeff3e5053e3de9ff1" kind="variable"><name>Dyn_sfTau</name></member>
+    <member refid="struct__GlobRCParam_1ad9ca65f6a403823a95fa8f8abb4a269e" kind="variable"><name>Dyn_sfL5_AcqH0</name></member>
+    <member refid="struct__GlobRCParam_1a52af46723bbb43de5a463eda7d61983c" kind="variable"><name>Dyn_sfL5_AcqDH</name></member>
+    <member refid="struct__GlobRCParam_1a5769afb57d754b9ea0ab43e45a26f5cd" kind="variable"><name>Dyn_sfL6_AcqH0</name></member>
+    <member refid="struct__GlobRCParam_1a6af7cf80baf97f788f9b4e660d502ad0" kind="variable"><name>Dyn_sfL6_AcqDH</name></member>
+    <member refid="struct__GlobRCParam_1a531653a796a0be5c08714dcb01ac73f3" kind="variable"><name>m_nNum_Codes</name></member>
+    <member refid="struct__GlobRCParam_1aa545cf87df505cd35cc00d52009ac132" kind="variable"><name>m_nBauds</name></member>
+    <member refid="struct__GlobRCParam_1a75b52d816c427cacd56aa202274565cf" kind="variable"><name>Dyn_snAcqNSA</name></member>
+    <member refid="struct__GlobRCParam_1afbc598e54ede4b0f7f6817093b254fa9" kind="variable"><name>m_nL5_NumWindows</name></member>
+    <member refid="struct__GlobRCParam_1acd622c026159d3803d31a3e5bd740c71" kind="variable"><name>Dyn_snL5_AcqNSA</name></member>
+    <member refid="struct__GlobRCParam_1a76d6b6065ea406da01a4fab307e46e72" kind="variable"><name>m_nL6_NumWindows</name></member>
+    <member refid="struct__GlobRCParam_1a24e8a6edd36bce91fa46b97e72834f64" kind="variable"><name>Dyn_snL6_AcqNSA</name></member>
+    <member refid="struct__GlobRCParam_1abdaefe690e3aa884353256917f4c6127" kind="variable"><name>m_nFLIP1</name></member>
+    <member refid="struct__GlobRCParam_1afac1d48457307c9ff45f7318ee849636" kind="variable"><name>m_nFLIP2</name></member>
+  </compound>
+  <compound refid="class__JARSControl" kind="class"><name>_JARSControl</name>
+    <member refid="class__JARSControl_1a3a9bee0735edcc19019ea89c876bb324" kind="variable"><name>MyExpParam</name></member>
+    <member refid="class__JARSControl_1a23d97fafb2a8484a913c9ae0cbf96b53" kind="variable"><name>m_SizeofBuffer</name></member>
+    <member refid="class__JARSControl_1af22ac24cb398de0720ab962d79a8498f" kind="variable"><name>m_AcqBuffer</name></member>
+    <member refid="class__JARSControl_1a83109c7d938a17dcd5344b8984489490" kind="variable"><name>ptrFunc</name></member>
+    <member refid="class__JARSControl_1a2e519598b0f380cd1c167b0c441c8f21" kind="variable"><name>_thread_rcv</name></member>
+    <member refid="class__JARSControl_1a5bb573744392a128014340ee4cbb9770" kind="variable"><name>_thread_jars</name></member>
+    <member refid="class__JARSControl_1a335294492af9a25a87cd9861e5c6b4ff" kind="variable"><name>_thread_jars_rcv</name></member>
+    <member refid="class__JARSControl_1af2c55c9ade0b313c614f01f381d7fc6e" kind="variable"><name>MySP601</name></member>
+    <member refid="class__JARSControl_1ac1d0fcec75e87d34d558379c2dda1ba5" kind="variable"><name>VarSetSystem</name></member>
+    <member refid="class__JARSControl_1af853f0f272eed0ca955df739651eb5a4" kind="variable"><name>m_nChannelsMask</name></member>
+    <member refid="class__JARSControl_1a9f3ac037aec35c612eda889c95813cba" kind="variable"><name>m_nCardsMask</name></member>
+    <member refid="class__JARSControl_1a8a367362f9ac3b2d03c8d823ccce03d6" kind="variable"><name>m_nFilterCoeff</name></member>
+    <member refid="class__JARSControl_1a01012691c14372f45f45089e47641086" kind="variable"><name>m_nCountCoeff</name></member>
+    <member refid="class__JARSControl_1ad7902609ce64c8c0be327e3a6c873b20" kind="variable"><name>m_NumMarks</name></member>
+    <member refid="class__JARSControl_1acd325d1f968db3a0e99e8e32ba926683" kind="variable"><name>m_MarkRe</name></member>
+    <member refid="class__JARSControl_1a0f221ac2a023e06426eadc79f7f3abda" kind="variable"><name>m_AcqNIBuffer</name></member>
+    <member refid="class__JARSControl_1a34788b66b29a6269737b84bc5addc4bf" kind="variable"><name>m_AcqNIDoubleBuffer</name></member>
+    <member refid="class__JARSControl_1a63513f01960f9ee3368ffa762016f675" kind="variable"><name>payload</name></member>
+    <member refid="class__JARSControl_1a6e97ca0b4324bc1af443e36b28bb1d3e" kind="function"><name>InternalRcv</name></member>
+    <member refid="class__JARSControl_1a57bb6d2e0d1c5e18bd101de314651e8c" kind="function"><name>InternalThreadEntry</name></member>
+    <member refid="class__JARSControl_1a96cc4161869c0e963d31fd2d462f7f01" kind="function"><name>InternalCallback</name></member>
+    <member refid="class__JARSControl_1a8a5f2a09daffa77a92e351be46f607a2" kind="function"><name>_JARSControl</name></member>
+    <member refid="class__JARSControl_1a3373fa4a920c76cf6d66d1668d7b389c" kind="function"><name>~_JARSControl</name></member>
+    <member refid="class__JARSControl_1a6627542a7073fc2a460bc8b5b380f937" kind="function"><name>jro_MatchParameters</name></member>
+    <member refid="class__JARSControl_1a1dc4dd8d70448789ea8df65ee92eae82" kind="function"><name>jro_AssignMemory</name></member>
+    <member refid="class__JARSControl_1a580e2201213c8276faaa2022c28d5a03" kind="function"><name>jro_InitAcquisition</name></member>
+    <member refid="class__JARSControl_1a3a32dd8bf71407e2657267980476ca50" kind="function"><name>jro_StopAcquisition</name></member>
+    <member refid="class__JARSControl_1aa5efa593e794a87b13f2af5482b6e206" kind="function"><name>InternalRcvFunc</name></member>
+    <member refid="class__JARSControl_1aed242879aa7d8e1b0b6c8ef39eb2678e" kind="function"><name>InternalThreadEntryFunc</name></member>
+    <member refid="class__JARSControl_1a9efe58dd0e9e72ee6b0e52c36946e964" kind="function"><name>InternalCallbackFunc</name></member>
+    <member refid="class__JARSControl_1a1f27f7a3c63882d8856f53581b13a834" kind="function"><name>RemoveMark</name></member>
+    <member refid="class__JARSControl_1aa65814986c93ce5d420b4287f7eb8238" kind="function"><name>RESET_CTRL_COMMAND</name></member>
+    <member refid="class__JARSControl_1a56a2da34d863317fc6e7df9cdf7d4484" kind="function"><name>MODE_OPER_COMMAND</name></member>
+    <member refid="class__JARSControl_1a38a9532a2960f085bcea1050999523e4" kind="function"><name>SELECT_RXD_COMMAND</name></member>
+    <member refid="class__JARSControl_1aebc1443f83beb9a2e849ba264c4462fa" kind="function"><name>PW_RXD_COMMAND</name></member>
+    <member refid="class__JARSControl_1a169aad7ff69b10275117a35a830c3124" kind="function"><name>PROG_RXD_COMMAND</name></member>
+    <member refid="class__JARSControl_1a3564fc23793b0c34cb5dfcfcbd4f3f54" kind="function"><name>HAB_TRANS_COMMAND</name></member>
+    <member refid="class__JARSControl_1a5ec74c0455a907b293a4725e195980f0" kind="function"><name>DESHAB_TRANS_COMMAND</name></member>
+    <member refid="class__JARSControl_1a164e55b01d5707b8899812e04b5f5660" kind="function"><name>LoadMask</name></member>
+    <member refid="class__JARSControl_1a5e6f3a93bd4ff115145090ed1e93cb16" kind="function"><name>ConfigDataTransfer</name></member>
+    <member refid="class__JARSControl_1a27b6de0bd322535d498d02697f157eca" kind="function"><name>SetSystem</name></member>
+    <member refid="class__JARSControl_1a8401e05389d448f2fffc0f888d5b34e9" kind="function"><name>LoadFilter</name></member>
+    <member refid="class__JARSControl_1ae6c8bc3f7eed8295cbef56394acad44d" kind="function"><name>WriteFilter</name></member>
+  </compound>
+  <compound refid="struct__ProcessParam" kind="struct"><name>_ProcessParam</name>
+    <member refid="struct__ProcessParam_1a71218bdc9ca03a656754f819c0c24010" kind="variable"><name>m_nHeader_PP_Length</name></member>
+    <member refid="struct__ProcessParam_1ae79399a4449f9bbf16922f785e4b89fc" kind="variable"><name>m_nExperimentType</name></member>
+    <member refid="struct__ProcessParam_1a514ea180d2542f6d36b5f9ecbaa06e08" kind="variable"><name>m_nSizeOfDataBlock</name></member>
+    <member refid="struct__ProcessParam_1a2f1fadc1b001d8a107140a681c633302" kind="variable"><name>m_nFFTorProfilesperBlock</name></member>
+    <member refid="struct__ProcessParam_1a15138e2f5122880978dbe9558f583256" kind="variable"><name>m_nDataBlocksperFile</name></member>
+    <member refid="struct__ProcessParam_1a8eb0a657e8fbb2e31201eeb60749c4cc" kind="variable"><name>m_nData_Windows</name></member>
+    <member refid="struct__ProcessParam_1a46a10ad0dd1d8287b781775cc1f05224" kind="variable"><name>m_nProcessFlags</name></member>
+    <member refid="struct__ProcessParam_1ab0e64457487a1c1989b01e5f002ee1f3" kind="variable"><name>m_nCoherentIntegrations</name></member>
+    <member refid="struct__ProcessParam_1a62ed3aa6a02469b487bf3ce6c42eaa28" kind="variable"><name>m_nIncoherentIntegrations</name></member>
+    <member refid="struct__ProcessParam_1a1aee0c7c6ad110d6472e879fd8019aae" kind="variable"><name>m_nTotalSpectra</name></member>
+    <member refid="struct__ProcessParam_1ae0dd8ccf7a27c0b36263f8582fe1286b" kind="variable"><name>m_BeginTime</name></member>
+    <member refid="struct__ProcessParam_1a18dde547d414f4f6dcf8aaf7638eaa0f" kind="variable"><name>m_EndTime</name></member>
+  </compound>
+  <compound refid="struct__RadarControllerParam" kind="struct"><name>_RadarControllerParam</name>
+    <member refid="struct__RadarControllerParam_1a9a1cb92c41913fc0a7b95c7e011c9faa" kind="variable"><name>m_nHeader_RC_length</name></member>
+    <member refid="struct__RadarControllerParam_1aa00899d7fbef313184dae5f7d14aed9b" kind="variable"><name>m_nEspType</name></member>
+    <member refid="struct__RadarControllerParam_1a11c44c04097c6e7a89f0f4c1c6b92f2d" kind="variable"><name>m_nNTX</name></member>
+    <member refid="struct__RadarControllerParam_1ae8ac79e57158371f6524e1d160b0d96e" kind="variable"><name>m_fIPP</name></member>
+    <member refid="struct__RadarControllerParam_1a78c97c86923c5e6d1dffeb4146d186c0" kind="variable"><name>m_fTXA</name></member>
+    <member refid="struct__RadarControllerParam_1a2d2f7e3f9185df7b0c1e6f91a5a419eb" kind="variable"><name>m_fTXB</name></member>
+    <member refid="struct__RadarControllerParam_1a9198b8907f08cc14f8bc743d2b9dabe3" kind="variable"><name>m_nNum_Windows</name></member>
+    <member refid="struct__RadarControllerParam_1ab5bcaafc644ccb694fc7b1eb5c062e02" kind="variable"><name>m_nNum_Taus</name></member>
+    <member refid="struct__RadarControllerParam_1a72028f370b3a737e198632bd13679ca3" kind="variable"><name>m_nCodeType</name></member>
+    <member refid="struct__RadarControllerParam_1a5dbe6442aad203e2868695b437e975a4" kind="variable"><name>m_nLine6_Function</name></member>
+    <member refid="struct__RadarControllerParam_1a775a6518abf0f77bdf394be52b17213e" kind="variable"><name>m_nLine5_Function</name></member>
+    <member refid="struct__RadarControllerParam_1a6964e5cce298dae4557429884b89cae9" kind="variable"><name>m_fCLOCK</name></member>
+    <member refid="struct__RadarControllerParam_1adc11ae9a664ffa6270f82800da70703c" kind="variable"><name>m_nPrePulseBefore</name></member>
+    <member refid="struct__RadarControllerParam_1a73323fd64632ade97d13936e049ad441" kind="variable"><name>m_nPrePulseAfter</name></member>
+    <member refid="struct__RadarControllerParam_1afe4e6ae3d735bc6010ffae007eaf22d8" kind="variable"><name>m_sRango_IPP</name></member>
+    <member refid="struct__RadarControllerParam_1a9fe944d2c9c6a4623f5182aca4e02460" kind="variable"><name>m_sRango_TXA</name></member>
+    <member refid="struct__RadarControllerParam_1a3ce50ccbbbd2b8529a0b9b919035bf21" kind="variable"><name>m_sRango_TXB</name></member>
+  </compound>
+  <compound refid="struct__SystemParam" kind="struct"><name>_SystemParam</name>
+    <member refid="struct__SystemParam_1a156626ad2463a55b96e202712cd69c9c" kind="variable"><name>m_nHeader_Sys_Length</name></member>
+    <member refid="struct__SystemParam_1a19a6cf532b877478838544bb8471c53b" kind="variable"><name>m_nSamples</name></member>
+    <member refid="struct__SystemParam_1ab86ec2eb0141deaa322b4d78c975dd25" kind="variable"><name>m_nProfiles</name></member>
+    <member refid="struct__SystemParam_1a2fc99bf00c5551764122a0924a1df888" kind="variable"><name>m_nChannels</name></member>
+    <member refid="struct__SystemParam_1a51a5b33e4767f30baae71f3230706b37" kind="variable"><name>m_nADCResolution</name></member>
+    <member refid="struct__SystemParam_1a4d3f5453b09401b62b0170c06ba17f08" kind="variable"><name>m_nPCIDIOBusWidth</name></member>
+    <member refid="struct__SystemParam_1aa49917e56c5325e41bbb7430e092cf46" kind="variable"><name>m_sFilterPath</name></member>
+    <member refid="struct__SystemParam_1abb9ba419e2dd0853d6d43e1a32f3de7a" kind="variable"><name>m_nNumberOfChannel</name></member>
+  </compound>
+  <compound refid="structaddress" kind="struct"><name>address</name>
+    <member refid="structaddress_1a581926a36870deaba867743219d89d9a" kind="variable"><name>d_path_file</name></member>
+    <member refid="structaddress_1a47c83523d9cc06ed386f29e5fcd5eeda" kind="variable"><name>d_mac_block</name></member>
+    <member refid="structaddress_1aeeeea32d04a247d4a5351e33af8674a8" kind="variable"><name>d_port_block</name></member>
+    <member refid="structaddress_1aacbeb5a1db9cfa6bcabb47d819818b1e" kind="variable"><name>d_ip_host</name></member>
+  </compound>
+  <compound refid="classArgProcessor" kind="class"><name>ArgProcessor</name>
+    <member refid="classArgProcessor_1a01359a1ff1a6a9f19a71c97f992eec7a" kind="variable"><name>MyParameters</name></member>
+    <member refid="classArgProcessor_1a389b174af18021e3e81d0ddc58599a6b" kind="function"><name>ArgProcessor</name></member>
+    <member refid="classArgProcessor_1a2cad62b4bd3cb5245466d1f76876c915" kind="function"><name>~ArgProcessor</name></member>
+    <member refid="classArgProcessor_1a7f00d6545730abc12fcf68ed863d2030" kind="function"><name>jro_arguments</name></member>
+  </compound>
+  <compound refid="classExpParameters" kind="class"><name>ExpParameters</name>
+    <member refid="classExpParameters_1a3b97a95ea010ca20056bbc9f6807fc00" kind="variable"><name>PathExperiment</name></member>
+    <member refid="classExpParameters_1ad295cabf051467354884f7dc952aced6" kind="variable"><name>MySystemParam</name></member>
+    <member refid="classExpParameters_1a6f9185d4fae1038b1bf6672cd5937eef" kind="variable"><name>MyGPParam</name></member>
+    <member refid="classExpParameters_1a3101e02498e631d62ed0a08bbdd97ce4" kind="variable"><name>MyGRCParam</name></member>
+    <member refid="classExpParameters_1a44eeb0bb43da22f9b96e3ccf9b864e54" kind="variable"><name>SaveData</name></member>
+    <member refid="classExpParameters_1ac72964b04dc924d0916d94435407715d" kind="variable"><name>FlagSIR</name></member>
+    <member refid="classExpParameters_1a749ba5fb272f835591296dae9bcccd53" kind="variable"><name>OwnWindow</name></member>
+    <member refid="classExpParameters_1a04868e35f3f05bfa80d2a2e6e382ca68" kind="variable"><name>EnableJARS</name></member>
+    <member refid="classExpParameters_1af62cf5ce717f2c5a8529ca7e709e9715" kind="variable"><name>EnableCooperSimulation</name></member>
+    <member refid="classExpParameters_1a94423e2a632a70b5565f462b31cf0451" kind="variable"><name>RacpFileName</name></member>
+    <member refid="classExpParameters_1a8fd4661f2383af87ceefc9a11faa16c9" kind="function"><name>ReadRCParameters</name></member>
+    <member refid="classExpParameters_1aeaeef1d041a31165e6bd8c25c58f0857" kind="function"><name>ReadSysParameters</name></member>
+    <member refid="classExpParameters_1a56fab265e4ce41149f2042cc8cf97ec6" kind="function"><name>ReadProcessParameters</name></member>
+    <member refid="classExpParameters_1af6198303a773f95fc569bd8d29173c53" kind="function"><name>ReadJARSParameters</name></member>
+    <member refid="classExpParameters_1a35a17651fe471d1cefae4fe7f90ed05b" kind="function"><name>FindValue</name></member>
+    <member refid="classExpParameters_1aded6d8c3b1bce0f9c25d0d54f38c86d4" kind="function"><name>ExpParameters</name></member>
+    <member refid="classExpParameters_1a1d2cdb6a0e68a772e40d435fb5e3f3e3" kind="function"><name>Initialize</name></member>
+    <member refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" kind="function"><name>ReadRACPFileParameters</name></member>
+    <member refid="classExpParameters_1ab7fee74dc5c37afaa4ec2dd350b68941" kind="function"><name>~ExpParameters</name></member>
+  </compound>
+  <compound refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7" kind="class"><name>gr::InterfaceJRO_7::InterfaceJRO_7</name>
+    <member refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7_1a249cbd564a96bf41f37b4ffe059e53b6" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7_1ad7a9c8a1069105daf16da7f78dee1ed0" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7__impl" kind="class"><name>gr::InterfaceJRO_7::InterfaceJRO_7_impl</name>
+    <member refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7__impl_1afd6e65ed00ff166eea16e0597ff86fe3" kind="variable"><name>c_path_file</name></member>
+    <member refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7__impl_1a28a696f12f3eb10293c7748f7c7d1ae0" kind="variable"><name>c_mac_block</name></member>
+    <member refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7__impl_1a29fd1eda078dd6edb7c6082553145ba1" kind="variable"><name>c_port_block</name></member>
+    <member refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7__impl_1ad3aaed35c16752b0a562fc6baa6fe529" kind="variable"><name>c_ip_host</name></member>
+    <member refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7__impl_1aa62daa4dc8e6da671620a6c6b9516dee" kind="variable"><name>local_socket</name></member>
+    <member refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7__impl_1ae015f6bbb8d85dda2c508e00432e0630" kind="function"><name>InterfaceJRO_7_impl</name></member>
+    <member refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7__impl_1a09ee09264023139db4d659fb7f71c154" kind="function"><name>~InterfaceJRO_7_impl</name></member>
+    <member refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7__impl_1aa31edf6f57c93ed088c2c63bb77e2b3f" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7__impl_1a4f87dce58dc32adca51d1b5b5a5ca71d" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="structjars__cmd" kind="struct"><name>jars_cmd</name>
+    <member refid="structjars__cmd_1ac1538c1c69d889eefbabfc077e59d96f" kind="variable"><name>name</name></member>
+    <member refid="structjars__cmd_1a08d03301fdc843da88b71ab8d5576a97" kind="variable"><name>val</name></member>
+    <member refid="structjars__cmd_1a2ac9bbc25760e1a29a170271d68ea390" kind="variable"><name>size</name></member>
+    <member refid="structjars__cmd_1a667569fb6dd6e6bc0b0699d0e1a49b22" kind="variable"><name>ack</name></member>
+  </compound>
+  <compound refid="classJicaHeader" kind="class"><name>JicaHeader</name>
+    <member refid="classJicaHeader_1abbcddf492dfb31dbfdbd6b9944370324" kind="variable"><name>FileCount</name></member>
+    <member refid="classJicaHeader_1ae3c72b8883c4555f6abf58acdc885b84" kind="variable"><name>Flag</name></member>
+    <member refid="classJicaHeader_1a775755df842adc6e44cf44fcc67ee8a9" kind="variable"><name>TimeHourBefore</name></member>
+    <member refid="classJicaHeader_1ad3b07ee9f88f2ec2db6ce16508886912" kind="variable"><name>DirectorySetCount</name></member>
+    <member refid="classJicaHeader_1ad1572de5721bec8be0b35346323039ef" kind="variable"><name>Patnhame</name></member>
+    <member refid="classJicaHeader_1af6e0f17ca53a101f40dd7619c6b40156" kind="variable"><name>FileName</name></member>
+    <member refid="classJicaHeader_1a091e3594512061db8e2a92985dee4249" kind="variable"><name>MyFileTemp</name></member>
+    <member refid="classJicaHeader_1aca0e77436c47d6c7f1ed1054d9d6f02b" kind="variable"><name>LongHeader</name></member>
+    <member refid="classJicaHeader_1a33f91aae161b848508cfe57fc5eabb78" kind="variable"><name>TimeToFinish</name></member>
+    <member refid="classJicaHeader_1ad9c187ac237c49be3eb5c204dbe385a5" kind="variable"><name>CloseSystemTime</name></member>
+    <member refid="classJicaHeader_1af22d9db0254746719434fc93a6267a68" kind="variable"><name>gnuradio_out</name></member>
+    <member refid="classJicaHeader_1a3d8034b39057db2aedc74dad8dd492ef" kind="variable"><name>MyLocalTime</name></member>
+    <member refid="classJicaHeader_1a96558753ab2fe31e1ac16c671980a61f" kind="variable"><name>MyBasicHeader</name></member>
+    <member refid="classJicaHeader_1a796cbcb706094fdf9ff11d0d0820c6a8" kind="variable"><name>MySystemParam</name></member>
+    <member refid="classJicaHeader_1ad60ba4811b599c4c391c3c88ce7adb23" kind="variable"><name>MyGPParam</name></member>
+    <member refid="classJicaHeader_1add36b05e34828d71dba0f78a5152530b" kind="variable"><name>MyGRCParam</name></member>
+    <member refid="classJicaHeader_1a1a562e897fe66ea4c8eaf7558eb7c0df" kind="variable"><name>m_sCodeFloat</name></member>
+    <member refid="classJicaHeader_1a8f3493d62e29dcac9c5b8111e9bf5c00" kind="variable"><name>FileSaved</name></member>
+    <member refid="classJicaHeader_1a622173b3f5a6e258ff5d21ba8c64aa1d" kind="function"><name>SaveBasicHeader</name></member>
+    <member refid="classJicaHeader_1ad0ac3042b70226cb76023f7e435ac66c" kind="function"><name>SaveFirstHeader</name></member>
+    <member refid="classJicaHeader_1ab8057ca2092c942aff11c1f344f14ef7" kind="function"><name>GetBasicHeader</name></member>
+    <member refid="classJicaHeader_1a353c411b779bc8ab1190541548d0800f" kind="function"><name>GetFirstHeader</name></member>
+    <member refid="classJicaHeader_1ac82aed81416f7352da6341fe969e8c6c" kind="function"><name>GetFileName</name></member>
+    <member refid="classJicaHeader_1a917e2a1f66303b7c215235dba9708586" kind="function"><name>CompareTime</name></member>
+    <member refid="classJicaHeader_1aa0829849ef7a853b5adb5a04f935368d" kind="function"><name>JicaHeader</name></member>
+    <member refid="classJicaHeader_1a8fbe1a0784f87a237343bfad8aa26940" kind="function"><name>~JicaHeader</name></member>
+    <member refid="classJicaHeader_1a75502a8a9e9171445d0d8ad32a30995b" kind="function"><name>GetEndTime</name></member>
+    <member refid="classJicaHeader_1a5b585e14f2c611b0eef14bd1d87123a5" kind="function"><name>GetExpParameters</name></member>
+    <member refid="classJicaHeader_1a1c47a7a4cb68e44b44c3f6702d9cf453" kind="function"><name>SaveData</name></member>
+    <member refid="classJicaHeader_1a70bc6badd8a52e89e02187bb802dfd6e" kind="function"><name>MakeDirectory</name></member>
+  </compound>
+  <compound refid="classMemoryManager" kind="class"><name>MemoryManager</name>
+    <member refid="classMemoryManager_1ae63e917589c627d948f470d6bf428aaf" kind="variable"><name>m_miSizeAcqBuffer</name></member>
+    <member refid="classMemoryManager_1a1ddfeb3818503fad3b94d8b0fdb1a1fd" kind="variable"><name>m_mAcqBuffer</name></member>
+    <member refid="classMemoryManager_1a473502877c2b7e1be78614fde759ce2f" kind="variable"><name>m_iSizeNIDoubleBuffer</name></member>
+    <member refid="classMemoryManager_1acdf947edccf307a07382da6ee435d214" kind="variable"><name>m_iSizeNIBuffer</name></member>
+    <member refid="classMemoryManager_1af53d94ce1836a26f87969064c38900a2" kind="variable"><name>m_nNIBuffer</name></member>
+    <member refid="classMemoryManager_1a06e03642b89e7f6aa2745efa87e8af7f" kind="variable"><name>m_nNIDoubleBuffer</name></member>
+    <member refid="classMemoryManager_1a1a0419c2d92663a8543a4945e0f85db4" kind="variable"><name>buff_header</name></member>
+    <member refid="classMemoryManager_1a6b993584bffef97dbe5eb1badf3fd29c" kind="variable"><name>MyParams</name></member>
+    <member refid="classMemoryManager_1ab75a235e4987573e5d3d2370f87ba44f" kind="variable"><name>numrawbuffs</name></member>
+    <member refid="classMemoryManager_1a2c70777d79eec06e074b8b14f1dc19aa" kind="variable"><name>is_allocated</name></member>
+    <member refid="classMemoryManager_1ae925e8ad4d8fe6f0565e9d5729f59593" kind="function"><name>MemoryManager</name></member>
+    <member refid="classMemoryManager_1ad4570910ccfc14b2da679bee58ee8f48" kind="function"><name>~MemoryManager</name></member>
+    <member refid="classMemoryManager_1abbd3d363efe95de6dfbc0f7d509840cd" kind="function"><name>AllocateMemory</name></member>
+    <member refid="classMemoryManager_1ab864bc8321cf3d576d2e53494495d926" kind="function"><name>FreeMemory</name></member>
+    <member refid="classMemoryManager_1ab559715957b94ea098d235efbca3c898" kind="function"><name>GetBufferSizes</name></member>
+  </compound>
+  <compound refid="classRdpToolsBeta" kind="class"><name>RdpToolsBeta</name>
+    <member refid="classRdpToolsBeta_1a8417bc27718a5695442794a969dabf64" kind="variable"><name>MyExpParam</name></member>
+    <member refid="classRdpToolsBeta_1a01d50e2b6ba0fc698830ccc1315a58bf" kind="variable"><name>MyMemManager</name></member>
+    <member refid="classRdpToolsBeta_1a7d16fd73e88508cebd358cae0a3595aa" kind="function"><name>RdpToolsBeta</name></member>
+    <member refid="classRdpToolsBeta_1a0b0f4ee66ef5b97685b5516df8c67d32" kind="function"><name>~RdpToolsBeta</name></member>
+    <member refid="classRdpToolsBeta_1aaecbe9ab223710a25f9aff8422834ebc" kind="function"><name>GetExtParameters</name></member>
+    <member refid="classRdpToolsBeta_1ac1847de2ce7448c0229f7a1dfa576a3a" kind="function"><name>initVariables</name></member>
+  </compound>
+  <compound refid="classRdpToolsExcep" kind="class"><name>RdpToolsExcep</name>
+    <member refid="classRdpToolsExcep_1acb0b618015a0e342c8cd4f8dcf7653eb" kind="variable"><name>msg</name></member>
+    <member refid="classRdpToolsExcep_1a828352790674770d59dbf4fc4c3ee35f" kind="variable"><name>info</name></member>
+    <member refid="classRdpToolsExcep_1a10ddf5b5a078ffd988549c7bfa323359" kind="variable"><name>logfilename</name></member>
+    <member refid="classRdpToolsExcep_1a0629676f8ca01ae673816c54a9222c4c" kind="function"><name>RdpToolsExcep</name></member>
+    <member refid="classRdpToolsExcep_1a0c2578969fefc405555829efe7edc477" kind="function"><name>~RdpToolsExcep</name></member>
+    <member refid="classRdpToolsExcep_1a13cb3c2f351ba520216e69bfa5a5bbd3" kind="function"><name>what</name></member>
+  </compound>
+  <compound refid="classsp601__command" kind="class"><name>sp601_command</name>
+    <member refid="classsp601__command_1ab96dc6299f8ee6dd7bde84584ea72d5f" kind="function"><name>sp601_command</name></member>
+    <member refid="classsp601__command_1a4acdc1e7593b27a8831b0bea12e27aa5" kind="function"><name>~sp601_command</name></member>
+    <member refid="classsp601__command_1a00e7747470750f26ba33b69b9a1b028b" kind="function"><name>init</name></member>
+    <member refid="classsp601__command_1a0f20108067e472db69a628ecb02e2c4a" kind="function"><name>receive</name></member>
+    <member refid="classsp601__command_1a190c6be31617bd6b50fc7f4a451a56ac" kind="function"><name>send</name></member>
+  </compound>
+  <compound refid="classsp601__config" kind="class"><name>sp601_config</name>
+    <member refid="classsp601__config_1a647d1666043bbbff8ea0212544c9fd5d" kind="variable"><name>sp601_ip</name></member>
+    <member refid="classsp601__config_1a8425fde699cfd9476b57621d6ef53129" kind="variable"><name>SP601_MAC</name></member>
+    <member refid="classsp601__config_1ad6492c0298daa685d0ba7dfc38a85b14" kind="variable"><name>SP601_IP</name></member>
+    <member refid="classsp601__config_1af3c1756c00b9954a476698c62911feb7" kind="variable"><name>SP601_PORT</name></member>
+    <member refid="classsp601__config_1a67d08111f19266ac84a3781d1c204b6e" kind="variable"><name>sp601_ip_string</name></member>
+    <member refid="classsp601__config_1a5f4214fdc2d5b4cc6cf2665ad6233838" kind="variable"><name>IP_host</name></member>
+    <member refid="classsp601__config_1a2c2cf407fda2eff4bfb66c2624105c7f" kind="variable"><name>MAC_host</name></member>
+    <member refid="classsp601__config_1aa8d75acd776756f7b46560c340a4817d" kind="variable"><name>PORT_host</name></member>
+    <member refid="classsp601__config_1a26dac3fc752ef1cac9c9a9f6f05782b0" kind="variable"><name>REPLY_START_DATA_PAYLOAD</name></member>
+    <member refid="classsp601__config_1a6d8f61af0597bc1c6ca208898fc76f77" kind="variable"><name>VERBOSE_MODE</name></member>
+    <member refid="classsp601__config_1a0f455ea81940b646c26beefe54ce475a" kind="function"><name>sp601_config</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1InterfaceJRO__7" kind="namespace"><name>gr::InterfaceJRO_7</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1aa1b68d47f64a89fd4d80a3ed84480229" kind="define"><name>INTERFACEJRO_7_API</name></member>
+  </compound>
+  <compound refid="ArgProcessor_8h" kind="file"><name>ArgProcessor.h</name>
+  </compound>
+  <compound refid="ExperimentConstants_8h" kind="file"><name>ExperimentConstants.h</name>
+    <member refid="ExperimentConstants_8h_1a316442a61b2003f21a7b055ffb9ef48f" kind="define"><name>_MAX_FNAME</name></member>
+    <member refid="ExperimentConstants_8h_1a54c2a011b47044f713f4a3d53d891798" kind="define"><name>_MAX_NAME_PATH</name></member>
+    <member refid="ExperimentConstants_8h_1a865dced746336a2d6ae9141287c4ebf4" kind="define"><name>_MAX_PATH</name></member>
+    <member refid="ExperimentConstants_8h_1a60b85b10347a8a481986907c6542fedc" kind="define"><name>EXP_RAWDATA</name></member>
+    <member refid="ExperimentConstants_8h_1a91bdba6b755299b67dded617960606dc" kind="define"><name>EXP_SPECTRA</name></member>
+    <member refid="ExperimentConstants_8h_1a655c84af1b0034986ff56e12e84f983d" kind="define"><name>NONE</name></member>
+    <member refid="ExperimentConstants_8h_1a6913edbcb0c881679fd7dd121c10af3e" kind="define"><name>FLIP</name></member>
+    <member refid="ExperimentConstants_8h_1acd3fa8f18671a8c8f7b5ee902f6bc7ea" kind="define"><name>SAMPLING</name></member>
+    <member refid="ExperimentConstants_8h_1a722e5785aae222e3f5f8f1e48db2e1fa" kind="define"><name>SYNCHRO</name></member>
+    <member refid="ExperimentConstants_8h_1a5224f13776f668990fe517b885f4bd70" kind="define"><name>CODE_NONE</name></member>
+    <member refid="ExperimentConstants_8h_1a16bebc16372095d6dc549ef377161887" kind="define"><name>CODE_USERDEFINE</name></member>
+    <member refid="ExperimentConstants_8h_1a4729fa878d9a372c7174de7a31622063" kind="define"><name>CODE_BARKER2</name></member>
+    <member refid="ExperimentConstants_8h_1a87f993d36efc4bfcbe74c5353c62cc98" kind="define"><name>CODE_BARKER3</name></member>
+    <member refid="ExperimentConstants_8h_1a86ada03c69eb92d94ff48daf884cfa58" kind="define"><name>CODE_BARKER4</name></member>
+    <member refid="ExperimentConstants_8h_1a46cd071dd312c468ab07baeb99c4159b" kind="define"><name>CODE_BARKER5</name></member>
+    <member refid="ExperimentConstants_8h_1a398fb5e845ec577fdaab613e0572de3a" kind="define"><name>CODE_BARKER7</name></member>
+    <member refid="ExperimentConstants_8h_1a3eb13e3b7d6f166bb50e796808598523" kind="define"><name>CODE_BARKER11</name></member>
+    <member refid="ExperimentConstants_8h_1a4bf58786b4416aa896d174cfccf1998a" kind="define"><name>CODE_BARKER13</name></member>
+    <member refid="ExperimentConstants_8h_1a1e2eb0d64090d499fcaf3ba9fc1cb2d3" kind="define"><name>CODE_AC128</name></member>
+    <member refid="ExperimentConstants_8h_1a0543acd06116ec276a78f4a635d01169" kind="define"><name>CODE_COMPLEMENTARYCODE2</name></member>
+    <member refid="ExperimentConstants_8h_1ae875f0da06919dceadb1c467bf4761b8" kind="define"><name>CODE_COMPLEMENTARYCODE4</name></member>
+    <member refid="ExperimentConstants_8h_1a9396ae08ef58bdbb4ee4943ae8c4fcb2" kind="define"><name>CODE_COMPLEMENTARYCODE8</name></member>
+    <member refid="ExperimentConstants_8h_1a6f9116698de540a6ae69075138e21cc5" kind="define"><name>CODE_COMPLEMENTARYCODE16</name></member>
+    <member refid="ExperimentConstants_8h_1a62e2faacb1be13e28fed5dc88c583c6c" kind="define"><name>CODE_COMPLEMENTARYCODE32</name></member>
+    <member refid="ExperimentConstants_8h_1a5db5dabc3e33060e0eadbeb408618f89" kind="define"><name>CODE_COMPLEMENTARYCODE64</name></member>
+    <member refid="ExperimentConstants_8h_1aa2962ad95a11e98968d11febd3e56fd4" kind="define"><name>CODE_COMPLEMENTARYCODE128</name></member>
+    <member refid="ExperimentConstants_8h_1a662c639f1d171df77668cbb33b0e17ee" kind="define"><name>CODE_BINARY28</name></member>
+    <member refid="ExperimentConstants_8h_1ab9f3daf1dbd22783120596288d8243de" kind="define"><name>DECODING_TIME_DOMAIN</name></member>
+    <member refid="ExperimentConstants_8h_1a670da7d976f40c3068ff819dbd5c8371" kind="define"><name>DECODING_FREQ_DOMAIN</name></member>
+    <member refid="ExperimentConstants_8h_1a519c5064db6472f94b3afb2b8c785b8d" kind="define"><name>DECODING_INV_FREQ_DOMAIN</name></member>
+    <member refid="ExperimentConstants_8h_1a3fb3e9b30c090f3eae997b6cf8529950" kind="define"><name>FLAG_COHERENT_INTEGRATION</name></member>
+    <member refid="ExperimentConstants_8h_1ac40c19dd1558edb3f174f33639b2e332" kind="define"><name>FLAG_SPECTRA_CALC</name></member>
+    <member refid="ExperimentConstants_8h_1a14116b93e5415ec89f9b0de7ae9cb903" kind="define"><name>FLAG_INCOHERENT_INTEGRATION</name></member>
+    <member refid="ExperimentConstants_8h_1ac5f702173365442d8376245dfa6a6cf5" kind="define"><name>FLAG_POST_COHERENT_INTEGRATION</name></member>
+    <member refid="ExperimentConstants_8h_1ae1c077a80112c5e2f3785a68d522130b" kind="define"><name>FLAG_DATATYPE_SHORT</name></member>
+    <member refid="ExperimentConstants_8h_1aa164e53829c16ba8a8babb2d510f0319" kind="define"><name>FLAG_DATATYPE_FLOAT</name></member>
+    <member refid="ExperimentConstants_8h_1ac09f0c0c28a37852312146afd9322465" kind="define"><name>FLAG_DATAARRANGE_CONTIGUOUS_CH</name></member>
+    <member refid="ExperimentConstants_8h_1a21e40ec1ee18251315099fd6b115c85a" kind="define"><name>FLAG_DATAARRANGE_CONTIGUOUS_H</name></member>
+    <member refid="ExperimentConstants_8h_1a7705dc041ea68249c2320ea41dcb7040" kind="define"><name>FLAG_DATAARRANGE_CONTIGUOUS_P</name></member>
+    <member refid="ExperimentConstants_8h_1a79624ba1cac530f2031708f89d1e1848" kind="define"><name>FLAG_SAVE_CHANNELS_DC</name></member>
+    <member refid="ExperimentConstants_8h_1ab98821632c3eb09d59bb38b9201addc9" kind="define"><name>FLAG_DEFLIP_DATA</name></member>
+    <member refid="ExperimentConstants_8h_1a69425c04bba87ee0cbb0ca18c471103f" kind="define"><name>FLAG_DEFINE_PROCESS_CODE</name></member>
+    <member refid="ExperimentConstants_8h_1ac18337be165cdda1be483615e5340b70" kind="define"><name>FLAG_INVFFTDECODING</name></member>
+    <member refid="ExperimentConstants_8h_1a17ba5cc21936c1891dbf6793fc1f87b0" kind="define"><name>DEMO_16BIT_CMPLX_MODE</name></member>
+    <member refid="ExperimentConstants_8h_1a2dcf174bbf2e86a66af6ea2474303a44" kind="define"><name>DEMO_20BIT_CMPLX_MODE</name></member>
+    <member refid="ExperimentConstants_8h_1aac5da3836fb7c194567ed32c0649fc26" kind="define"><name>DEMO_16BIT_REAL_MODE</name></member>
+    <member refid="ExperimentConstants_8h_1a84abb22959a3f66133c2180f6f66dea7" kind="define"><name>RESYNCHRO_RESET_RC</name></member>
+    <member refid="ExperimentConstants_8h_1ae6db3ebcf03b1feb5e9f003f0df262e3" kind="define"><name>RESYNCHRO_WAIT_LASTSAMPLE</name></member>
+    <member refid="ExperimentConstants_8h_1a012fa88552969b0b9f35d58562acbc69" kind="define"><name>EXTGATE_DISABLED</name></member>
+    <member refid="ExperimentConstants_8h_1a6cf0c17d26fbbd6b67ad762085fa402b" kind="define"><name>EXTGATE_ENABLED</name></member>
+    <member refid="ExperimentConstants_8h_1a80c342b08fadc7974d3a31817aafaf06" kind="define"><name>ACTIVE_HIGH</name></member>
+    <member refid="ExperimentConstants_8h_1ad8906c0208cd948e4f5fe79a920a3b7d" kind="define"><name>ACTIVE_LOW</name></member>
+    <member refid="ExperimentConstants_8h_1ad727a3b9d581739d2e5e88b1716ee1dd" kind="define"><name>CHIP_ALL</name></member>
+    <member refid="ExperimentConstants_8h_1afec22c32aec0b1d3972cdaba0d0ccec7" kind="define"><name>CHIP_COMAND</name></member>
+    <member refid="ExperimentConstants_8h_1a1aa9678f48f9b9661062c9246e64993a" kind="define"><name>RST_CTRL</name></member>
+    <member refid="ExperimentConstants_8h_1a52e278dd9e601652e8ab11b70c53ef6e" kind="define"><name>MODE_OPER</name></member>
+    <member refid="ExperimentConstants_8h_1ab8923675701bbbb7f51c4e68fac5e588" kind="define"><name>ELECTION_RXD</name></member>
+    <member refid="ExperimentConstants_8h_1a063240a0c681e13158e249f55ac4b750" kind="define"><name>POWER_RXD</name></member>
+    <member refid="ExperimentConstants_8h_1aefde68a634d66b7039aa56de3fd5301b" kind="define"><name>PROG_RXD</name></member>
+    <member refid="ExperimentConstants_8h_1a764ae24ad191463aa0dc64ea1e105d13" kind="define"><name>BY_CMD</name></member>
+    <member refid="ExperimentConstants_8h_1a45ab7a7b703b2e5615905682f51b9e1d" kind="define"><name>BY_DATA</name></member>
+    <member refid="ExperimentConstants_8h_1af06b1a7d3154076e8a522748550ff1cc" kind="typedef"><name>BasicHeader</name></member>
+    <member refid="ExperimentConstants_8h_1a0b5183a4650861f8e5abb48ac34052c1" kind="typedef"><name>SystemParam</name></member>
+    <member refid="ExperimentConstants_8h_1af86ea19e867cdeda7257d96b39a715cc" kind="typedef"><name>RadarControllerParam</name></member>
+    <member refid="ExperimentConstants_8h_1a1c30bda1318916dfe6b51dae18f671b1" kind="typedef"><name>ProcessParam</name></member>
+    <member refid="ExperimentConstants_8h_1a60276f34cbedbbfa87aee12464e317d9" kind="typedef"><name>GlobPParam</name></member>
+    <member refid="ExperimentConstants_8h_1a4f250a03306179038d679426fed637b5" kind="typedef"><name>GlobRCParam</name></member>
+  </compound>
+  <compound refid="ExperimentParameters_8h" kind="file"><name>ExperimentParameters.h</name>
+  </compound>
+  <compound refid="fpga__com_8h" kind="file"><name>fpga_com.h</name>
+    <member refid="fpga__com_8h_1ac68828eefa0333e2c96d9c8006be79b9" kind="function"><name>fpga_con_init</name></member>
+    <member refid="fpga__com_8h_1a8ec1b8a8eeca1b70875f6a4c037dc3e1" kind="function"><name>fpga_con_send</name></member>
+    <member refid="fpga__com_8h_1afd1cbc76708d71bb56dfcaf96eb90eba" kind="function"><name>fpga_con_recv</name></member>
+    <member refid="fpga__com_8h_1ae3793cb02de7605c651d1762415629f8" kind="function"><name>IPstr_to_bytearray</name></member>
+    <member refid="fpga__com_8h_1a9fe1a038e1882c74961f61186cc7a811" kind="function"><name>MACstr_to_bytearray</name></member>
+    <member refid="fpga__com_8h_1acdbbef5f7b2938fa8a308d3a7237723e" kind="function"><name>intToBytes</name></member>
+    <member refid="fpga__com_8h_1a0a6858dd58a8b8b154e5dd149fafd01d" kind="function"><name>bytearray_to_IPstr</name></member>
+    <member refid="fpga__com_8h_1a19a52ae0d3c91c019542bc76a720aef9" kind="function"><name>bytearray_to_int</name></member>
+    <member refid="fpga__com_8h_1a186f7c0fc2f44b39853cd79d8daa6b65" kind="function"><name>bytearray_to_MACstr</name></member>
+    <member refid="fpga__com_8h_1ae19bd40ad70d698198d020500fc66988" kind="function"><name>itoa</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="InterfaceJRO__7_8h" kind="file"><name>InterfaceJRO_7.h</name>
+  </compound>
+  <compound refid="InterfaceJRO__7__impl_8h" kind="file"><name>InterfaceJRO_7_impl.h</name>
+  </compound>
+  <compound refid="JarsControl_8h" kind="file"><name>JarsControl.h</name>
+    <member refid="JarsControl_8h_1ab25fcf174daff72a94fd8a69424c6a2e" kind="variable"><name>JARSControl</name></member>
+  </compound>
+  <compound refid="JicaHeader_8h" kind="file"><name>JicaHeader.h</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="MemoryManager_8h" kind="file"><name>MemoryManager.h</name>
+  </compound>
+  <compound refid="RdpToolsBeta_8h" kind="file"><name>RdpToolsBeta.h</name>
+    <member refid="RdpToolsBeta_8h_1a085c363f5335019dbbe9495c01ecf283" kind="define"><name>Data_Win_Err</name></member>
+    <member refid="RdpToolsBeta_8h_1a1a0d762fa518b7a4cca9bc3f7e9b6726" kind="define"><name>Acq_DH_Err</name></member>
+  </compound>
+  <compound refid="sp601__command_8h" kind="file"><name>sp601_command.h</name>
+    <member refid="sp601__command_8h_1ae6cae658beb94f4ddfcaa58ee33dd38b" kind="define"><name>RCV_BUFSIZE</name></member>
+    <member refid="sp601__command_8h_1a1aa9678f48f9b9661062c9246e64993a" kind="define"><name>RST_CTRL</name></member>
+    <member refid="sp601__command_8h_1a52e278dd9e601652e8ab11b70c53ef6e" kind="define"><name>MODE_OPER</name></member>
+    <member refid="sp601__command_8h_1ab8923675701bbbb7f51c4e68fac5e588" kind="define"><name>ELECTION_RXD</name></member>
+    <member refid="sp601__command_8h_1a063240a0c681e13158e249f55ac4b750" kind="define"><name>POWER_RXD</name></member>
+    <member refid="sp601__command_8h_1aefde68a634d66b7039aa56de3fd5301b" kind="define"><name>PROG_RXD</name></member>
+    <member refid="sp601__command_8h_1ad7e5e3b2ac85d92fe9b81bac2368ca02" kind="define"><name>ENABLE_TRANSF</name></member>
+    <member refid="sp601__command_8h_1aacac2365f297d20c92dac6c32a87c6a3" kind="define"><name>DISABLE_TRANSF</name></member>
+    <member refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152" kind="enum"><name>JARS_CMD</name></member>
+    <member refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a7316843e88740cd819c6427a7f833df6" kind="enumvalue"><name>NOOP</name></member>
+    <member refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152abff6b2d1371663911c20d04738892bfd" kind="enumvalue"><name>SET_SP601_IP</name></member>
+    <member refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a578a2dc0f32dacf50c510f7009c12d1f" kind="enumvalue"><name>SET_SP601_PORT</name></member>
+    <member refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a9dd105b07676790bd963c49f607588b9" kind="enumvalue"><name>GET_SP601_MAC</name></member>
+    <member refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152abd7b2f700ca4ef2b11180557059e6bbd" kind="enumvalue"><name>SET_COMMS_IP</name></member>
+    <member refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a57446329e1b880f1e79096d89ca90abf" kind="enumvalue"><name>SET_COMMS_PORT</name></member>
+    <member refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152aedb06bfaf37d18638b99cabc860b5c4b" kind="enumvalue"><name>SET_COMMS_MAC</name></member>
+    <member refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152af2fb94d1fd1739ad68220e57882efa23" kind="enumvalue"><name>GET_VALUE</name></member>
+    <member refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a55636b09cf88b31facd828042757e8cd" kind="enumvalue"><name>DATA_LOOPS</name></member>
+    <member refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a685f467976dffd4af61e2c198bba3e07" kind="enumvalue"><name>SEND_COMMAND</name></member>
+    <member refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a977ee7b118a6816596e05f1c5c6221f2" kind="enumvalue"><name>CHECK_ACK</name></member>
+    <member refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a28b6b130f7a5b8cdbee96bb17ef151af" kind="enumvalue"><name>SEND_FILTER</name></member>
+  </compound>
+  <compound refid="sp601__config_8h" kind="file"><name>sp601_config.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_ea88480505f29bba5c7d5705963fb1c0" kind="dir"><name>ExperimentConstants</name>
+  </compound>
+  <compound refid="dir_3072d4d025f33783ccbeb4af34b45b91" kind="dir"><name>ExperimentParameters</name>
+  </compound>
+  <compound refid="dir_db531630dc95142ddde02e20518371bc" kind="dir"><name>fpga</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_c3e0b766526f6c8af6cb44b755380344" kind="dir"><name>InterfaceJRO_7</name>
+  </compound>
+  <compound refid="dir_64c415737a43493332c653d564be8fdc" kind="dir"><name>JarsControl</name>
+  </compound>
+  <compound refid="dir_556faa8d771367956e8769df86990a67" kind="dir"><name>JicaHeader</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_742457667b5a4ca4ab908cd6f9a74e06" kind="dir"><name>MemoryManager</name>
+  </compound>
+  <compound refid="dir_e17b8c8c46e03d21da83f0b6c691743e" kind="dir"><name>RdpToolsBeta</name>
+  </compound>
+  <compound refid="dir_4afd3838205623820acc2c781f745d72" kind="dir"><name>SP601</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

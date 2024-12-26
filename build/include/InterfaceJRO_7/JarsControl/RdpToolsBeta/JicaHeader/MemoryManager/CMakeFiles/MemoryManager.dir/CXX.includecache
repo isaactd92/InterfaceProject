@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h
+stdlib.h
+-
+sys/timeb.h
+-
+time.h
+-
+
+/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+string
+-
+ExperimentConstants/ExperimentConstants.h
+/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h
+
+/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/MemoryManager.cpp
+MemoryManager.h
+/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/MemoryManager.h
+
+/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/MemoryManager.h
+ExperimentParameters/ExperimentParameters.h
+/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h
+complex
+-
+

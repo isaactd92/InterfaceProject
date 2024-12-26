@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsp601.a  CMakeFiles/sp601.dir/sp601_command.cpp.o CMakeFiles/sp601.dir/sp601_config.cpp.o
+/usr/bin/ranlib libsp601.a

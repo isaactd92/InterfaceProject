@@ -1,0 +1,2 @@
+/usr/bin/ar qc libRdpToolsBeta.a  CMakeFiles/RdpToolsBeta.dir/RdpToolsBeta.cpp.o
+/usr/bin/ranlib libRdpToolsBeta.a

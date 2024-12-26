@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/build/swig/InterfaceJRO_7_swig_swig_2d0df.cpp
+

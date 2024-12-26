@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="JarsControl_8h" kind="file" language="C++">
+    <compoundname>JarsControl.h</compoundname>
+    <includes refid="RdpToolsBeta_8h" local="yes">RdpToolsBeta/RdpToolsBeta.h</includes>
+    <includes refid="sp601__command_8h" local="yes">SP601/sp601_command.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">pthread.h</includes>
+    <includes local="no">unistd.h</includes>
+    <includedby refid="ArgProcessor_8h" local="yes">ArgProcessor.h</includedby>
+    <incdepgraph>
+      <node id="80">
+        <label>sp601_config.h</label>
+        <link refid="sp601__config_8h"/>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>RdpToolsBeta/RdpToolsBeta.h</label>
+        <link refid="RdpToolsBeta_8h"/>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>stdlib.h</label>
+      </node>
+      <node id="74">
+        <label>ExperimentParameters/ExperimentParameters.h</label>
+        <link refid="ExperimentParameters_8h"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>string</label>
+      </node>
+      <node id="75">
+        <label>ExperimentConstants/ExperimentConstants.h</label>
+        <link refid="ExperimentConstants_8h"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>exception</label>
+      </node>
+      <node id="73">
+        <label>MemoryManager/MemoryManager.h</label>
+        <link refid="MemoryManager_8h"/>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>pthread.h</label>
+      </node>
+      <node id="72">
+        <label>string.h</label>
+      </node>
+      <node id="83">
+        <label>unistd.h</label>
+      </node>
+      <node id="81">
+        <label>vector</label>
+      </node>
+      <node id="79">
+        <label>fpga/fpga_com.h</label>
+        <link refid="fpga__com_8h"/>
+        <childnode refid="66" relation="include">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>time.h</label>
+      </node>
+      <node id="63">
+        <label>JarsControl.h</label>
+        <link refid="JarsControl.h"/>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="83" relation="include">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>iostream</label>
+      </node>
+      <node id="76">
+        <label>sys/timeb.h</label>
+      </node>
+      <node id="68">
+        <label>JicaHeader/JicaHeader.h</label>
+        <link refid="JicaHeader_8h"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>complex</label>
+      </node>
+      <node id="78">
+        <label>SP601/sp601_command.h</label>
+        <link refid="sp601__command_8h"/>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="85">
+        <label>ArgProcessor.h</label>
+        <link refid="ArgProcessor_8h"/>
+      </node>
+      <node id="84">
+        <label>JarsControl.h</label>
+        <link refid="JarsControl.h"/>
+        <childnode refid="85" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class__JARSControl" prot="public">_JARSControl</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="JarsControl_8h_1ab25fcf174daff72a94fd8a69424c6a2e" prot="public" static="no" mutable="no">
+        <type><ref refid="class__JARSControl" kindref="compound">_JARSControl</ref></type>
+        <definition>_JARSControl JARSControl</definition>
+        <argsstring></argsstring>
+        <name>JARSControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="89" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>ARGPROCESSOR_JARSCONTROL_JARSCONTROL_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ARGPROCESSOR_JARSCONTROL_JARSCONTROL_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="RdpToolsBeta_8h" kindref="compound">RdpToolsBeta/RdpToolsBeta.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="sp601__command_8h" kindref="compound">SP601/sp601_command.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;pthread.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unistd.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&lt;boost/asio.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//**************************************************************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class__JARSControl" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class__JARSControl" kindref="compound">_JARSControl</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class__JARSControl_1a6e97ca0b4324bc1af443e36b28bb1d3e" kindref="member">InternalRcv</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class__JARSControl_1a57bb6d2e0d1c5e18bd101de314651e8c" kindref="member">InternalThreadEntry</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class__JARSControl_1a96cc4161869c0e963d31fd2d462f7f01" kindref="member">InternalCallback</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//**********************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class__JARSControl_1a8a5f2a09daffa77a92e351be46f607a2" kindref="member">_JARSControl</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class__JARSControl_1a3373fa4a920c76cf6d66d1668d7b389c" kindref="member">~_JARSControl</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Parameters<sp/>of<sp/>Experiment<sp/>(luego<sp/>pasar<sp/>a<sp/>AcquisitionManager.h)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class__JARSControl_1a3a9bee0735edcc19019ea89c876bb324" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classExpParameters" kindref="compound">ExpParameters</ref>*<sp/><ref refid="class__JARSControl_1a3a9bee0735edcc19019ea89c876bb324" kindref="member">MyExpParam</ref>;</highlight></codeline>
+<codeline lineno="31" refid="class__JARSControl_1a23d97fafb2a8484a913c9ae0cbf96b53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class__JARSControl_1a23d97fafb2a8484a913c9ae0cbf96b53" kindref="member">m_SizeofBuffer</ref>;</highlight><highlight class="comment">//adquiere<sp/>el<sp/>valor<sp/>del<sp/>tamaño<sp/>del<sp/>buffer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class__JARSControl_1af22ac24cb398de0720ab962d79a8498f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><ref refid="class__JARSControl_1af22ac24cb398de0720ab962d79a8498f" kindref="member">m_AcqBuffer</ref>;</highlight><highlight class="comment">//arreglo<sp/>del<sp/>buffer<sp/>que<sp/>guardará<sp/>la<sp/>data<sp/>obtenida<sp/>dependiendo<sp/>si<sp/>es<sp/>short<sp/>or<sp/>float<sp/>en<sp/>tipo<sp/>16sc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Pointer<sp/>to<sp/>client<sp/>function<sp/>in<sp/>order<sp/>to<sp/>get<sp/>advised<sp/>when<sp/>interrupt<sp/>came</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="class__JARSControl_1a83109c7d938a17dcd5344b8984489490" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void<sp/>(*<ref refid="class__JARSControl_1a83109c7d938a17dcd5344b8984489490" kindref="member">ptrFunc</ref>)(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>success);</highlight><highlight class="comment">//_AcquisitionManager//toma<sp/>el<sp/>valor<sp/>de<sp/>ptrClientFunc<sp/>asignado<sp/>en<sp/>jro_AssignMemory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Function<sp/>that<sp/>receives<sp/>a<sp/>pointer<sp/>from<sp/>ExperimentParameters<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class__JARSControl_1a6627542a7073fc2a460bc8b5b380f937" kindref="member">jro_MatchParameters</ref>(<ref refid="classExpParameters" kindref="compound">ExpParameters</ref>*<sp/>ExpParam);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class__JARSControl_1a1dc4dd8d70448789ea8df65ee92eae82" kindref="member">jro_AssignMemory</ref>(<ref refid="classMemoryManager" kindref="compound">MemoryManager</ref>*<sp/>MemManager,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*ptrClientFunc)(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>sucess),<ref refid="structaddress" kindref="compound">address</ref><sp/>host_address);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class__JARSControl_1a580e2201213c8276faaa2022c28d5a03" kindref="member">jro_InitAcquisition</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class__JARSControl_1a3a32dd8bf71407e2657267980476ca50" kindref="member">jro_StopAcquisition</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class__JARSControl_1aa5efa593e794a87b13f2af5482b6e206" kindref="member">InternalRcvFunc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>This);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class__JARSControl_1aed242879aa7d8e1b0b6c8ef39eb2678e" kindref="member">InternalThreadEntryFunc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>This);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/><ref refid="class__JARSControl_1a9efe58dd0e9e72ee6b0e52c36946e964" kindref="member">InternalCallbackFunc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>This);</highlight></codeline>
+<codeline lineno="43" refid="class__JARSControl_1a2e519598b0f380cd1c167b0c441c8f21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pthread_t<sp/><ref refid="class__JARSControl_1a2e519598b0f380cd1c167b0c441c8f21" kindref="member">_thread_rcv</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>thread<sp/>for<sp/>acquire<sp/>UDP<sp/>packets</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="class__JARSControl_1a5bb573744392a128014340ee4cbb9770" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pthread_t<sp/><ref refid="class__JARSControl_1a5bb573744392a128014340ee4cbb9770" kindref="member">_thread_jars</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>thread<sp/>for<sp/>acquire<sp/>UDP<sp/>packets</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="class__JARSControl_1a335294492af9a25a87cd9861e5c6b4ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pthread_t<sp/><ref refid="class__JARSControl_1a335294492af9a25a87cd9861e5c6b4ff" kindref="member">_thread_jars_rcv</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>thread<sp/>for<sp/>acquire<sp/>UDP<sp/>packets</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Instanciacion<sp/>de<sp/>sp601_command</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classsp601__command" kindref="compound">sp601_command</ref>*<sp/>MySP601;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*pthread_t<sp/>_thread_rcv;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>thread<sp/>for<sp/>acquire<sp/>UDP<sp/>packets</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pthread_t<sp/>_thread_jars;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>thread<sp/>for<sp/>acquire<sp/>UDP<sp/>packets</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pthread_t<sp/>_thread_jars_rcv;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>thread<sp/>for<sp/>acquire<sp/>UDP<sp/>packets</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pthread_t<sp/>_thread_config;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>thread<sp/>for<sp/>acquire<sp/>UDP<sp/>packets</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>VarSetSystem;</highlight><highlight class="comment">//valor<sp/>tomado<sp/>si<sp/>está<sp/>mal<sp/>seteado</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>m_nChannelsMask;<sp/></highlight><highlight class="comment">//variable<sp/>q<sp/>contiene<sp/>la<sp/>mascara<sp/>de<sp/>canales<sp/>adquirir</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>m_nCardsMask;<sp/></highlight><highlight class="comment">//variable<sp/>q<sp/>contiene<sp/>la<sp/>mascara<sp/>de<sp/>programacion<sp/>de<sp/>tarjetas<sp/>conectadas</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/>m_nFilterCoeff[2047];<sp/></highlight><highlight class="comment">//<sp/>arreglo<sp/>donde<sp/>se<sp/>guardan<sp/>los<sp/>coefficientes<sp/>del<sp/>filtro</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>m_nCountCoeff;<sp/></highlight><highlight class="comment">//<sp/>contador<sp/>de<sp/>coeficientes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Number<sp/>of<sp/>Marks,<sp/>el<sp/>valor<sp/>para<sp/>el<sp/>JARS<sp/>es<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_NumMarks;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Mark<sp/>in<sp/>Data<sp/>Real</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_MarkRe;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Pointer<sp/>to<sp/>Acquired<sp/>Buffer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>m_AcqNIBuffer;</highlight><highlight class="comment">//buffer<sp/>más<sp/>grande<sp/>separado<sp/>en<sp/>memoria</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Pointer<sp/>to<sp/>double<sp/>memory<sp/>used<sp/>for<sp/>Traditional<sp/>NIDAQ</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>m_AcqNIDoubleBuffer;</highlight><highlight class="comment">//doble<sp/>buffer<sp/>más<sp/>grande<sp/>separado<sp/>en<sp/>memoria</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Payload<sp/>to<sp/>send<sp/>jars<sp/>command</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>payload[16];</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//*************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RemoveMark();<sp/></highlight><highlight class="comment">//Fx<sp/>to<sp/>remove<sp/>marks<sp/>in<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>RESET_CTRL_COMMAND();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>MODE_OPER_COMMAND();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>SELECT_RXD_COMMAND();<sp/></highlight><highlight class="comment">//enviado<sp/>pero<sp/>no<sp/>procesado.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>PW_RXD_COMMAND();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>PROG_RXD_COMMAND();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>HAB_TRANS_COMMAND();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>DESHAB_TRANS_COMMAND();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>LoadMask();<sp/></highlight><highlight class="comment">//<sp/>Fx<sp/>q<sp/>carga<sp/>la<sp/>máscara<sp/>de<sp/>programación</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ConfigDataTransfer();<sp/></highlight><highlight class="comment">//<sp/>Fx<sp/>q<sp/>envia<sp/>la<sp/>cantidad<sp/>de<sp/>muestras<sp/>del<sp/>perfil<sp/>y<sp/>NTX<sp/>que<sp/>se<sp/>debe<sp/>adquirir</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>SetSystem(<ref refid="structaddress" kindref="compound">address</ref><sp/>host_address);<sp/></highlight><highlight class="comment">//<sp/>Funcion<sp/>encargada<sp/>de<sp/>dejar<sp/>listo<sp/>el<sp/>sistema<sp/>para<sp/>adquisicion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>LoadFilter();<sp/></highlight><highlight class="comment">//<sp/>Fx<sp/>q<sp/>carga<sp/>la<sp/>los<sp/>coefcicientes<sp/>del<sp/>filtro</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>WriteFilter();<sp/></highlight><highlight class="comment">//<sp/>Fx<sp/>q<sp/>escribe<sp/>la<sp/>los<sp/>coefcicientes<sp/>del<sp/>filtro</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class__JARSControl" kindref="compound">_JARSControl</ref><sp/><ref refid="JarsControl_8h_1ab25fcf174daff72a94fd8a69424c6a2e" kindref="member">JARSControl</ref>;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h"/>
+  </compounddef>
+</doxygen>

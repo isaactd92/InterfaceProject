@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="fpga__com_8h" kind="file" language="C++">
+    <compoundname>fpga_com.h</compoundname>
+    <includes local="no">string</includes>
+    <includedby refid="sp601__command_8h" local="yes">sp601_command.h</includedby>
+    <incdepgraph>
+      <node id="57">
+        <label>string</label>
+      </node>
+      <node id="56">
+        <label>fpga_com.h</label>
+        <link refid="fpga_com.h"/>
+        <childnode refid="57" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="61">
+        <label>ArgProcessor.h</label>
+        <link refid="ArgProcessor_8h"/>
+        <childnode refid="62" relation="include">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>InterfaceJRO_7_impl.h</label>
+        <link refid="InterfaceJRO__7__impl_8h"/>
+      </node>
+      <node id="58">
+        <label>fpga_com.h</label>
+        <link refid="fpga_com.h"/>
+        <childnode refid="59" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>JarsControl.h</label>
+        <link refid="JarsControl_8h"/>
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>sp601_command.h</label>
+        <link refid="sp601__command_8h"/>
+        <childnode refid="60" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="fpga__com_8h_1ac68828eefa0333e2c96d9c8006be79b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fpga_con_init</definition>
+        <argsstring>(char *sp601_ip_char, int Sp601_Port, int lport)</argsstring>
+        <name>fpga_con_init</name>
+        <param>
+          <type>char *</type>
+          <declname>sp601_ip_char</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Sp601_Port</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/fpga/fpga_com.h" line="8" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="fpga__com_8h_1a8ec1b8a8eeca1b70875f6a4c037dc3e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ssize_t</type>
+        <definition>ssize_t fpga_con_send</definition>
+        <argsstring>(const char *buf, size_t len)</argsstring>
+        <name>fpga_con_send</name>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/fpga/fpga_com.h" line="9" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="fpga__com_8h_1afd1cbc76708d71bb56dfcaf96eb90eba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ssize_t</type>
+        <definition>ssize_t fpga_con_recv</definition>
+        <argsstring>(char *dbuf, size_t dsize)</argsstring>
+        <name>fpga_con_recv</name>
+        <param>
+          <type>char *</type>
+          <declname>dbuf</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>dsize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/fpga/fpga_com.h" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="fpga__com_8h_1ae3793cb02de7605c651d1762415629f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IPstr_to_bytearray</definition>
+        <argsstring>(char *IPstr, char *parts)</argsstring>
+        <name>IPstr_to_bytearray</name>
+        <param>
+          <type>char *</type>
+          <declname>IPstr</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>parts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/fpga/fpga_com.h" line="12" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="fpga__com_8h_1a9fe1a038e1882c74961f61186cc7a811" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MACstr_to_bytearray</definition>
+        <argsstring>(char *MACstr, char *parts)</argsstring>
+        <name>MACstr_to_bytearray</name>
+        <param>
+          <type>char *</type>
+          <declname>MACstr</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>parts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/fpga/fpga_com.h" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="fpga__com_8h_1acdbbef5f7b2938fa8a308d3a7237723e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void intToBytes</definition>
+        <argsstring>(int number, char *arrayOfByte, size_t size)</argsstring>
+        <name>intToBytes</name>
+        <param>
+          <type>int</type>
+          <declname>number</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>arrayOfByte</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/fpga/fpga_com.h" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="fpga__com_8h_1a0a6858dd58a8b8b154e5dd149fafd01d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bytearray_to_IPstr</definition>
+        <argsstring>(const char *bytes, char *IPstr)</argsstring>
+        <name>bytearray_to_IPstr</name>
+        <param>
+          <type>const char *</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>IPstr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/fpga/fpga_com.h" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="fpga__com_8h_1a19a52ae0d3c91c019542bc76a720aef9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bytearray_to_int</definition>
+        <argsstring>(const char *byte_array, int num)</argsstring>
+        <name>bytearray_to_int</name>
+        <param>
+          <type>const char *</type>
+          <declname>byte_array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/fpga/fpga_com.h" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="fpga__com_8h_1a186f7c0fc2f44b39853cd79d8daa6b65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bytearray_to_MACstr</definition>
+        <argsstring>(const char *bytes, char *MACstr)</argsstring>
+        <name>bytearray_to_MACstr</name>
+        <param>
+          <type>const char *</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>MACstr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/fpga/fpga_com.h" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="fpga__com_8h_1ae19bd40ad70d698198d020500fc66988" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* itoa</definition>
+        <argsstring>(int num, char *str, int base)</argsstring>
+        <name>itoa</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>base</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/fpga/fpga_com.h" line="18" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/fpga/fpga_com.h"/>
+  </compounddef>
+</doxygen>

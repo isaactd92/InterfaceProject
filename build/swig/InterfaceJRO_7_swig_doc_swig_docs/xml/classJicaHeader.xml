@@ -1,0 +1,526 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classJicaHeader" kind="class" language="C++" prot="public">
+    <compoundname>JicaHeader</compoundname>
+    <includes refid="JicaHeader_8h" local="no">JicaHeader.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classJicaHeader_1abbcddf492dfb31dbfdbd6b9944370324" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int JicaHeader::FileCount</definition>
+        <argsstring></argsstring>
+        <name>FileCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="22" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classJicaHeader_1ae3c72b8883c4555f6abf58acdc885b84" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool JicaHeader::Flag</definition>
+        <argsstring></argsstring>
+        <name>Flag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="23" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classJicaHeader_1a775755df842adc6e44cf44fcc67ee8a9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int JicaHeader::TimeHourBefore</definition>
+        <argsstring></argsstring>
+        <name>TimeHourBefore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="24" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classJicaHeader_1ad3b07ee9f88f2ec2db6ce16508886912" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int JicaHeader::DirectorySetCount</definition>
+        <argsstring></argsstring>
+        <name>DirectorySetCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="25" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classJicaHeader_1a5645d6d4bcb00995aba71bedb84f1509" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char JicaHeader::Patnhame[260]</definition>
+        <argsstring>[260]</argsstring>
+        <name>Patnhame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="26" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classJicaHeader_1a81295169a7c18e3a449a6b4d9f636ef3" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char JicaHeader::FileName[260]</definition>
+        <argsstring>[260]</argsstring>
+        <name>FileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="27" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classJicaHeader_1a091e3594512061db8e2a92985dee4249" prot="private" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE* JicaHeader::MyFileTemp</definition>
+        <argsstring></argsstring>
+        <name>MyFileTemp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="32" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classJicaHeader_1aca0e77436c47d6c7f1ed1054d9d6f02b" prot="private" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* JicaHeader::LongHeader</definition>
+        <argsstring></argsstring>
+        <name>LongHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="33" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classJicaHeader_1a33f91aae161b848508cfe57fc5eabb78" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int JicaHeader::TimeToFinish</definition>
+        <argsstring></argsstring>
+        <name>TimeToFinish</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="37" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classJicaHeader_1ad9c187ac237c49be3eb5c204dbe385a5" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool JicaHeader::CloseSystemTime</definition>
+        <argsstring></argsstring>
+        <name>CloseSystemTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="38" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classJicaHeader_1af22d9db0254746719434fc93a6267a68" prot="public" static="no" mutable="no">
+        <type>complex&lt; short &gt; *</type>
+        <definition>complex&lt;short&gt;* JicaHeader::gnuradio_out</definition>
+        <argsstring></argsstring>
+        <name>gnuradio_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="44" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classJicaHeader_1a3d8034b39057db2aedc74dad8dd492ef" prot="public" static="no" mutable="no">
+        <type>struct tm</type>
+        <definition>struct tm JicaHeader::MyLocalTime</definition>
+        <argsstring></argsstring>
+        <name>MyLocalTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="44" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classJicaHeader_1a96558753ab2fe31e1ac16c671980a61f" prot="public" static="no" mutable="no">
+        <type><ref refid="ExperimentConstants_8h_1af06b1a7d3154076e8a522748550ff1cc" kindref="member">BasicHeader</ref></type>
+        <definition>BasicHeader JicaHeader::MyBasicHeader</definition>
+        <argsstring></argsstring>
+        <name>MyBasicHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="47" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classJicaHeader_1a796cbcb706094fdf9ff11d0d0820c6a8" prot="public" static="no" mutable="no">
+        <type><ref refid="ExperimentConstants_8h_1a0b5183a4650861f8e5abb48ac34052c1" kindref="member">SystemParam</ref> *</type>
+        <definition>SystemParam* JicaHeader::MySystemParam</definition>
+        <argsstring></argsstring>
+        <name>MySystemParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="48" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classJicaHeader_1ad60ba4811b599c4c391c3c88ce7adb23" prot="public" static="no" mutable="no">
+        <type><ref refid="ExperimentConstants_8h_1a60276f34cbedbbfa87aee12464e317d9" kindref="member">GlobPParam</ref> *</type>
+        <definition>GlobPParam* JicaHeader::MyGPParam</definition>
+        <argsstring></argsstring>
+        <name>MyGPParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="49" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classJicaHeader_1add36b05e34828d71dba0f78a5152530b" prot="public" static="no" mutable="no">
+        <type><ref refid="ExperimentConstants_8h_1a4f250a03306179038d679426fed637b5" kindref="member">GlobRCParam</ref> *</type>
+        <definition>GlobRCParam* JicaHeader::MyGRCParam</definition>
+        <argsstring></argsstring>
+        <name>MyGRCParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="50" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classJicaHeader_1a1a562e897fe66ea4c8eaf7558eb7c0df" prot="public" static="no" mutable="no">
+        <type>float **</type>
+        <definition>float** JicaHeader::m_sCodeFloat</definition>
+        <argsstring></argsstring>
+        <name>m_sCodeFloat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="52" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classJicaHeader_1af3faa89908e0c0fffe779a07872f4bf0" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char JicaHeader::FileSaved[260]</definition>
+        <argsstring>[260]</argsstring>
+        <name>FileSaved</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="53" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classJicaHeader_1a622173b3f5a6e258ff5d21ba8c64aa1d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int JicaHeader::SaveBasicHeader</definition>
+        <argsstring>(FILE *MyFile)</argsstring>
+        <name>SaveBasicHeader</name>
+        <param>
+          <type>FILE *</type>
+          <declname>MyFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classJicaHeader_1ad0ac3042b70226cb76023f7e435ac66c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int JicaHeader::SaveFirstHeader</definition>
+        <argsstring>(FILE *MyFile)</argsstring>
+        <name>SaveFirstHeader</name>
+        <param>
+          <type>FILE *</type>
+          <declname>MyFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classJicaHeader_1ab8057ca2092c942aff11c1f344f14ef7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int JicaHeader::GetBasicHeader</definition>
+        <argsstring>(MemoryManager *MyMemManager)</argsstring>
+        <name>GetBasicHeader</name>
+        <param>
+          <type><ref refid="classMemoryManager" kindref="compound">MemoryManager</ref> *</type>
+          <declname>MyMemManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classJicaHeader_1a353c411b779bc8ab1190541548d0800f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int JicaHeader::GetFirstHeader</definition>
+        <argsstring>(MemoryManager *MyMemManager)</argsstring>
+        <name>GetFirstHeader</name>
+        <param>
+          <type><ref refid="classMemoryManager" kindref="compound">MemoryManager</ref> *</type>
+          <declname>MyMemManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="31" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classJicaHeader_1ac82aed81416f7352da6341fe969e8c6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool JicaHeader::GetFileName</definition>
+        <argsstring>()</argsstring>
+        <name>GetFileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classJicaHeader_1a917e2a1f66303b7c215235dba9708586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool JicaHeader::CompareTime</definition>
+        <argsstring>(void)</argsstring>
+        <name>CompareTime</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classJicaHeader_1aa0829849ef7a853b5adb5a04f935368d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>JicaHeader::JicaHeader</definition>
+        <argsstring>()</argsstring>
+        <name>JicaHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classJicaHeader_1a8fbe1a0784f87a237343bfad8aa26940" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>JicaHeader::~JicaHeader</definition>
+        <argsstring>()</argsstring>
+        <name>~JicaHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classJicaHeader_1a75502a8a9e9171445d0d8ad32a30995b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JicaHeader::GetEndTime</definition>
+        <argsstring>()</argsstring>
+        <name>GetEndTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classJicaHeader_1a5b585e14f2c611b0eef14bd1d87123a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JicaHeader::GetExpParameters</definition>
+        <argsstring>(ExpParameters *MyExpParam)</argsstring>
+        <name>GetExpParameters</name>
+        <param>
+          <type><ref refid="classExpParameters" kindref="compound">ExpParameters</ref> *</type>
+          <declname>MyExpParam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classJicaHeader_1a1c47a7a4cb68e44b44c3f6702d9cf453" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool JicaHeader::SaveData</definition>
+        <argsstring>(MemoryManager *MyMemManager)</argsstring>
+        <name>SaveData</name>
+        <param>
+          <type><ref refid="classMemoryManager" kindref="compound">MemoryManager</ref> *</type>
+          <declname>MyMemManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classJicaHeader_1a70bc6badd8a52e89e02187bb802dfd6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JicaHeader::MakeDirectory</definition>
+        <argsstring>(void)</argsstring>
+        <name>MakeDirectory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="54" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="47">
+        <label>_BasicHeader</label>
+        <link refid="struct__BasicHeader"/>
+      </node>
+      <node id="45">
+        <label>_GlobRCParam</label>
+        <link refid="struct__GlobRCParam"/>
+        <childnode refid="46" relation="usage">
+          <edgelabel>FixRCP</edgelabel>
+        </childnode>
+      </node>
+      <node id="42">
+        <label>JicaHeader</label>
+        <link refid="classJicaHeader"/>
+        <childnode refid="43" relation="usage">
+          <edgelabel>MyGPParam</edgelabel>
+        </childnode>
+        <childnode refid="45" relation="usage">
+          <edgelabel>MyGRCParam</edgelabel>
+        </childnode>
+        <childnode refid="47" relation="usage">
+          <edgelabel>MyBasicHeader</edgelabel>
+        </childnode>
+        <childnode refid="48" relation="usage">
+          <edgelabel>MySystemParam</edgelabel>
+        </childnode>
+        <childnode refid="49" relation="usage">
+          <edgelabel>gnuradio_out</edgelabel>
+        </childnode>
+      </node>
+      <node id="46">
+        <label>_RadarControllerParam</label>
+        <link refid="struct__RadarControllerParam"/>
+      </node>
+      <node id="43">
+        <label>_GlobPParam</label>
+        <link refid="struct__GlobPParam"/>
+        <childnode refid="44" relation="usage">
+          <edgelabel>FixPP</edgelabel>
+        </childnode>
+      </node>
+      <node id="49">
+        <label>std::complex&lt; short &gt;</label>
+      </node>
+      <node id="44">
+        <label>_ProcessParam</label>
+        <link refid="struct__ProcessParam"/>
+      </node>
+      <node id="48">
+        <label>_SystemParam</label>
+        <link refid="struct__SystemParam"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" line="21" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h" bodystart="20" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classJicaHeader_1ad9c187ac237c49be3eb5c204dbe385a5" prot="public" virt="non-virtual"><scope>JicaHeader</scope><name>CloseSystemTime</name></member>
+      <member refid="classJicaHeader_1a917e2a1f66303b7c215235dba9708586" prot="public" virt="non-virtual"><scope>JicaHeader</scope><name>CompareTime</name></member>
+      <member refid="classJicaHeader_1ad3b07ee9f88f2ec2db6ce16508886912" prot="private" virt="non-virtual"><scope>JicaHeader</scope><name>DirectorySetCount</name></member>
+      <member refid="classJicaHeader_1abbcddf492dfb31dbfdbd6b9944370324" prot="private" virt="non-virtual"><scope>JicaHeader</scope><name>FileCount</name></member>
+      <member refid="classJicaHeader_1a81295169a7c18e3a449a6b4d9f636ef3" prot="private" virt="non-virtual"><scope>JicaHeader</scope><name>FileName</name></member>
+      <member refid="classJicaHeader_1af3faa89908e0c0fffe779a07872f4bf0" prot="public" virt="non-virtual"><scope>JicaHeader</scope><name>FileSaved</name></member>
+      <member refid="classJicaHeader_1ae3c72b8883c4555f6abf58acdc885b84" prot="private" virt="non-virtual"><scope>JicaHeader</scope><name>Flag</name></member>
+      <member refid="classJicaHeader_1ab8057ca2092c942aff11c1f344f14ef7" prot="private" virt="non-virtual"><scope>JicaHeader</scope><name>GetBasicHeader</name></member>
+      <member refid="classJicaHeader_1a75502a8a9e9171445d0d8ad32a30995b" prot="public" virt="non-virtual"><scope>JicaHeader</scope><name>GetEndTime</name></member>
+      <member refid="classJicaHeader_1a5b585e14f2c611b0eef14bd1d87123a5" prot="public" virt="non-virtual"><scope>JicaHeader</scope><name>GetExpParameters</name></member>
+      <member refid="classJicaHeader_1ac82aed81416f7352da6341fe969e8c6c" prot="public" virt="non-virtual"><scope>JicaHeader</scope><name>GetFileName</name></member>
+      <member refid="classJicaHeader_1a353c411b779bc8ab1190541548d0800f" prot="private" virt="non-virtual"><scope>JicaHeader</scope><name>GetFirstHeader</name></member>
+      <member refid="classJicaHeader_1af22d9db0254746719434fc93a6267a68" prot="public" virt="non-virtual"><scope>JicaHeader</scope><name>gnuradio_out</name></member>
+      <member refid="classJicaHeader_1aa0829849ef7a853b5adb5a04f935368d" prot="public" virt="non-virtual"><scope>JicaHeader</scope><name>JicaHeader</name></member>
+      <member refid="classJicaHeader_1aca0e77436c47d6c7f1ed1054d9d6f02b" prot="private" virt="non-virtual"><scope>JicaHeader</scope><name>LongHeader</name></member>
+      <member refid="classJicaHeader_1a1a562e897fe66ea4c8eaf7558eb7c0df" prot="public" virt="non-virtual"><scope>JicaHeader</scope><name>m_sCodeFloat</name></member>
+      <member refid="classJicaHeader_1a70bc6badd8a52e89e02187bb802dfd6e" prot="public" virt="non-virtual"><scope>JicaHeader</scope><name>MakeDirectory</name></member>
+      <member refid="classJicaHeader_1a96558753ab2fe31e1ac16c671980a61f" prot="public" virt="non-virtual"><scope>JicaHeader</scope><name>MyBasicHeader</name></member>
+      <member refid="classJicaHeader_1a091e3594512061db8e2a92985dee4249" prot="private" virt="non-virtual"><scope>JicaHeader</scope><name>MyFileTemp</name></member>
+      <member refid="classJicaHeader_1ad60ba4811b599c4c391c3c88ce7adb23" prot="public" virt="non-virtual"><scope>JicaHeader</scope><name>MyGPParam</name></member>
+      <member refid="classJicaHeader_1add36b05e34828d71dba0f78a5152530b" prot="public" virt="non-virtual"><scope>JicaHeader</scope><name>MyGRCParam</name></member>
+      <member refid="classJicaHeader_1a3d8034b39057db2aedc74dad8dd492ef" prot="public" virt="non-virtual"><scope>JicaHeader</scope><name>MyLocalTime</name></member>
+      <member refid="classJicaHeader_1a796cbcb706094fdf9ff11d0d0820c6a8" prot="public" virt="non-virtual"><scope>JicaHeader</scope><name>MySystemParam</name></member>
+      <member refid="classJicaHeader_1a5645d6d4bcb00995aba71bedb84f1509" prot="private" virt="non-virtual"><scope>JicaHeader</scope><name>Patnhame</name></member>
+      <member refid="classJicaHeader_1a622173b3f5a6e258ff5d21ba8c64aa1d" prot="private" virt="non-virtual"><scope>JicaHeader</scope><name>SaveBasicHeader</name></member>
+      <member refid="classJicaHeader_1a1c47a7a4cb68e44b44c3f6702d9cf453" prot="public" virt="non-virtual"><scope>JicaHeader</scope><name>SaveData</name></member>
+      <member refid="classJicaHeader_1ad0ac3042b70226cb76023f7e435ac66c" prot="private" virt="non-virtual"><scope>JicaHeader</scope><name>SaveFirstHeader</name></member>
+      <member refid="classJicaHeader_1a775755df842adc6e44cf44fcc67ee8a9" prot="private" virt="non-virtual"><scope>JicaHeader</scope><name>TimeHourBefore</name></member>
+      <member refid="classJicaHeader_1a33f91aae161b848508cfe57fc5eabb78" prot="public" virt="non-virtual"><scope>JicaHeader</scope><name>TimeToFinish</name></member>
+      <member refid="classJicaHeader_1a8fbe1a0784f87a237343bfad8aa26940" prot="public" virt="non-virtual"><scope>JicaHeader</scope><name>~JicaHeader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

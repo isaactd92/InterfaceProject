@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_e17b8c8c46e03d21da83f0b6c691743e" kind="dir">
+    <compoundname>RdpToolsBeta</compoundname>
+    <innerdir refid="dir_556faa8d771367956e8769df86990a67">JicaHeader</innerdir>
+    <innerfile refid="RdpToolsBeta_8h">RdpToolsBeta.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/"/>
+  </compounddef>
+</doxygen>

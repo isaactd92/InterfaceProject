@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="struct__GlobPParam" kind="struct" language="C++" prot="public">
+    <compoundname>_GlobPParam</compoundname>
+    <includes refid="ExperimentConstants_8h" local="no">ExperimentConstants.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__GlobPParam_1ac78c669920bf569e8a7d00554d6f5848" prot="public" static="no" mutable="no">
+        <type><ref refid="ExperimentConstants_8h_1a1c30bda1318916dfe6b51dae18f671b1" kindref="member">ProcessParam</ref></type>
+        <definition>ProcessParam _GlobPParam::FixPP</definition>
+        <argsstring></argsstring>
+        <name>FixPP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="179" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1a693efaed127aba9634e79fa2d3be69b6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _GlobPParam::bCreateDayDir</definition>
+        <argsstring></argsstring>
+        <name>bCreateDayDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="180" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1a3845b5041fa3d0721ec7561ac067b4ac" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _GlobPParam::bNameInDirectory</definition>
+        <argsstring></argsstring>
+        <name>bNameInDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="181" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1a3e2167701b356ea0c4ff1203ca225b42" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _GlobPParam::m_bBeginOnStart</definition>
+        <argsstring></argsstring>
+        <name>m_bBeginOnStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="182" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1a6e6910602fe132199cbb7735770f39ac" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* _GlobPParam::Dyn_nSpectraComb</definition>
+        <argsstring></argsstring>
+        <name>Dyn_nSpectraComb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="183" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1ac28bdb8b27ff1dc65f63569f004497f2" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* _GlobPParam::Dyn_nCardSequence</definition>
+        <argsstring></argsstring>
+        <name>Dyn_nCardSequence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="184" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1aa6af1a2e02f84a740dbbd62254227838" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _GlobPParam::m_sExpName[_MAX_PATH]</definition>
+        <argsstring>[_MAX_PATH]</argsstring>
+        <name>m_sExpName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="185" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1acccf4e334a87f3904ff87e2a2ee45174" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _GlobPParam::m_sBaseDirectory[_MAX_PATH]</definition>
+        <argsstring>[_MAX_PATH]</argsstring>
+        <name>m_sBaseDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="186" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1ac1e2afd4dcbc0a377157bf865c35e473" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _GlobPParam::m_sCurrentDirectory[_MAX_PATH]</definition>
+        <argsstring>[_MAX_PATH]</argsstring>
+        <name>m_sCurrentDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="187" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1acb17955b429ff620f32650c17e75378d" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* _GlobPParam::Dyn_sfDataH0</definition>
+        <argsstring></argsstring>
+        <name>Dyn_sfDataH0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="188" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1ade3106de6332e22811a749cb392f757d" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* _GlobPParam::Dyn_sfDataDH</definition>
+        <argsstring></argsstring>
+        <name>Dyn_sfDataDH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="189" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1a41bfddd12107ed7d9c1bfa1bfa529f69" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _GlobPParam::m_nFFTPoints</definition>
+        <argsstring></argsstring>
+        <name>m_nFFTPoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="190" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1a0abce01487be8839d4e3ce356246eb51" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _GlobPParam::m_nProfilesperBlock</definition>
+        <argsstring></argsstring>
+        <name>m_nProfilesperBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="191" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1a4e4bde5e3d036d9e786677cb2000d74a" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _GlobPParam::m_nCards</definition>
+        <argsstring></argsstring>
+        <name>m_nCards</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="192" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1a0a256f650bf0fae7505237525edbb3a4" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _GlobPParam::m_nHeaderVER</definition>
+        <argsstring></argsstring>
+        <name>m_nHeaderVER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="193" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1acac23143ab72087cd7f9c74a9ee1edb1" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _GlobPParam::m_nCohIntStride</definition>
+        <argsstring></argsstring>
+        <name>m_nCohIntStride</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="194" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1ae30abd17287791fd995b537243fa020c" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _GlobPParam::m_nProcessCodes</definition>
+        <argsstring></argsstring>
+        <name>m_nProcessCodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="196" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1a02b3553070bd8306474f1245e91d881a" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _GlobPParam::m_nProcessBauds</definition>
+        <argsstring></argsstring>
+        <name>m_nProcessBauds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="197" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1ac7e32c61d064ce3f42f307129ae11762" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _GlobPParam::m_nProcessWindows</definition>
+        <argsstring></argsstring>
+        <name>m_nProcessWindows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="198" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1a62eefa9d6266e9e6ece155e2fb1faaaf" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _GlobPParam::m_nDecodingFlags</definition>
+        <argsstring></argsstring>
+        <name>m_nDecodingFlags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="199" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1aefdafd8770077e7a6807947ef6e11281" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _GlobPParam::m_nProf2Join</definition>
+        <argsstring></argsstring>
+        <name>m_nProf2Join</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="200" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1a2263cceb9863b25c2dc9c560853d0c43" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _GlobPParam::m_nFileSetDigits</definition>
+        <argsstring></argsstring>
+        <name>m_nFileSetDigits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="201" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__GlobPParam_1a5dba9ea228db92a1ceecf0dd1a07a801" prot="public" static="no" mutable="no">
+        <type>unsigned int *</type>
+        <definition>unsigned int* _GlobPParam::Dyn_snDataNSA</definition>
+        <argsstring></argsstring>
+        <name>Dyn_snDataNSA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="202" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>_GlobPParam</label>
+        <link refid="struct__GlobPParam"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>FixPP</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>_ProcessParam</label>
+        <link refid="struct__ProcessParam"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="179" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="178" bodyend="204"/>
+    <listofallmembers>
+      <member refid="struct__GlobPParam_1a693efaed127aba9634e79fa2d3be69b6" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>bCreateDayDir</name></member>
+      <member refid="struct__GlobPParam_1a3845b5041fa3d0721ec7561ac067b4ac" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>bNameInDirectory</name></member>
+      <member refid="struct__GlobPParam_1ac28bdb8b27ff1dc65f63569f004497f2" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>Dyn_nCardSequence</name></member>
+      <member refid="struct__GlobPParam_1a6e6910602fe132199cbb7735770f39ac" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>Dyn_nSpectraComb</name></member>
+      <member refid="struct__GlobPParam_1ade3106de6332e22811a749cb392f757d" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>Dyn_sfDataDH</name></member>
+      <member refid="struct__GlobPParam_1acb17955b429ff620f32650c17e75378d" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>Dyn_sfDataH0</name></member>
+      <member refid="struct__GlobPParam_1a5dba9ea228db92a1ceecf0dd1a07a801" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>Dyn_snDataNSA</name></member>
+      <member refid="struct__GlobPParam_1ac78c669920bf569e8a7d00554d6f5848" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>FixPP</name></member>
+      <member refid="struct__GlobPParam_1a3e2167701b356ea0c4ff1203ca225b42" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>m_bBeginOnStart</name></member>
+      <member refid="struct__GlobPParam_1a4e4bde5e3d036d9e786677cb2000d74a" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>m_nCards</name></member>
+      <member refid="struct__GlobPParam_1acac23143ab72087cd7f9c74a9ee1edb1" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>m_nCohIntStride</name></member>
+      <member refid="struct__GlobPParam_1a62eefa9d6266e9e6ece155e2fb1faaaf" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>m_nDecodingFlags</name></member>
+      <member refid="struct__GlobPParam_1a41bfddd12107ed7d9c1bfa1bfa529f69" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>m_nFFTPoints</name></member>
+      <member refid="struct__GlobPParam_1a2263cceb9863b25c2dc9c560853d0c43" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>m_nFileSetDigits</name></member>
+      <member refid="struct__GlobPParam_1a0a256f650bf0fae7505237525edbb3a4" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>m_nHeaderVER</name></member>
+      <member refid="struct__GlobPParam_1a02b3553070bd8306474f1245e91d881a" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>m_nProcessBauds</name></member>
+      <member refid="struct__GlobPParam_1ae30abd17287791fd995b537243fa020c" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>m_nProcessCodes</name></member>
+      <member refid="struct__GlobPParam_1ac7e32c61d064ce3f42f307129ae11762" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>m_nProcessWindows</name></member>
+      <member refid="struct__GlobPParam_1aefdafd8770077e7a6807947ef6e11281" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>m_nProf2Join</name></member>
+      <member refid="struct__GlobPParam_1a0abce01487be8839d4e3ce356246eb51" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>m_nProfilesperBlock</name></member>
+      <member refid="struct__GlobPParam_1acccf4e334a87f3904ff87e2a2ee45174" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>m_sBaseDirectory</name></member>
+      <member refid="struct__GlobPParam_1ac1e2afd4dcbc0a377157bf865c35e473" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>m_sCurrentDirectory</name></member>
+      <member refid="struct__GlobPParam_1aa6af1a2e02f84a740dbbd62254227838" prot="public" virt="non-virtual"><scope>_GlobPParam</scope><name>m_sExpName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

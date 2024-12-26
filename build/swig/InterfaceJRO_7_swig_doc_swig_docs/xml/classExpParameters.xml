@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classExpParameters" kind="class" language="C++" prot="public">
+    <compoundname>ExpParameters</compoundname>
+    <includes refid="ExperimentParameters_8h" local="no">ExperimentParameters.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classExpParameters_1a3b97a95ea010ca20056bbc9f6807fc00" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* ExpParameters::PathExperiment</definition>
+        <argsstring></argsstring>
+        <name>PathExperiment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="19" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classExpParameters_1ad295cabf051467354884f7dc952aced6" prot="public" static="no" mutable="no">
+        <type><ref refid="ExperimentConstants_8h_1a0b5183a4650861f8e5abb48ac34052c1" kindref="member">SystemParam</ref></type>
+        <definition>SystemParam ExpParameters::MySystemParam</definition>
+        <argsstring></argsstring>
+        <name>MySystemParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="24" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classExpParameters_1a6f9185d4fae1038b1bf6672cd5937eef" prot="public" static="no" mutable="no">
+        <type><ref refid="ExperimentConstants_8h_1a60276f34cbedbbfa87aee12464e317d9" kindref="member">GlobPParam</ref></type>
+        <definition>GlobPParam ExpParameters::MyGPParam</definition>
+        <argsstring></argsstring>
+        <name>MyGPParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="25" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classExpParameters_1a3101e02498e631d62ed0a08bbdd97ce4" prot="public" static="no" mutable="no">
+        <type><ref refid="ExperimentConstants_8h_1a4f250a03306179038d679426fed637b5" kindref="member">GlobRCParam</ref></type>
+        <definition>GlobRCParam ExpParameters::MyGRCParam</definition>
+        <argsstring></argsstring>
+        <name>MyGRCParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="26" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classExpParameters_1a44eeb0bb43da22f9b96e3ccf9b864e54" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ExpParameters::SaveData</definition>
+        <argsstring></argsstring>
+        <name>SaveData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="32" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classExpParameters_1ac72964b04dc924d0916d94435407715d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ExpParameters::FlagSIR</definition>
+        <argsstring></argsstring>
+        <name>FlagSIR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="33" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classExpParameters_1a749ba5fb272f835591296dae9bcccd53" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ExpParameters::OwnWindow</definition>
+        <argsstring></argsstring>
+        <name>OwnWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="34" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classExpParameters_1a04868e35f3f05bfa80d2a2e6e382ca68" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ExpParameters::EnableJARS</definition>
+        <argsstring></argsstring>
+        <name>EnableJARS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="36" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classExpParameters_1af62cf5ce717f2c5a8529ca7e709e9715" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ExpParameters::EnableCooperSimulation</definition>
+        <argsstring></argsstring>
+        <name>EnableCooperSimulation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="37" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classExpParameters_1a94423e2a632a70b5565f462b31cf0451" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* ExpParameters::RacpFileName</definition>
+        <argsstring></argsstring>
+        <name>RacpFileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="39" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classExpParameters_1a8fd4661f2383af87ceefc9a11faa16c9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ExpParameters::ReadRCParameters</definition>
+        <argsstring>(FILE *RACPFile, char *StrTemp)</argsstring>
+        <name>ReadRCParameters</name>
+        <param>
+          <type>FILE *</type>
+          <declname>RACPFile</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>StrTemp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classExpParameters_1aeaeef1d041a31165e6bd8c25c58f0857" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ExpParameters::ReadSysParameters</definition>
+        <argsstring>(FILE *RACPFile, char *StrTemp)</argsstring>
+        <name>ReadSysParameters</name>
+        <param>
+          <type>FILE *</type>
+          <declname>RACPFile</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>StrTemp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classExpParameters_1a56fab265e4ce41149f2042cc8cf97ec6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ExpParameters::ReadProcessParameters</definition>
+        <argsstring>(FILE *RACPFile, char *StrTemp)</argsstring>
+        <name>ReadProcessParameters</name>
+        <param>
+          <type>FILE *</type>
+          <declname>RACPFile</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>StrTemp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classExpParameters_1af6198303a773f95fc569bd8d29173c53" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ExpParameters::ReadJARSParameters</definition>
+        <argsstring>(FILE *RACPFile, char *StrTemp)</argsstring>
+        <name>ReadJARSParameters</name>
+        <param>
+          <type>FILE *</type>
+          <declname>RACPFile</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>StrTemp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classExpParameters_1a35a17651fe471d1cefae4fe7f90ed05b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* ExpParameters::FindValue</definition>
+        <argsstring>(char *MyCad)</argsstring>
+        <name>FindValue</name>
+        <param>
+          <type>char *</type>
+          <declname>MyCad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="17" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classExpParameters_1aded6d8c3b1bce0f9c25d0d54f38c86d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ExpParameters::ExpParameters</definition>
+        <argsstring>()</argsstring>
+        <name>ExpParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classExpParameters_1a1d2cdb6a0e68a772e40d435fb5e3f3e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExpParameters::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ExpParameters::ReadRACPFileParameters</definition>
+        <argsstring>(const char *RACPFileName)</argsstring>
+        <name>ReadRACPFileParameters</name>
+        <param>
+          <type>const char *</type>
+          <declname>RACPFileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classExpParameters_1ab7fee74dc5c37afaa4ec2dd350b68941" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ExpParameters::~ExpParameters</definition>
+        <argsstring>()</argsstring>
+        <name>~ExpParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="23" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="32">
+        <label>_GlobRCParam</label>
+        <link refid="struct__GlobRCParam"/>
+        <childnode refid="33" relation="usage">
+          <edgelabel>FixRCP</edgelabel>
+        </childnode>
+      </node>
+      <node id="33">
+        <label>_RadarControllerParam</label>
+        <link refid="struct__RadarControllerParam"/>
+      </node>
+      <node id="30">
+        <label>_GlobPParam</label>
+        <link refid="struct__GlobPParam"/>
+        <childnode refid="31" relation="usage">
+          <edgelabel>FixPP</edgelabel>
+        </childnode>
+      </node>
+      <node id="31">
+        <label>_ProcessParam</label>
+        <link refid="struct__ProcessParam"/>
+      </node>
+      <node id="34">
+        <label>_SystemParam</label>
+        <link refid="struct__SystemParam"/>
+      </node>
+      <node id="29">
+        <label>ExpParameters</label>
+        <link refid="classExpParameters"/>
+        <childnode refid="30" relation="usage">
+          <edgelabel>MyGPParam</edgelabel>
+        </childnode>
+        <childnode refid="32" relation="usage">
+          <edgelabel>MyGRCParam</edgelabel>
+        </childnode>
+        <childnode refid="34" relation="usage">
+          <edgelabel>MySystemParam</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" line="12" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h" bodystart="11" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classExpParameters_1af62cf5ce717f2c5a8529ca7e709e9715" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>EnableCooperSimulation</name></member>
+      <member refid="classExpParameters_1a04868e35f3f05bfa80d2a2e6e382ca68" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>EnableJARS</name></member>
+      <member refid="classExpParameters_1aded6d8c3b1bce0f9c25d0d54f38c86d4" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>ExpParameters</name></member>
+      <member refid="classExpParameters_1a35a17651fe471d1cefae4fe7f90ed05b" prot="private" virt="non-virtual"><scope>ExpParameters</scope><name>FindValue</name></member>
+      <member refid="classExpParameters_1ac72964b04dc924d0916d94435407715d" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>FlagSIR</name></member>
+      <member refid="classExpParameters_1a1d2cdb6a0e68a772e40d435fb5e3f3e3" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>Initialize</name></member>
+      <member refid="classExpParameters_1a6f9185d4fae1038b1bf6672cd5937eef" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>MyGPParam</name></member>
+      <member refid="classExpParameters_1a3101e02498e631d62ed0a08bbdd97ce4" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>MyGRCParam</name></member>
+      <member refid="classExpParameters_1ad295cabf051467354884f7dc952aced6" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>MySystemParam</name></member>
+      <member refid="classExpParameters_1a749ba5fb272f835591296dae9bcccd53" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>OwnWindow</name></member>
+      <member refid="classExpParameters_1a3b97a95ea010ca20056bbc9f6807fc00" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>PathExperiment</name></member>
+      <member refid="classExpParameters_1a94423e2a632a70b5565f462b31cf0451" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>RacpFileName</name></member>
+      <member refid="classExpParameters_1af6198303a773f95fc569bd8d29173c53" prot="private" virt="non-virtual"><scope>ExpParameters</scope><name>ReadJARSParameters</name></member>
+      <member refid="classExpParameters_1a56fab265e4ce41149f2042cc8cf97ec6" prot="private" virt="non-virtual"><scope>ExpParameters</scope><name>ReadProcessParameters</name></member>
+      <member refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>ReadRACPFileParameters</name></member>
+      <member refid="classExpParameters_1a8fd4661f2383af87ceefc9a11faa16c9" prot="private" virt="non-virtual"><scope>ExpParameters</scope><name>ReadRCParameters</name></member>
+      <member refid="classExpParameters_1aeaeef1d041a31165e6bd8c25c58f0857" prot="private" virt="non-virtual"><scope>ExpParameters</scope><name>ReadSysParameters</name></member>
+      <member refid="classExpParameters_1a44eeb0bb43da22f9b96e3ccf9b864e54" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>SaveData</name></member>
+      <member refid="classExpParameters_1ab7fee74dc5c37afaa4ec2dd350b68941" prot="public" virt="non-virtual"><scope>ExpParameters</scope><name>~ExpParameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

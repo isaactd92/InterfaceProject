@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_c3e0b766526f6c8af6cb44b755380344" kind="dir">
+    <compoundname>InterfaceJRO_7</compoundname>
+    <innerdir refid="dir_64c415737a43493332c653d564be8fdc">JarsControl</innerdir>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="ArgProcessor_8h">ArgProcessor.h</innerfile>
+    <innerfile refid="InterfaceJRO__7_8h">InterfaceJRO_7.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/"/>
+  </compounddef>
+</doxygen>

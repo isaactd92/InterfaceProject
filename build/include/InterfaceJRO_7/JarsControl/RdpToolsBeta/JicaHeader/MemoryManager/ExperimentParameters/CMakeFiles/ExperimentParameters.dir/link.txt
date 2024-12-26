@@ -1,0 +1,2 @@
+/usr/bin/ar qc libExperimentParameters.a  CMakeFiles/ExperimentParameters.dir/ExperimentParameters.cpp.o
+/usr/bin/ranlib libExperimentParameters.a

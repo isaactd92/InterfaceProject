@@ -1,0 +1,1067 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="ExperimentConstants_8h" kind="file" language="C++">
+    <compoundname>ExperimentConstants.h</compoundname>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">sys/timeb.h</includes>
+    <includes local="no">time.h</includes>
+    <includedby refid="ExperimentParameters_8h" local="yes">ExperimentParameters.h</includedby>
+    <incdepgraph>
+      <node id="28">
+        <label>stdlib.h</label>
+      </node>
+      <node id="27">
+        <label>ExperimentConstants.h</label>
+        <link refid="ExperimentConstants.h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>time.h</label>
+      </node>
+      <node id="29">
+        <label>sys/timeb.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="35">
+        <label>RdpToolsBeta.h</label>
+        <link refid="RdpToolsBeta_8h"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>ExperimentParameters.h</label>
+        <link refid="ExperimentParameters_8h"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>ExperimentConstants.h</label>
+        <link refid="ExperimentConstants.h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MemoryManager.h</label>
+        <link refid="MemoryManager_8h"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>ArgProcessor.h</label>
+        <link refid="ArgProcessor_8h"/>
+      </node>
+      <node id="36">
+        <label>JarsControl.h</label>
+        <link refid="JarsControl_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>JicaHeader.h</label>
+        <link refid="JicaHeader_8h"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__BasicHeader" prot="public">_BasicHeader</innerclass>
+    <innerclass refid="struct__SystemParam" prot="public">_SystemParam</innerclass>
+    <innerclass refid="struct__RadarControllerParam" prot="public">_RadarControllerParam</innerclass>
+    <innerclass refid="struct__ProcessParam" prot="public">_ProcessParam</innerclass>
+    <innerclass refid="struct__GlobPParam" prot="public">_GlobPParam</innerclass>
+    <innerclass refid="struct__GlobRCParam" prot="public">_GlobRCParam</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="ExperimentConstants_8h_1a316442a61b2003f21a7b055ffb9ef48f" prot="public" static="no">
+        <name>_MAX_FNAME</name>
+        <initializer>260</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="21" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a54c2a011b47044f713f4a3d53d891798" prot="public" static="no">
+        <name>_MAX_NAME_PATH</name>
+        <initializer>260</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="22" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a865dced746336a2d6ae9141287c4ebf4" prot="public" static="no">
+        <name>_MAX_PATH</name>
+        <initializer>260</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="23" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a60b85b10347a8a481986907c6542fedc" prot="public" static="no">
+        <name>EXP_RAWDATA</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="25" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a91bdba6b755299b67dded617960606dc" prot="public" static="no">
+        <name>EXP_SPECTRA</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="26" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a655c84af1b0034986ff56e12e84f983d" prot="public" static="no">
+        <name>NONE</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="29" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a6913edbcb0c881679fd7dd121c10af3e" prot="public" static="no">
+        <name>FLIP</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="30" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1acd3fa8f18671a8c8f7b5ee902f6bc7ea" prot="public" static="no">
+        <name>SAMPLING</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="31" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a722e5785aae222e3f5f8f1e48db2e1fa" prot="public" static="no">
+        <name>SYNCHRO</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="32" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a5224f13776f668990fe517b885f4bd70" prot="public" static="no">
+        <name>CODE_NONE</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="36" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a16bebc16372095d6dc549ef377161887" prot="public" static="no">
+        <name>CODE_USERDEFINE</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="37" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a4729fa878d9a372c7174de7a31622063" prot="public" static="no">
+        <name>CODE_BARKER2</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="38" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a87f993d36efc4bfcbe74c5353c62cc98" prot="public" static="no">
+        <name>CODE_BARKER3</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="39" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a86ada03c69eb92d94ff48daf884cfa58" prot="public" static="no">
+        <name>CODE_BARKER4</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="40" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a46cd071dd312c468ab07baeb99c4159b" prot="public" static="no">
+        <name>CODE_BARKER5</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="41" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a398fb5e845ec577fdaab613e0572de3a" prot="public" static="no">
+        <name>CODE_BARKER7</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="42" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a3eb13e3b7d6f166bb50e796808598523" prot="public" static="no">
+        <name>CODE_BARKER11</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="43" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a4bf58786b4416aa896d174cfccf1998a" prot="public" static="no">
+        <name>CODE_BARKER13</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="44" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a1e2eb0d64090d499fcaf3ba9fc1cb2d3" prot="public" static="no">
+        <name>CODE_AC128</name>
+        <initializer>9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="45" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a0543acd06116ec276a78f4a635d01169" prot="public" static="no">
+        <name>CODE_COMPLEMENTARYCODE2</name>
+        <initializer>10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="46" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1ae875f0da06919dceadb1c467bf4761b8" prot="public" static="no">
+        <name>CODE_COMPLEMENTARYCODE4</name>
+        <initializer>11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="47" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a9396ae08ef58bdbb4ee4943ae8c4fcb2" prot="public" static="no">
+        <name>CODE_COMPLEMENTARYCODE8</name>
+        <initializer>12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="48" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a6f9116698de540a6ae69075138e21cc5" prot="public" static="no">
+        <name>CODE_COMPLEMENTARYCODE16</name>
+        <initializer>13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="49" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a62e2faacb1be13e28fed5dc88c583c6c" prot="public" static="no">
+        <name>CODE_COMPLEMENTARYCODE32</name>
+        <initializer>14</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="50" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a5db5dabc3e33060e0eadbeb408618f89" prot="public" static="no">
+        <name>CODE_COMPLEMENTARYCODE64</name>
+        <initializer>15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="51" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1aa2962ad95a11e98968d11febd3e56fd4" prot="public" static="no">
+        <name>CODE_COMPLEMENTARYCODE128</name>
+        <initializer>16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="52" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a662c639f1d171df77668cbb33b0e17ee" prot="public" static="no">
+        <name>CODE_BINARY28</name>
+        <initializer>17</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="53" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1ab9f3daf1dbd22783120596288d8243de" prot="public" static="no">
+        <name>DECODING_TIME_DOMAIN</name>
+        <initializer>0x00000001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="57" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a670da7d976f40c3068ff819dbd5c8371" prot="public" static="no">
+        <name>DECODING_FREQ_DOMAIN</name>
+        <initializer>0x00000002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="58" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a519c5064db6472f94b3afb2b8c785b8d" prot="public" static="no">
+        <name>DECODING_INV_FREQ_DOMAIN</name>
+        <initializer>0x00000004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="59" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a3fb3e9b30c090f3eae997b6cf8529950" prot="public" static="no">
+        <name>FLAG_COHERENT_INTEGRATION</name>
+        <initializer>0x00000001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="62" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1ac40c19dd1558edb3f174f33639b2e332" prot="public" static="no">
+        <name>FLAG_SPECTRA_CALC</name>
+        <initializer>0x00000004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="63" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a14116b93e5415ec89f9b0de7ae9cb903" prot="public" static="no">
+        <name>FLAG_INCOHERENT_INTEGRATION</name>
+        <initializer>0x00000008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="64" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1ac5f702173365442d8376245dfa6a6cf5" prot="public" static="no">
+        <name>FLAG_POST_COHERENT_INTEGRATION</name>
+        <initializer>0x00000010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="65" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1ae1c077a80112c5e2f3785a68d522130b" prot="public" static="no">
+        <name>FLAG_DATATYPE_SHORT</name>
+        <initializer>0x00000080</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="66" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1aa164e53829c16ba8a8babb2d510f0319" prot="public" static="no">
+        <name>FLAG_DATATYPE_FLOAT</name>
+        <initializer>0x00000400</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="67" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1ac09f0c0c28a37852312146afd9322465" prot="public" static="no">
+        <name>FLAG_DATAARRANGE_CONTIGUOUS_CH</name>
+        <initializer>0x00001000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="68" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a21e40ec1ee18251315099fd6b115c85a" prot="public" static="no">
+        <name>FLAG_DATAARRANGE_CONTIGUOUS_H</name>
+        <initializer>0x00002000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="69" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a7705dc041ea68249c2320ea41dcb7040" prot="public" static="no">
+        <name>FLAG_DATAARRANGE_CONTIGUOUS_P</name>
+        <initializer>0x00004000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="70" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a79624ba1cac530f2031708f89d1e1848" prot="public" static="no">
+        <name>FLAG_SAVE_CHANNELS_DC</name>
+        <initializer>0x00008000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="71" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1ab98821632c3eb09d59bb38b9201addc9" prot="public" static="no">
+        <name>FLAG_DEFLIP_DATA</name>
+        <initializer>0x00010000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="72" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a69425c04bba87ee0cbb0ca18c471103f" prot="public" static="no">
+        <name>FLAG_DEFINE_PROCESS_CODE</name>
+        <initializer>0x00020000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="73" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1ac18337be165cdda1be483615e5340b70" prot="public" static="no">
+        <name>FLAG_INVFFTDECODING</name>
+        <initializer>0x00040000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="74" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a17ba5cc21936c1891dbf6793fc1f87b0" prot="public" static="no">
+        <name>DEMO_16BIT_CMPLX_MODE</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="77" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a2dcf174bbf2e86a66af6ea2474303a44" prot="public" static="no">
+        <name>DEMO_20BIT_CMPLX_MODE</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="78" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1aac5da3836fb7c194567ed32c0649fc26" prot="public" static="no">
+        <name>DEMO_16BIT_REAL_MODE</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="79" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a84abb22959a3f66133c2180f6f66dea7" prot="public" static="no">
+        <name>RESYNCHRO_RESET_RC</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="83" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1ae6db3ebcf03b1feb5e9f003f0df262e3" prot="public" static="no">
+        <name>RESYNCHRO_WAIT_LASTSAMPLE</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="84" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a012fa88552969b0b9f35d58562acbc69" prot="public" static="no">
+        <name>EXTGATE_DISABLED</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="87" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a6cf0c17d26fbbd6b67ad762085fa402b" prot="public" static="no">
+        <name>EXTGATE_ENABLED</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="88" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a80c342b08fadc7974d3a31817aafaf06" prot="public" static="no">
+        <name>ACTIVE_HIGH</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="91" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1ad8906c0208cd948e4f5fe79a920a3b7d" prot="public" static="no">
+        <name>ACTIVE_LOW</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="92" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1ad727a3b9d581739d2e5e88b1716ee1dd" prot="public" static="no">
+        <name>CHIP_ALL</name>
+        <initializer>0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="97" column="10" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1afec22c32aec0b1d3972cdaba0d0ccec7" prot="public" static="no">
+        <name>CHIP_COMAND</name>
+        <initializer>0x02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="98" column="10" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a1aa9678f48f9b9661062c9246e64993a" prot="public" static="no">
+        <name>RST_CTRL</name>
+        <initializer>0x05</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="103" column="10" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a52e278dd9e601652e8ab11b70c53ef6e" prot="public" static="no">
+        <name>MODE_OPER</name>
+        <initializer>0x03</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="104" column="10" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1ab8923675701bbbb7f51c4e68fac5e588" prot="public" static="no">
+        <name>ELECTION_RXD</name>
+        <initializer>0x04</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="105" column="10" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a063240a0c681e13158e249f55ac4b750" prot="public" static="no">
+        <name>POWER_RXD</name>
+        <initializer>0x06</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="106" column="10" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1aefde68a634d66b7039aa56de3fd5301b" prot="public" static="no">
+        <name>PROG_RXD</name>
+        <initializer>0x09</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="107" column="10" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a764ae24ad191463aa0dc64ea1e105d13" prot="public" static="no">
+        <name>BY_CMD</name>
+        <initializer>0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="112" column="10" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ExperimentConstants_8h_1a45ab7a7b703b2e5615905682f51b9e1d" prot="public" static="no">
+        <name>BY_DATA</name>
+        <initializer>0x01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="113" column="10" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="ExperimentConstants_8h_1af06b1a7d3154076e8a522748550ff1cc" prot="public" static="no">
+        <type>struct <ref refid="struct__BasicHeader" kindref="compound">_BasicHeader</ref></type>
+        <definition>typedef struct _BasicHeader BasicHeader</definition>
+        <argsstring></argsstring>
+        <name>BasicHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="126" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="ExperimentConstants_8h_1a0b5183a4650861f8e5abb48ac34052c1" prot="public" static="no">
+        <type>struct <ref refid="struct__SystemParam" kindref="compound">_SystemParam</ref></type>
+        <definition>typedef struct _SystemParam  SystemParam</definition>
+        <argsstring></argsstring>
+        <name>SystemParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="141" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="ExperimentConstants_8h_1af86ea19e867cdeda7257d96b39a715cc" prot="public" static="no">
+        <type>struct <ref refid="struct__RadarControllerParam" kindref="compound">_RadarControllerParam</ref></type>
+        <definition>typedef struct _RadarControllerParam  RadarControllerParam</definition>
+        <argsstring></argsstring>
+        <name>RadarControllerParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="161" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="ExperimentConstants_8h_1a1c30bda1318916dfe6b51dae18f671b1" prot="public" static="no">
+        <type>struct <ref refid="struct__ProcessParam" kindref="compound">_ProcessParam</ref></type>
+        <definition>typedef struct _ProcessParam  ProcessParam</definition>
+        <argsstring></argsstring>
+        <name>ProcessParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="176" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="ExperimentConstants_8h_1a60276f34cbedbbfa87aee12464e317d9" prot="public" static="no">
+        <type>struct <ref refid="struct__GlobPParam" kindref="compound">_GlobPParam</ref></type>
+        <definition>typedef struct _GlobPParam GlobPParam</definition>
+        <argsstring></argsstring>
+        <name>GlobPParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="204" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="ExperimentConstants_8h_1a4f250a03306179038d679426fed637b5" prot="public" static="no">
+        <type>struct <ref refid="struct__GlobRCParam" kindref="compound">_GlobRCParam</ref></type>
+        <definition>typedef struct _GlobRCParam GlobRCParam</definition>
+        <argsstring></argsstring>
+        <name>GlobRCParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="225" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>ExperimentConstants.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>Dec<sp/>13,<sp/>2019</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>itupac</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ARGPROCESSOR_JARSCONTROL_RDPTOOLSBETA_JICAHEADER_MEMORYMANAGER_EXPERIMENTPARAMETER_EXPERIMENTCONSTANTS_EXPERIMENTCONSTANTS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ARGPROCESSOR_JARSCONTROL_RDPTOOLSBETA_JICAHEADER_MEMORYMANAGER_EXPERIMENTPARAMETER_EXPERIMENTCONSTANTS_EXPERIMENTCONSTANTS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">This<sp/>file<sp/>has<sp/>the<sp/>constants<sp/>and<sp/>structures<sp/>used<sp/>in<sp/>Jicamarca<sp/>Experiments</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">Taken<sp/>from<sp/>RdpTools<sp/>of<sp/>Pablo<sp/>Reyes<sp/>and<sp/>Karim<sp/>Kuyeng</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//usr/include</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sys/timeb.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>tampoco<sp/>existe<sp/>en<sp/>el<sp/>ubuntu<sp/>de<sp/>jhon<sp/>ubuntu<sp/>16.04</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//usr/include</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="ExperimentConstants_8h_1a316442a61b2003f21a7b055ffb9ef48f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_MAX_FNAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>260<sp/></highlight></codeline>
+<codeline lineno="22" refid="ExperimentConstants_8h_1a54c2a011b47044f713f4a3d53d891798" refkind="member"><highlight class="preprocessor">#define<sp/>_MAX_NAME_PATH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>260</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="ExperimentConstants_8h_1a865dced746336a2d6ae9141287c4ebf4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_MAX_PATH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>260</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="ExperimentConstants_8h_1a60b85b10347a8a481986907c6542fedc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXP_RAWDATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="ExperimentConstants_8h_1a91bdba6b755299b67dded617960606dc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXP_SPECTRA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/********Constantes<sp/>para<sp/>las<sp/>lineas<sp/>5<sp/>y<sp/>6************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="ExperimentConstants_8h_1a655c84af1b0034986ff56e12e84f983d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NONE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="ExperimentConstants_8h_1a6913edbcb0c881679fd7dd121c10af3e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLIP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>//Usado<sp/>en<sp/>¡¡JicaHeader!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="ExperimentConstants_8h_1acd3fa8f18671a8c8f7b5ee902f6bc7ea" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SAMPLING<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="ExperimentConstants_8h_1a722e5785aae222e3f5f8f1e48db2e1fa" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SYNCHRO<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5<sp/>//definido<sp/>en<sp/>JarsControl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">/*****************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">/********Constantes<sp/>para<sp/>Tipo<sp/>de<sp/>Código<sp/>************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="ExperimentConstants_8h_1a5224f13776f668990fe517b885f4bd70" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CODE_NONE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="ExperimentConstants_8h_1a16bebc16372095d6dc549ef377161887" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CODE_USERDEFINE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="ExperimentConstants_8h_1a4729fa878d9a372c7174de7a31622063" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CODE_BARKER2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="ExperimentConstants_8h_1a87f993d36efc4bfcbe74c5353c62cc98" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CODE_BARKER3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="ExperimentConstants_8h_1a86ada03c69eb92d94ff48daf884cfa58" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CODE_BARKER4<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="ExperimentConstants_8h_1a46cd071dd312c468ab07baeb99c4159b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CODE_BARKER5<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="ExperimentConstants_8h_1a398fb5e845ec577fdaab613e0572de3a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CODE_BARKER7<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="ExperimentConstants_8h_1a3eb13e3b7d6f166bb50e796808598523" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CODE_BARKER11<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="ExperimentConstants_8h_1a4bf58786b4416aa896d174cfccf1998a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CODE_BARKER13<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="ExperimentConstants_8h_1a1e2eb0d64090d499fcaf3ba9fc1cb2d3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CODE_AC128<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>9</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="ExperimentConstants_8h_1a0543acd06116ec276a78f4a635d01169" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CODE_COMPLEMENTARYCODE2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="ExperimentConstants_8h_1ae875f0da06919dceadb1c467bf4761b8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CODE_COMPLEMENTARYCODE4<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>11</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="ExperimentConstants_8h_1a9396ae08ef58bdbb4ee4943ae8c4fcb2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CODE_COMPLEMENTARYCODE8<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>12</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="ExperimentConstants_8h_1a6f9116698de540a6ae69075138e21cc5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CODE_COMPLEMENTARYCODE16<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>13</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="ExperimentConstants_8h_1a62e2faacb1be13e28fed5dc88c583c6c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CODE_COMPLEMENTARYCODE32<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>14</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="ExperimentConstants_8h_1a5db5dabc3e33060e0eadbeb408618f89" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CODE_COMPLEMENTARYCODE64<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>15</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="ExperimentConstants_8h_1aa2962ad95a11e98968d11febd3e56fd4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CODE_COMPLEMENTARYCODE128<sp/><sp/><sp/><sp/><sp/><sp/><sp/>16</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="ExperimentConstants_8h_1a662c639f1d171df77668cbb33b0e17ee" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CODE_BINARY28<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">/*****************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//Decoding</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="ExperimentConstants_8h_1ab9f3daf1dbd22783120596288d8243de" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DECODING_TIME_DOMAIN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00000001</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="ExperimentConstants_8h_1a670da7d976f40c3068ff819dbd5c8371" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DECODING_FREQ_DOMAIN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00000002</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="ExperimentConstants_8h_1a519c5064db6472f94b3afb2b8c785b8d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DECODING_INV_FREQ_DOMAIN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00000004</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">/*****************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="ExperimentConstants_8h_1a3fb3e9b30c090f3eae997b6cf8529950" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLAG_COHERENT_INTEGRATION<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00000001</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="ExperimentConstants_8h_1ac40c19dd1558edb3f174f33639b2e332" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLAG_SPECTRA_CALC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00000004</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="ExperimentConstants_8h_1a14116b93e5415ec89f9b0de7ae9cb903" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLAG_INCOHERENT_INTEGRATION<sp/><sp/><sp/><sp/><sp/>0x00000008</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="ExperimentConstants_8h_1ac5f702173365442d8376245dfa6a6cf5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLAG_POST_COHERENT_INTEGRATION<sp/><sp/>0x00000010</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="ExperimentConstants_8h_1ae1c077a80112c5e2f3785a68d522130b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLAG_DATATYPE_SHORT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00000080</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="ExperimentConstants_8h_1aa164e53829c16ba8a8babb2d510f0319" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLAG_DATATYPE_FLOAT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00000400</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="ExperimentConstants_8h_1ac09f0c0c28a37852312146afd9322465" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLAG_DATAARRANGE_CONTIGUOUS_CH<sp/><sp/>0x00001000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="ExperimentConstants_8h_1a21e40ec1ee18251315099fd6b115c85a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLAG_DATAARRANGE_CONTIGUOUS_H<sp/><sp/><sp/>0x00002000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="ExperimentConstants_8h_1a7705dc041ea68249c2320ea41dcb7040" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLAG_DATAARRANGE_CONTIGUOUS_P<sp/><sp/><sp/>0x00004000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="ExperimentConstants_8h_1a79624ba1cac530f2031708f89d1e1848" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLAG_SAVE_CHANNELS_DC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00008000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="ExperimentConstants_8h_1ab98821632c3eb09d59bb38b9201addc9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLAG_DEFLIP_DATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00010000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="ExperimentConstants_8h_1a69425c04bba87ee0cbb0ca18c471103f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLAG_DEFINE_PROCESS_CODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00020000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="ExperimentConstants_8h_1ac18337be165cdda1be483615e5340b70" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLAG_INVFFTDECODING<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00040000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">/*-:<sp/>Data<sp/>Mode<sp/>:-*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="ExperimentConstants_8h_1a17ba5cc21936c1891dbf6793fc1f87b0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEMO_16BIT_CMPLX_MODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="ExperimentConstants_8h_1a2dcf174bbf2e86a66af6ea2474303a44" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEMO_20BIT_CMPLX_MODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="ExperimentConstants_8h_1aac5da3836fb7c194567ed32c0649fc26" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEMO_16BIT_REAL_MODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>DEMO_16BIT_DLY_CMPLX_MODE<sp/><sp/><sp/><sp/><sp/>4(no<sp/>usado)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">//RESYNCHRO<sp/>METHODS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="ExperimentConstants_8h_1a84abb22959a3f66133c2180f6f66dea7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RESYNCHRO_RESET_RC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="ExperimentConstants_8h_1ae6db3ebcf03b1feb5e9f003f0df262e3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RESYNCHRO_WAIT_LASTSAMPLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//EXTERNAL<sp/>GATE<sp/>STATE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="ExperimentConstants_8h_1a012fa88552969b0b9f35d58562acbc69" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXTGATE_DISABLED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="ExperimentConstants_8h_1a6cf0c17d26fbbd6b67ad762085fa402b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXTGATE_ENABLED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">//EXTERNAL<sp/>GATE<sp/>POLARIZATION</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="ExperimentConstants_8h_1a80c342b08fadc7974d3a31817aafaf06" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ACTIVE_HIGH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="ExperimentConstants_8h_1ad8906c0208cd948e4f5fe79a920a3b7d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ACTIVE_LOW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment">//PAQUETE<sp/>&quot;CHIP&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="ExperimentConstants_8h_1ad727a3b9d581739d2e5e88b1716ee1dd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CHIP_ALL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00<sp/>//Usado<sp/>en<sp/>JARSControl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="ExperimentConstants_8h_1afec22c32aec0b1d3972cdaba0d0ccec7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CHIP_COMAND<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x02<sp/><sp/>//Usado<sp/>en<sp/>JARSControl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="comment">//PAQUETE<sp/>&quot;CMD&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="ExperimentConstants_8h_1a1aa9678f48f9b9661062c9246e64993a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RST_CTRL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x05<sp/><sp/>//Usado<sp/>en<sp/>JARSControl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="ExperimentConstants_8h_1a52e278dd9e601652e8ab11b70c53ef6e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MODE_OPER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x03</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="ExperimentConstants_8h_1ab8923675701bbbb7f51c4e68fac5e588" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ELECTION_RXD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x04</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="ExperimentConstants_8h_1a063240a0c681e13158e249f55ac4b750" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>POWER_RXD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x06</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="ExperimentConstants_8h_1aefde68a634d66b7039aa56de3fd5301b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PROG_RXD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x09</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment">//PAQUETE<sp/>&quot;CONTROL<sp/>PORT<sp/>&amp;<sp/>DATA<sp/>PORT&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="ExperimentConstants_8h_1a764ae24ad191463aa0dc64ea1e105d13" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BY_CMD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00<sp/><sp/><sp/>//Usado<sp/>en<sp/>JARSControl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="ExperimentConstants_8h_1a45ab7a7b703b2e5615905682f51b9e1d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BY_DATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x01<sp/><sp/>//Usado<sp/>en<sp/>JARSControl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="comment">//&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="comment">//Estructuras<sp/>para<sp/>el<sp/>manejo<sp/>del<sp/>experimento</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment">//&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="struct__BasicHeader" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__BasicHeader" kindref="compound">_BasicHeader</ref></highlight></codeline>
+<codeline lineno="120" refid="struct__BasicHeader_1a461e829d4d07d706cd2e12f4c09fe2bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct__BasicHeader_1a461e829d4d07d706cd2e12f4c09fe2bb" kindref="member">nHeaderTotallength</ref>;<sp/><sp/></highlight><highlight class="comment">//<sp/>para<sp/>el<sp/>primer<sp/>bloque</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="struct__BasicHeader_1a534994750402c2afd8f9f478a5ba7a94" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct__BasicHeader_1a534994750402c2afd8f9f478a5ba7a94" kindref="member">nHeaderBasiclength</ref>;<sp/></highlight><highlight class="comment">//<sp/>para<sp/>los<sp/>bloques<sp/>restantes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="struct__BasicHeader_1a3ca85523702521305482fb0c930c0e4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><ref refid="struct__BasicHeader_1a3ca85523702521305482fb0c930c0e4c" kindref="member">nHeaderVer</ref>;<sp/></highlight><highlight class="comment">//Inicializado<sp/>en<sp/>!!JicaHeader!!<sp/>como<sp/>1103</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="struct__BasicHeader_1a2dcbc08d1bcf9c32dba64431de4673ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct__BasicHeader_1a2dcbc08d1bcf9c32dba64431de4673ee" kindref="member">nBlockCounter</ref>;</highlight><highlight class="comment">//Inicializado<sp/>en<sp/>!!JicaHeader!!<sp/>como<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="struct__BasicHeader_1ab2f87b6ca375cee352e379ebb97b04de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timeb<sp/><ref refid="struct__BasicHeader_1ab2f87b6ca375cee352e379ebb97b04de" kindref="member">FullTime</ref>;<sp/></highlight><highlight class="comment">//USado<sp/>en<sp/>JicaHeader!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="struct__BasicHeader_1af37c04e71ace072c6b096b4c16708ef4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct__BasicHeader_1af37c04e71ace072c6b096b4c16708ef4" kindref="member">nError</ref>;<sp/></highlight><highlight class="comment">//Inicializado<sp/>en<sp/>!!JicaHeader!!<sp/>como<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<ref refid="ExperimentConstants_8h_1af06b1a7d3154076e8a522748550ff1cc" kindref="member">BasicHeader</ref>;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="struct__SystemParam" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__SystemParam" kindref="compound">_SystemParam</ref></highlight></codeline>
+<codeline lineno="129" refid="struct__SystemParam_1a156626ad2463a55b96e202712cd69c9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct__SystemParam_1a156626ad2463a55b96e202712cd69c9c" kindref="member">m_nHeader_Sys_Length</ref>;<sp/></highlight><highlight class="comment">//Usado<sp/>en<sp/>!!JicaHeader!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="struct__SystemParam_1a19a6cf532b877478838544bb8471c53b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct__SystemParam_1a19a6cf532b877478838544bb8471c53b" kindref="member">m_nSamples</ref>;</highlight><highlight class="comment">//total<sp/>de<sp/>numero<sp/>de<sp/>muestras</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="struct__SystemParam_1ab86ec2eb0141deaa322b4d78c975dd25" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct__SystemParam_1ab86ec2eb0141deaa322b4d78c975dd25" kindref="member">m_nProfiles</ref>;</highlight><highlight class="comment">//Asigna<sp/>el<sp/>valor<sp/>de<sp/>ACQUIRED<sp/>PROFILES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="struct__SystemParam_1a2fc99bf00c5551764122a0924a1df888" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct__SystemParam_1a2fc99bf00c5551764122a0924a1df888" kindref="member">m_nChannels</ref>;</highlight><highlight class="comment">//Numero<sp/>de<sp/>canales<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="struct__SystemParam_1a51a5b33e4767f30baae71f3230706b37" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct__SystemParam_1a51a5b33e4767f30baae71f3230706b37" kindref="member">m_nADCResolution</ref>;</highlight><highlight class="comment">//Valor<sp/>del<sp/>ADC<sp/>Resolution</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="struct__SystemParam_1a4d3f5453b09401b62b0170c06ba17f08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct__SystemParam_1a4d3f5453b09401b62b0170c06ba17f08" kindref="member">m_nPCIDIOBusWidth</ref>;</highlight><highlight class="comment">//Valor<sp/>del<sp/>AnchoDeBus<sp/>del<sp/>PCI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*******************Agregado<sp/>por<sp/>Marcos<sp/>el<sp/>03Nov2009<sp/>(2<sp/>de)<sp/>***********/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//****************<sp/>No<sp/>son<sp/>guardados<sp/>en<sp/>el<sp/>header-Preguntar<sp/>si<sp/>es<sp/>necesario<sp/>guardarlos<sp/>********************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="struct__SystemParam_1a21afc473251fa7d300d5a1b8c3f67d8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>m_sFilterPath[<ref refid="ExperimentConstants_8h_1a865dced746336a2d6ae9141287c4ebf4" kindref="member">_MAX_PATH</ref>];</highlight><highlight class="comment">//guarda<sp/>el<sp/>valor<sp/>de<sp/>JARS_FILTER<sp/>del<sp/>.racp//guarda<sp/>la<sp/>direccion<sp/>donde<sp/>se<sp/>encuentra<sp/>la<sp/>configuracion<sp/>del<sp/>filtroç</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*******Parametros<sp/>de<sp/>JARS*******/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="struct__SystemParam_1abb9ba419e2dd0853d6d43e1a32f3de7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_nNumberOfChannel[8];</highlight><highlight class="comment">//guarda<sp/>los<sp/>valores<sp/>de<sp/>los<sp/>8<sp/>canales</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="comment">/********************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><ref refid="ExperimentConstants_8h_1a0b5183a4650861f8e5abb48ac34052c1" kindref="member">SystemParam</ref>;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="struct__RadarControllerParam" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__RadarControllerParam" kindref="compound">_RadarControllerParam</ref></highlight></codeline>
+<codeline lineno="144" refid="struct__RadarControllerParam_1a9a1cb92c41913fc0a7b95c7e011c9faa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__RadarControllerParam_1a9a1cb92c41913fc0a7b95c7e011c9faa" kindref="member">m_nHeader_RC_length</ref>;</highlight><highlight class="comment">//Definido<sp/>en<sp/>¡¡JicaHeader!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="struct__RadarControllerParam_1aa00899d7fbef313184dae5f7d14aed9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__RadarControllerParam_1aa00899d7fbef313184dae5f7d14aed9b" kindref="member">m_nEspType</ref>;</highlight><highlight class="comment">//0:normal,1:Join<sp/>//NumeroDeExperimento</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="struct__RadarControllerParam_1a11c44c04097c6e7a89f0f4c1c6b92f2d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__RadarControllerParam_1a11c44c04097c6e7a89f0f4c1c6b92f2d" kindref="member">m_nNTX</ref>;<sp/></highlight><highlight class="comment">//Nos<sp/>da<sp/>el<sp/>valor<sp/>de<sp/>TX<sp/>(<sp/>el<sp/>numero<sp/>de<sp/>IPPs)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="struct__RadarControllerParam_1ae8ac79e57158371f6524e1d160b0d96e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__RadarControllerParam_1ae8ac79e57158371f6524e1d160b0d96e" kindref="member">m_fIPP</ref>;<sp/></highlight><highlight class="comment">//El<sp/>valor<sp/>del<sp/>Ipp<sp/>es<sp/>definido<sp/>por<sp/>el<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="struct__RadarControllerParam_1a78c97c86923c5e6d1dffeb4146d186c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__RadarControllerParam_1a78c97c86923c5e6d1dffeb4146d186c0" kindref="member">m_fTXA</ref>;<sp/></highlight><highlight class="comment">//Nos<sp/>da<sp/>el<sp/>ancho<sp/>de<sp/>pulso<sp/>de<sp/>transmision<sp/>por<sp/>A</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="struct__RadarControllerParam_1a2d2f7e3f9185df7b0c1e6f91a5a419eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__RadarControllerParam_1a2d2f7e3f9185df7b0c1e6f91a5a419eb" kindref="member">m_fTXB</ref>;</highlight><highlight class="comment">//Nos<sp/>da<sp/>el<sp/>ancho<sp/>de<sp/>pulso<sp/>de<sp/>transmision<sp/>por<sp/>B</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="struct__RadarControllerParam_1a9198b8907f08cc14f8bc743d2b9dabe3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__RadarControllerParam_1a9198b8907f08cc14f8bc743d2b9dabe3" kindref="member">m_nNum_Windows</ref>;<sp/></highlight><highlight class="comment">//numero<sp/>de<sp/>ventanas<sp/>dado<sp/>por<sp/>el<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="struct__RadarControllerParam_1ab5bcaafc644ccb694fc7b1eb5c062e02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__RadarControllerParam_1ab5bcaafc644ccb694fc7b1eb5c062e02" kindref="member">m_nNum_Taus</ref>;</highlight><highlight class="comment">//Asigna<sp/>el<sp/>valor<sp/>de<sp/>Number<sp/>of<sp/>Taus<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="struct__RadarControllerParam_1a72028f370b3a737e198632bd13679ca3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__RadarControllerParam_1a72028f370b3a737e198632bd13679ca3" kindref="member">m_nCodeType</ref>;<sp/></highlight><highlight class="comment">//Tipo<sp/>de<sp/>codigo<sp/>del<sp/>controlador<sp/>de<sp/>radar<sp/>Ej:BARKER2<sp/>//Agregado<sp/>31/10<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="struct__RadarControllerParam_1a5dbe6442aad203e2868695b437e975a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__RadarControllerParam_1a5dbe6442aad203e2868695b437e975a4" kindref="member">m_nLine6_Function</ref>;</highlight><highlight class="comment">//Asigna<sp/>el<sp/>valor<sp/>de<sp/>3<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="struct__RadarControllerParam_1a775a6518abf0f77bdf394be52b17213e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__RadarControllerParam_1a775a6518abf0f77bdf394be52b17213e" kindref="member">m_nLine5_Function</ref>;</highlight><highlight class="comment">//Asigna<sp/>el<sp/>valor<sp/>de<sp/>3<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="struct__RadarControllerParam_1a6964e5cce298dae4557429884b89cae9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__RadarControllerParam_1a6964e5cce298dae4557429884b89cae9" kindref="member">m_fCLOCK</ref>;</highlight><highlight class="comment">//Obtiene<sp/>el<sp/>valor<sp/>de<sp/>la<sp/>variable<sp/>RELOJ<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="struct__RadarControllerParam_1adc11ae9a664ffa6270f82800da70703c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__RadarControllerParam_1adc11ae9a664ffa6270f82800da70703c" kindref="member">m_nPrePulseBefore</ref>;</highlight><highlight class="comment">//inicializados<sp/>con<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="struct__RadarControllerParam_1a73323fd64632ade97d13936e049ad441" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__RadarControllerParam_1a73323fd64632ade97d13936e049ad441" kindref="member">m_nPrePulseAfter</ref>;</highlight><highlight class="comment">//inicializados<sp/>con<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="struct__RadarControllerParam_1afe4e6ae3d735bc6010ffae007eaf22d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_sRango_IPP[20];</highlight><highlight class="comment">//Asigna<sp/>el<sp/>valor<sp/>del<sp/>PULSE<sp/>SELECTION_TXA=<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="struct__RadarControllerParam_1a9fe944d2c9c6a4623f5182aca4e02460" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_sRango_TXA[20];</highlight><highlight class="comment">//Asigna<sp/>el<sp/>valor<sp/>del<sp/>PULSE<sp/>SELECTION_TXA=<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="struct__RadarControllerParam_1a3ce50ccbbbd2b8529a0b9b919035bf21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_sRango_TXB[20];</highlight><highlight class="comment">//Asigna<sp/>el<sp/>valor<sp/>del<sp/>PULSE<sp/>SELECTION_TXB==<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><ref refid="ExperimentConstants_8h_1af86ea19e867cdeda7257d96b39a715cc" kindref="member">RadarControllerParam</ref>;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="struct__ProcessParam" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__ProcessParam" kindref="compound">_ProcessParam</ref></highlight></codeline>
+<codeline lineno="164" refid="struct__ProcessParam_1a71218bdc9ca03a656754f819c0c24010" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__ProcessParam_1a71218bdc9ca03a656754f819c0c24010" kindref="member">m_nHeader_PP_Length</ref>;</highlight><highlight class="comment">//Definido<sp/>en<sp/>¡¡Jicaheader!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="struct__ProcessParam_1ae79399a4449f9bbf16922f785e4b89fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__ProcessParam_1ae79399a4449f9bbf16922f785e4b89fc" kindref="member">m_nExperimentType</ref>;</highlight><highlight class="comment">//Guarda<sp/>el<sp/>valor<sp/>de<sp/>EXPERIMENT<sp/>TYPE.Puede<sp/>ser<sp/>EXP_SPECTRA(1)<sp/>o<sp/>EXP_RAWDATA<sp/>(0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="struct__ProcessParam_1a514ea180d2542f6d36b5f9ecbaa06e08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__ProcessParam_1a514ea180d2542f6d36b5f9ecbaa06e08" kindref="member">m_nSizeOfDataBlock</ref>;</highlight><highlight class="comment">//Inicializado<sp/>con<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="struct__ProcessParam_1a2f1fadc1b001d8a107140a681c633302" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__ProcessParam_1a2f1fadc1b001d8a107140a681c633302" kindref="member">m_nFFTorProfilesperBlock</ref>;</highlight><highlight class="comment">//en<sp/>Spectra<sp/>=<sp/>FFT,//Toma<sp/>el<sp/>valor<sp/>de<sp/>m_nProfilesperBlock<sp/>(PROFILES<sp/>PER<sp/>BLOCK)<sp/>del<sp/>.racp.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="struct__ProcessParam_1a15138e2f5122880978dbe9558f583256" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__ProcessParam_1a15138e2f5122880978dbe9558f583256" kindref="member">m_nDataBlocksperFile</ref>;</highlight><highlight class="comment">//Guarda<sp/>el<sp/>valor<sp/>de<sp/>raw<sp/>data<sp/>blocks<sp/>o<sp/>process<sp/>data<sp/>blocks<sp/>en<sp/>m_nDataBlocksperFile</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="struct__ProcessParam_1a8eb0a657e8fbb2e31201eeb60749c4cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__ProcessParam_1a8eb0a657e8fbb2e31201eeb60749c4cc" kindref="member">m_nData_Windows</ref>;</highlight><highlight class="comment">//Inicializado<sp/>con<sp/>1//igual<sp/>al<sp/>numero<sp/>de<sp/>ventanas<sp/>en<sp/>rdptools</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="struct__ProcessParam_1a46a10ad0dd1d8287b781775cc1f05224" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__ProcessParam_1a46a10ad0dd1d8287b781775cc1f05224" kindref="member">m_nProcessFlags</ref>;</highlight><highlight class="comment">//Asigna<sp/>valores<sp/>a<sp/>este<sp/>flag<sp/>dependiendo<sp/>si<sp/>el<sp/>datatype<sp/>es<sp/>short<sp/>o<sp/>float<sp/>o<sp/>el<sp/>data<sp/>arrange<sp/>es<sp/>CONTIGUOUS_H,CONTIGUOUS_CH<sp/>o<sp/>CONTIGUOUS_P</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="struct__ProcessParam_1ab0e64457487a1c1989b01e5f002ee1f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__ProcessParam_1ab0e64457487a1c1989b01e5f002ee1f3" kindref="member">m_nCoherentIntegrations</ref>;</highlight><highlight class="comment">//Asigna<sp/>el<sp/>valor<sp/>de<sp/>COHERENT<sp/>INTEGRATIONS<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="struct__ProcessParam_1a62ed3aa6a02469b487bf3ce6c42eaa28" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__ProcessParam_1a62ed3aa6a02469b487bf3ce6c42eaa28" kindref="member">m_nIncoherentIntegrations</ref>;</highlight><highlight class="comment">//Toma<sp/>el<sp/>valor<sp/>de<sp/>INCOHERENT<sp/>INTEGRATIONS<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="struct__ProcessParam_1a1aee0c7c6ad110d6472e879fd8019aae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__ProcessParam_1a1aee0c7c6ad110d6472e879fd8019aae" kindref="member">m_nTotalSpectra</ref>;</highlight><highlight class="comment">//si<sp/>0.....no<sp/>hay<sp/>m_nSpectraCombinations<sp/>////Toma<sp/>el<sp/>valor<sp/>de<sp/>TOTAL<sp/>SPECTRAL<sp/>COMBINATIONS<sp/><sp/>del<sp/>.racp<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="struct__ProcessParam_1ae0dd8ccf7a27c0b36263f8582fe1286b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">tm<sp/>m_BeginTime;<sp/></highlight><highlight class="comment">//<sp/>estructura<sp/>q<sp/>almacena<sp/>la<sp/>hora<sp/>y<sp/>minutos<sp/>del<sp/>*.Racp<sp/>para<sp/>el<sp/>inicio</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="struct__ProcessParam_1a18dde547d414f4f6dcf8aaf7638eaa0f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">tm<sp/>m_EndTime;<sp/></highlight><highlight class="comment">//<sp/>estructura<sp/>q<sp/>almacena<sp/>la<sp/>hora<sp/>y<sp/>minutos<sp/>del<sp/>*.Racp<sp/>para<sp/>el<sp/>final</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><ref refid="ExperimentConstants_8h_1a1c30bda1318916dfe6b51dae18f671b1" kindref="member">ProcessParam</ref>;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="struct__GlobPParam" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__GlobPParam" kindref="compound">_GlobPParam</ref><sp/></highlight><highlight class="comment">//Parametros<sp/>extras<sp/>que<sp/>presenta<sp/>el<sp/>ProcessParam</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="struct__GlobPParam_1ac78c669920bf569e8a7d00554d6f5848" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__ProcessParam" kindref="compound">ProcessParam</ref><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam_1ac78c669920bf569e8a7d00554d6f5848" kindref="member">FixPP</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="struct__GlobPParam_1a693efaed127aba9634e79fa2d3be69b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam_1a693efaed127aba9634e79fa2d3be69b6" kindref="member">bCreateDayDir</ref>;<sp/></highlight><highlight class="comment">//<sp/>nos<sp/>da<sp/>el<sp/>valor<sp/>true<sp/>or<sp/>false<sp/>(yes<sp/>or<sp/>no)<sp/>de<sp/>CREATE<sp/>DIRECTORY<sp/>PER<sp/>DAY<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="struct__GlobPParam_1a3845b5041fa3d0721ec7561ac067b4ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam_1a3845b5041fa3d0721ec7561ac067b4ac" kindref="member">bNameInDirectory</ref>;</highlight><highlight class="comment">//<sp/>nos<sp/>da<sp/>el<sp/>valor<sp/>de<sp/>INCLUDE<sp/>EXPNAME<sp/>IN<sp/>DIRECTORY<sp/>del<sp/>.racp<sp/>true<sp/>or<sp/>false<sp/>(yes<sp/>or<sp/>no)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="struct__GlobPParam_1a3e2167701b356ea0c4ff1203ca225b42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam_1a3e2167701b356ea0c4ff1203ca225b42" kindref="member">m_bBeginOnStart</ref>;</highlight><highlight class="comment">//Asigna<sp/>el<sp/>valor<sp/>de<sp/>BEGIN<sp/>ON<sp/>START<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="struct__GlobPParam_1a6e6910602fe132199cbb7735770f39ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/>*<ref refid="struct__GlobPParam_1a6e6910602fe132199cbb7735770f39ac" kindref="member">Dyn_nSpectraComb</ref>;<sp/></highlight><highlight class="comment">//SPEC_COMB<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="struct__GlobPParam_1ac28bdb8b27ff1dc65f63569f004497f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/>*<ref refid="struct__GlobPParam_1ac28bdb8b27ff1dc65f63569f004497f2" kindref="member">Dyn_nCardSequence</ref>;</highlight><highlight class="comment">//arreglo<sp/>del<sp/>tamaño<sp/>del<sp/>numero<sp/>de<sp/>cards.Guarda<sp/>el<sp/>valor<sp/>de<sp/>cada<sp/>tarjeta<sp/>en<sp/>el<sp/>arreglo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="struct__GlobPParam_1aaea808e80e4495c24683b4a132bca09d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_sExpName[<ref refid="ExperimentConstants_8h_1a865dced746336a2d6ae9141287c4ebf4" kindref="member">_MAX_PATH</ref>];</highlight><highlight class="comment">//Nos<sp/>da<sp/>el<sp/>nombre<sp/>del<sp/>experimento<sp/>obtenido<sp/>de<sp/>.racp.EJmp:<sp/>CH1-4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="struct__GlobPParam_1ad1afc203f611401c94cf98e1cbad8fe1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_sBaseDirectory[<ref refid="ExperimentConstants_8h_1a865dced746336a2d6ae9141287c4ebf4" kindref="member">_MAX_PATH</ref>];<sp/></highlight><highlight class="comment">//Nos<sp/>da<sp/>la<sp/>direccion<sp/>del<sp/>.racp<sp/>/media/ROJ/JARS2_0/Data/TEST_49_92MHZ_1MHZ/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="struct__GlobPParam_1a54b4e439cb19ab811fc3445d76d68a28" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_sCurrentDirectory[<ref refid="ExperimentConstants_8h_1a865dced746336a2d6ae9141287c4ebf4" kindref="member">_MAX_PATH</ref>];</highlight><highlight class="comment">//Usado<sp/>en<sp/>Jicaheader!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="struct__GlobPParam_1acb17955b429ff620f32650c17e75378d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam_1acb17955b429ff620f32650c17e75378d" kindref="member">Dyn_sfDataH0</ref>;</highlight><highlight class="comment">//inicializado<sp/>como<sp/>null//toma<sp/>valor<sp/>en<sp/>RdpToolsBeta</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="struct__GlobPParam_1ade3106de6332e22811a749cb392f757d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam_1ade3106de6332e22811a749cb392f757d" kindref="member">Dyn_sfDataDH</ref>;</highlight><highlight class="comment">//inicializado<sp/>como<sp/>null//toma<sp/>valor<sp/>en<sp/>RdpToolsBeta</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="struct__GlobPParam_1a41bfddd12107ed7d9c1bfa1bfa529f69" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam_1a41bfddd12107ed7d9c1bfa1bfa529f69" kindref="member">m_nFFTPoints</ref>;</highlight><highlight class="comment">//aumentado<sp/>7/1/04<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="struct__GlobPParam_1a0abce01487be8839d4e3ce356246eb51" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam_1a0abce01487be8839d4e3ce356246eb51" kindref="member">m_nProfilesperBlock</ref>;</highlight><highlight class="comment">//aumentado<sp/>7/1/04<sp/><sp/>//Asigna<sp/>el<sp/>valor<sp/>de<sp/>PROFILES<sp/>PER<sp/>BLOCK<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="struct__GlobPParam_1a4e4bde5e3d036d9e786677cb2000d74a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam_1a4e4bde5e3d036d9e786677cb2000d74a" kindref="member">m_nCards</ref>;</highlight><highlight class="comment">//aumentado<sp/>12/1/04<sp/><sp/>//Numero<sp/>de<sp/>cartas</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="struct__GlobPParam_1a0a256f650bf0fae7505237525edbb3a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam_1a0a256f650bf0fae7505237525edbb3a4" kindref="member">m_nHeaderVER</ref>;<sp/></highlight><highlight class="comment">//Definido<sp/>dentro<sp/>de<sp/>¡¡JicaHeader!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="struct__GlobPParam_1acac23143ab72087cd7f9c74a9ee1edb1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam_1acac23143ab72087cd7f9c74a9ee1edb1" kindref="member">m_nCohIntStride</ref>;</highlight><highlight class="comment">//Toma<sp/>el<sp/>valor<sp/>de<sp/>COHERENT<sp/>INTEGRATION<sp/>STRIDE<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//unsigned<sp/>int<sp/>m_nCollectionMode;//0<sp/>si<sp/>ECHOTEK<sp/>COLLECTION<sp/>MODE=<sp/>GATE_CONTINUOUS_MODE<sp/>y<sp/>1<sp/>si<sp/>ECHOTEK<sp/>COLLECTION<sp/>MODE=COUNTED_BURST_MODE(echotek)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="struct__GlobPParam_1ae30abd17287791fd995b537243fa020c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam_1ae30abd17287791fd995b537243fa020c" kindref="member">m_nProcessCodes</ref>;</highlight><highlight class="comment">//Nos<sp/>da<sp/>el<sp/>valor<sp/>de<sp/>NUMBER<sp/>OF<sp/>PROCESS<sp/>CODES<sp/>del<sp/>.racp<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="struct__GlobPParam_1a02b3553070bd8306474f1245e91d881a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam_1a02b3553070bd8306474f1245e91d881a" kindref="member">m_nProcessBauds</ref>;</highlight><highlight class="comment">//Nos<sp/>da<sp/>el<sp/>valor<sp/>de<sp/>NUMBER<sp/>OF<sp/>PROCESS<sp/>BAUDS<sp/>del<sp/>.racp<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="struct__GlobPParam_1ac7e32c61d064ce3f42f307129ae11762" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam_1ac7e32c61d064ce3f42f307129ae11762" kindref="member">m_nProcessWindows</ref>;</highlight><highlight class="comment">//inicilizado<sp/>como<sp/>0//GlobPParam////m_nProcessWindows<sp/>aún<sp/>no<sp/>definida<sp/>hasta<sp/>rdp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="struct__GlobPParam_1a62eefa9d6266e9e6ece155e2fb1faaaf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam_1a62eefa9d6266e9e6ece155e2fb1faaaf" kindref="member">m_nDecodingFlags</ref>;</highlight><highlight class="comment">//Toma<sp/>valor<sp/>dependiendo<sp/>del<sp/><sp/>DECODING<sp/>TYPE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="struct__GlobPParam_1aefdafd8770077e7a6807947ef6e11281" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam_1aefdafd8770077e7a6807947ef6e11281" kindref="member">m_nProf2Join</ref>;</highlight><highlight class="comment">//<sp/>Nombrado<sp/>en<sp/>JicaHeader</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="struct__GlobPParam_1a2263cceb9863b25c2dc9c560853d0c43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam_1a2263cceb9863b25c2dc9c560853d0c43" kindref="member">m_nFileSetDigits</ref>;</highlight><highlight class="comment">//NOmbrado<sp/>en<sp/>Jicaheader</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="struct__GlobPParam_1a5dba9ea228db92a1ceecf0dd1a07a801" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>*<ref refid="struct__GlobPParam_1a5dba9ea228db92a1ceecf0dd1a07a801" kindref="member">Dyn_snDataNSA</ref>;</highlight><highlight class="comment">//Inicializado<sp/>como<sp/>null****//toma<sp/>valor<sp/>en<sp/>RdpTools<sp/>=<sp/>new<sp/>int<sp/>[m_ndata_windows]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<ref refid="ExperimentConstants_8h_1a60276f34cbedbbfa87aee12464e317d9" kindref="member">GlobPParam</ref>;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="struct__GlobRCParam" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__GlobRCParam" kindref="compound">_GlobRCParam</ref></highlight></codeline>
+<codeline lineno="207" refid="struct__GlobRCParam_1a3266169525e2a7d77be441ba398a105a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__RadarControllerParam" kindref="compound">RadarControllerParam</ref><sp/><sp/><sp/><sp/><ref refid="struct__GlobRCParam_1a3266169525e2a7d77be441ba398a105a" kindref="member">FixRCP</ref>;</highlight><highlight class="comment">//Asignamos<sp/>valores<sp/>a<sp/>los<sp/>atributos<sp/>del<sp/>controladores<sp/>de<sp/>radar</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="struct__GlobRCParam_1acb9b5f114b14fe854692c899cf4e9493" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>**<ref refid="struct__GlobRCParam_1acb9b5f114b14fe854692c899cf4e9493" kindref="member">Dyn_snCode</ref>;</highlight><highlight class="comment">//Definido<sp/>en<sp/>¡¡RdpToolsBeta!!//guarda<sp/>el<sp/>valor<sp/>del<sp/>código<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="struct__GlobRCParam_1a8b244f458d9be125672a50fe93be9a33" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/><sp/><ref refid="struct__GlobRCParam_1a8b244f458d9be125672a50fe93be9a33" kindref="member">Dyn_sfAcqH0</ref>;<sp/></highlight><highlight class="comment">//array<sp/>donde<sp/>guarda<sp/>el<sp/>valor<sp/>de<sp/>H0<sp/>dado<sp/>por<sp/>el<sp/>.racp<sp/>(altura<sp/>inicial)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="struct__GlobRCParam_1abc125c5fd3f6736a5df976d249f7ae42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/><sp/><ref refid="struct__GlobRCParam_1abc125c5fd3f6736a5df976d249f7ae42" kindref="member">Dyn_sfAcqDH</ref>;</highlight><highlight class="comment">//array<sp/>donde<sp/>guarda<sp/>el<sp/>valor<sp/>de<sp/>DH<sp/>dado<sp/>por<sp/>el<sp/>.racp<sp/>(resolucion)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="struct__GlobRCParam_1ac5ffc72deb6c2beeff3e5053e3de9ff1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="struct__GlobRCParam_1ac5ffc72deb6c2beeff3e5053e3de9ff1" kindref="member">Dyn_sfTau</ref>;<sp/></highlight><highlight class="comment">//arrray<sp/>que<sp/>guarda<sp/>los<sp/>valores<sp/>de<sp/>tau<sp/>del<sp/>archivo<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="struct__GlobRCParam_1ad9ca65f6a403823a95fa8f8abb4a269e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/><sp/><ref refid="struct__GlobRCParam_1ad9ca65f6a403823a95fa8f8abb4a269e" kindref="member">Dyn_sfL5_AcqH0</ref>;<sp/></highlight><highlight class="comment">//SAMPLING<sp/>WINDOWS<sp/>(LINE<sp/>5)//array<sp/>que<sp/>guarda<sp/>los<sp/>valores<sp/>de<sp/>H0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="struct__GlobRCParam_1a52af46723bbb43de5a463eda7d61983c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/><sp/><ref refid="struct__GlobRCParam_1a52af46723bbb43de5a463eda7d61983c" kindref="member">Dyn_sfL5_AcqDH</ref>;</highlight><highlight class="comment">//SAMPLING<sp/>WINDOWS<sp/>(LINE<sp/>5)//array<sp/>que<sp/>guarda<sp/>los<sp/>valores<sp/>de<sp/>DH</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="struct__GlobRCParam_1a5769afb57d754b9ea0ab43e45a26f5cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/><sp/><ref refid="struct__GlobRCParam_1a5769afb57d754b9ea0ab43e45a26f5cd" kindref="member">Dyn_sfL6_AcqH0</ref>;</highlight><highlight class="comment">//SAMPLING<sp/>WINDOWS<sp/>(LINE<sp/>6)//array<sp/>que<sp/>guarda<sp/>los<sp/>valores<sp/>de<sp/>H0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="struct__GlobRCParam_1a6af7cf80baf97f788f9b4e660d502ad0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/><sp/><ref refid="struct__GlobRCParam_1a6af7cf80baf97f788f9b4e660d502ad0" kindref="member">Dyn_sfL6_AcqDH</ref>;</highlight><highlight class="comment">//SAMPLING<sp/>WINDOWS<sp/>(LINE<sp/>6)//array<sp/>que<sp/>guarda<sp/>los<sp/>valores<sp/>de<sp/>DH</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="struct__GlobRCParam_1a531653a796a0be5c08714dcb01ac73f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__GlobRCParam_1a531653a796a0be5c08714dcb01ac73f3" kindref="member">m_nNum_Codes</ref>;</highlight><highlight class="comment">//guarda<sp/>el<sp/>valor<sp/>de<sp/>numero<sp/>de<sp/>codigos<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="struct__GlobRCParam_1aa545cf87df505cd35cc00d52009ac132" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__GlobRCParam_1aa545cf87df505cd35cc00d52009ac132" kindref="member">m_nBauds</ref>;</highlight><highlight class="comment">//Ancho<sp/>de<sp/>codigo<sp/>(code<sp/>width)<sp/>del<sp/>.racp<sp/>//32<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="struct__GlobRCParam_1a75b52d816c427cacd56aa202274565cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="struct__GlobRCParam_1a75b52d816c427cacd56aa202274565cf" kindref="member">Dyn_snAcqNSA</ref>;</highlight><highlight class="comment">//array<sp/>donde<sp/>guarda<sp/>el<sp/>valor<sp/>de<sp/>NSA<sp/>dado<sp/>por<sp/>el<sp/>.racp(número<sp/>de<sp/>muestras<sp/>a<sp/>adquirir)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="struct__GlobRCParam_1afbc598e54ede4b0f7f6817093b254fa9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__GlobRCParam_1afbc598e54ede4b0f7f6817093b254fa9" kindref="member">m_nL5_NumWindows</ref>;</highlight><highlight class="comment">//Asigna<sp/>el<sp/>valor<sp/>de<sp/>SAMPLING<sp/>WINDOWS<sp/>(LINE<sp/>5)<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="struct__GlobRCParam_1acd622c026159d3803d31a3e5bd740c71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="struct__GlobRCParam_1acd622c026159d3803d31a3e5bd740c71" kindref="member">Dyn_snL5_AcqNSA</ref>;</highlight><highlight class="comment">//SAMPLING<sp/>WINDOWS<sp/>(LINE<sp/>5)//array<sp/>que<sp/>guarda<sp/>los<sp/>valores<sp/>de<sp/>NSA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="struct__GlobRCParam_1a76d6b6065ea406da01a4fab307e46e72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__GlobRCParam_1a76d6b6065ea406da01a4fab307e46e72" kindref="member">m_nL6_NumWindows</ref>;</highlight><highlight class="comment">//Asigna<sp/>el<sp/>valor<sp/>de<sp/>SAMPLING<sp/>WINDOWS<sp/>(LINE<sp/>6)<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="struct__GlobRCParam_1a24e8a6edd36bce91fa46b97e72834f64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="struct__GlobRCParam_1a24e8a6edd36bce91fa46b97e72834f64" kindref="member">Dyn_snL6_AcqNSA</ref>;</highlight><highlight class="comment">//SAMPLING<sp/>WINDOWS<sp/>(LINE<sp/>6)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="struct__GlobRCParam_1abdaefe690e3aa884353256917f4c6127" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__GlobRCParam_1abdaefe690e3aa884353256917f4c6127" kindref="member">m_nFLIP1</ref>;</highlight><highlight class="comment">//Usado<sp/>en<sp/>Jicaheader!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="struct__GlobRCParam_1afac1d48457307c9ff45f7318ee849636" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__GlobRCParam_1afac1d48457307c9ff45f7318ee849636" kindref="member">m_nFLIP2</ref>;</highlight><highlight class="comment">//Usado<sp/>en<sp/>Jicaheader!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<ref refid="ExperimentConstants_8h_1a4f250a03306179038d679426fed637b5" kindref="member">GlobRCParam</ref>;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h"/>
+  </compounddef>
+</doxygen>

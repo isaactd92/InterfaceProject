@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="ExperimentParameters_8h" kind="file" language="C++">
+    <compoundname>ExperimentParameters.h</compoundname>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">string</includes>
+    <includes refid="ExperimentConstants_8h" local="yes">ExperimentConstants/ExperimentConstants.h</includes>
+    <includedby refid="MemoryManager_8h" local="yes">MemoryManager.h</includedby>
+    <incdepgraph>
+      <node id="42">
+        <label>stdlib.h</label>
+      </node>
+      <node id="41">
+        <label>ExperimentParameters.h</label>
+        <link refid="ExperimentParameters.h"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>string</label>
+      </node>
+      <node id="46">
+        <label>ExperimentConstants/ExperimentConstants.h</label>
+        <link refid="ExperimentConstants_8h"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>string.h</label>
+      </node>
+      <node id="48">
+        <label>time.h</label>
+      </node>
+      <node id="47">
+        <label>sys/timeb.h</label>
+      </node>
+      <node id="43">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="52">
+        <label>RdpToolsBeta.h</label>
+        <link refid="RdpToolsBeta_8h"/>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>ExperimentParameters.h</label>
+        <link refid="ExperimentParameters.h"/>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>MemoryManager.h</label>
+        <link refid="MemoryManager_8h"/>
+        <childnode refid="51" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>ArgProcessor.h</label>
+        <link refid="ArgProcessor_8h"/>
+        <childnode refid="55" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>InterfaceJRO_7_impl.h</label>
+        <link refid="InterfaceJRO__7__impl_8h"/>
+      </node>
+      <node id="53">
+        <label>JarsControl.h</label>
+        <link refid="JarsControl_8h"/>
+        <childnode refid="54" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>JicaHeader.h</label>
+        <link refid="JicaHeader_8h"/>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classExpParameters" prot="public">ExpParameters</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h"/>
+  </compounddef>
+</doxygen>

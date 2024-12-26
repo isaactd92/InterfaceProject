@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="RdpToolsBeta_8h" kind="file" language="C++">
+    <compoundname>RdpToolsBeta.h</compoundname>
+    <includes local="no">exception</includes>
+    <includes local="no">string</includes>
+    <includes local="no">iostream</includes>
+    <includes refid="JicaHeader_8h" local="yes">JicaHeader/JicaHeader.h</includes>
+    <includedby refid="JarsControl_8h" local="yes">JarsControl.h</includedby>
+    <incdepgraph>
+      <node id="159">
+        <label>RdpToolsBeta.h</label>
+        <link refid="RdpToolsBeta.h"/>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+      </node>
+      <node id="164">
+        <label>stdlib.h</label>
+      </node>
+      <node id="169">
+        <label>ExperimentParameters/ExperimentParameters.h</label>
+        <link refid="ExperimentParameters_8h"/>
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+        <childnode refid="170" relation="include">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>string</label>
+      </node>
+      <node id="170">
+        <label>ExperimentConstants/ExperimentConstants.h</label>
+        <link refid="ExperimentConstants_8h"/>
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="171" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>exception</label>
+      </node>
+      <node id="168">
+        <label>MemoryManager/MemoryManager.h</label>
+        <link refid="MemoryManager_8h"/>
+        <childnode refid="169" relation="include">
+        </childnode>
+        <childnode refid="172" relation="include">
+        </childnode>
+      </node>
+      <node id="167">
+        <label>string.h</label>
+      </node>
+      <node id="165">
+        <label>time.h</label>
+      </node>
+      <node id="162">
+        <label>iostream</label>
+      </node>
+      <node id="171">
+        <label>sys/timeb.h</label>
+      </node>
+      <node id="163">
+        <label>JicaHeader/JicaHeader.h</label>
+        <link refid="JicaHeader_8h"/>
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+      </node>
+      <node id="172">
+        <label>complex</label>
+      </node>
+      <node id="166">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="173">
+        <label>RdpToolsBeta.h</label>
+        <link refid="RdpToolsBeta.h"/>
+        <childnode refid="174" relation="include">
+        </childnode>
+      </node>
+      <node id="175">
+        <label>ArgProcessor.h</label>
+        <link refid="ArgProcessor_8h"/>
+        <childnode refid="176" relation="include">
+        </childnode>
+      </node>
+      <node id="176">
+        <label>InterfaceJRO_7_impl.h</label>
+        <link refid="InterfaceJRO__7__impl_8h"/>
+      </node>
+      <node id="174">
+        <label>JarsControl.h</label>
+        <link refid="JarsControl_8h"/>
+        <childnode refid="175" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classRdpToolsExcep" prot="public">RdpToolsExcep</innerclass>
+    <innerclass refid="classRdpToolsBeta" prot="public">RdpToolsBeta</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="RdpToolsBeta_8h_1a085c363f5335019dbbe9495c01ecf283" prot="public" static="no">
+        <name>Data_Win_Err</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" line="12" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classRdpToolsExcep_1a0629676f8ca01ae673816c54a9222c4c" compoundref="RdpToolsBeta_8h" startline="20" endline="49">RdpToolsExcep::RdpToolsExcep</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="RdpToolsBeta_8h_1a1a0d762fa518b7a4cca9bc3f7e9b6726" prot="public" static="no">
+        <name>Acq_DH_Err</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" line="13" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classRdpToolsExcep_1a0629676f8ca01ae673816c54a9222c4c" compoundref="RdpToolsBeta_8h" startline="20" endline="49">RdpToolsExcep::RdpToolsExcep</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h"/>
+  </compounddef>
+</doxygen>

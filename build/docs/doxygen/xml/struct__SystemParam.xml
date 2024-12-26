@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="struct__SystemParam" kind="struct" language="C++" prot="public">
+    <compoundname>_SystemParam</compoundname>
+    <includes refid="ExperimentConstants_8h" local="no">ExperimentConstants.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__SystemParam_1a156626ad2463a55b96e202712cd69c9c" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _SystemParam::m_nHeader_Sys_Length</definition>
+        <argsstring></argsstring>
+        <name>m_nHeader_Sys_Length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="129" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__SystemParam_1a19a6cf532b877478838544bb8471c53b" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _SystemParam::m_nSamples</definition>
+        <argsstring></argsstring>
+        <name>m_nSamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="130" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__SystemParam_1ab86ec2eb0141deaa322b4d78c975dd25" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _SystemParam::m_nProfiles</definition>
+        <argsstring></argsstring>
+        <name>m_nProfiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="131" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__SystemParam_1a2fc99bf00c5551764122a0924a1df888" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _SystemParam::m_nChannels</definition>
+        <argsstring></argsstring>
+        <name>m_nChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="132" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__SystemParam_1a51a5b33e4767f30baae71f3230706b37" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _SystemParam::m_nADCResolution</definition>
+        <argsstring></argsstring>
+        <name>m_nADCResolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="133" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__SystemParam_1a4d3f5453b09401b62b0170c06ba17f08" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _SystemParam::m_nPCIDIOBusWidth</definition>
+        <argsstring></argsstring>
+        <name>m_nPCIDIOBusWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="134" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__SystemParam_1aa49917e56c5325e41bbb7430e092cf46" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _SystemParam::m_sFilterPath[_MAX_PATH]</definition>
+        <argsstring>[_MAX_PATH]</argsstring>
+        <name>m_sFilterPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="137" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__SystemParam_1abb9ba419e2dd0853d6d43e1a32f3de7a" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _SystemParam::m_nNumberOfChannel[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>m_nNumberOfChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="139" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="129" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="128" bodyend="141"/>
+    <listofallmembers>
+      <member refid="struct__SystemParam_1a51a5b33e4767f30baae71f3230706b37" prot="public" virt="non-virtual"><scope>_SystemParam</scope><name>m_nADCResolution</name></member>
+      <member refid="struct__SystemParam_1a2fc99bf00c5551764122a0924a1df888" prot="public" virt="non-virtual"><scope>_SystemParam</scope><name>m_nChannels</name></member>
+      <member refid="struct__SystemParam_1a156626ad2463a55b96e202712cd69c9c" prot="public" virt="non-virtual"><scope>_SystemParam</scope><name>m_nHeader_Sys_Length</name></member>
+      <member refid="struct__SystemParam_1abb9ba419e2dd0853d6d43e1a32f3de7a" prot="public" virt="non-virtual"><scope>_SystemParam</scope><name>m_nNumberOfChannel</name></member>
+      <member refid="struct__SystemParam_1a4d3f5453b09401b62b0170c06ba17f08" prot="public" virt="non-virtual"><scope>_SystemParam</scope><name>m_nPCIDIOBusWidth</name></member>
+      <member refid="struct__SystemParam_1ab86ec2eb0141deaa322b4d78c975dd25" prot="public" virt="non-virtual"><scope>_SystemParam</scope><name>m_nProfiles</name></member>
+      <member refid="struct__SystemParam_1a19a6cf532b877478838544bb8471c53b" prot="public" virt="non-virtual"><scope>_SystemParam</scope><name>m_nSamples</name></member>
+      <member refid="struct__SystemParam_1aa49917e56c5325e41bbb7430e092cf46" prot="public" virt="non-virtual"><scope>_SystemParam</scope><name>m_sFilterPath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

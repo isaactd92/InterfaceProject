@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfpga.a  CMakeFiles/fpga.dir/fpga_com.cpp.o
+/usr/bin/ranlib libfpga.a

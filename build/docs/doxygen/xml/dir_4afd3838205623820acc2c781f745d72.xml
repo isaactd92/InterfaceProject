@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_4afd3838205623820acc2c781f745d72" kind="dir">
+    <compoundname>SP601</compoundname>
+    <innerdir refid="dir_db531630dc95142ddde02e20518371bc">fpga</innerdir>
+    <innerfile refid="sp601__command_8h">sp601_command.h</innerfile>
+    <innerfile refid="sp601__config_8h">sp601_config.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/"/>
+  </compounddef>
+</doxygen>

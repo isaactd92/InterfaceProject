@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="JicaHeader_8h" kind="file" language="C++">
+    <compoundname>JicaHeader.h</compoundname>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">time.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">string</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">iostream</includes>
+    <includes refid="MemoryManager_8h" local="yes">MemoryManager/MemoryManager.h</includes>
+    <includedby refid="RdpToolsBeta_8h" local="yes">RdpToolsBeta.h</includedby>
+    <incdepgraph>
+      <node id="87">
+        <label>stdlib.h</label>
+      </node>
+      <node id="94">
+        <label>ExperimentParameters/ExperimentParameters.h</label>
+        <link refid="ExperimentParameters_8h"/>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>string</label>
+      </node>
+      <node id="95">
+        <label>ExperimentConstants/ExperimentConstants.h</label>
+        <link refid="ExperimentConstants_8h"/>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>MemoryManager/MemoryManager.h</label>
+        <link refid="MemoryManager_8h"/>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="97" relation="include">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>string.h</label>
+      </node>
+      <node id="88">
+        <label>time.h</label>
+      </node>
+      <node id="92">
+        <label>iostream</label>
+      </node>
+      <node id="96">
+        <label>sys/timeb.h</label>
+      </node>
+      <node id="86">
+        <label>JicaHeader.h</label>
+        <link refid="JicaHeader.h"/>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>complex</label>
+      </node>
+      <node id="89">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="99">
+        <label>RdpToolsBeta.h</label>
+        <link refid="RdpToolsBeta_8h"/>
+        <childnode refid="100" relation="include">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>ArgProcessor.h</label>
+        <link refid="ArgProcessor_8h"/>
+      </node>
+      <node id="100">
+        <label>JarsControl.h</label>
+        <link refid="JarsControl_8h"/>
+        <childnode refid="101" relation="include">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>JicaHeader.h</label>
+        <link refid="JicaHeader.h"/>
+        <childnode refid="99" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classJicaHeader" prot="public">JicaHeader</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>ARGPROCESSOR_JARSCONTROL_RDPTOOLSBETA_JICAHEADER_JICAHEADER_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ARGPROCESSOR_JARSCONTROL_RDPTOOLSBETA_JICAHEADER_JICAHEADER_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MemoryManager_8h" kindref="compound">MemoryManager/MemoryManager.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&lt;zmq.hpp&gt;<sp/>*****sockets<sp/>ZMQ<sp/>opción<sp/>2********</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//zmq::context_t<sp/>context(1);<sp/>*****sockets<sp/>ZMQ<sp/>opción<sp/>2********</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="classJicaHeader" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classJicaHeader" kindref="compound">JicaHeader</ref></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>FileCount;</highlight><highlight class="comment">//contador<sp/>de<sp/>files</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Flag;</highlight><highlight class="comment">//usado<sp/>para<sp/>saber<sp/>si<sp/>mi<sp/>MyLocalTime.tm_hour<sp/>es<sp/>00(false)<sp/>o<sp/>01<sp/>(true)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TimeHourBefore;<sp/></highlight><highlight class="comment">//Added<sp/>14<sp/>Feb<sp/>2011//iniciailzado<sp/>con<sp/>0<sp/>y<sp/>usado<sp/>para<sp/>saber<sp/>si<sp/>ya<sp/>se<sp/>pasó<sp/>de<sp/>la<sp/>hora</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>DirectorySetCount;<sp/></highlight><highlight class="comment">//incrementa<sp/>el<sp/>numero<sp/>de<sp/>Directorio<sp/>cuando<sp/>llega<sp/>a<sp/>1000<sp/>files//contador<sp/>de<sp/>directorios</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>Patnhame[<ref refid="ExperimentConstants_8h_1a865dced746336a2d6ae9141287c4ebf4" kindref="member">_MAX_PATH</ref>];</highlight><highlight class="comment">//no<sp/>usado<sp/>en<sp/>jicaheader</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>FileName[<ref refid="ExperimentConstants_8h_1a316442a61b2003f21a7b055ffb9ef48f" kindref="member">_MAX_FNAME</ref>];</highlight><highlight class="comment">//guarda<sp/>el<sp/>nombre<sp/>del<sp/>file<sp/>especificado</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>SaveBasicHeader(FILE*<sp/>MyFile);</highlight><highlight class="comment">//nos<sp/>da<sp/>el<sp/>valor<sp/>de<sp/>bytes<sp/>guardados<sp/>debido<sp/>a<sp/>los<sp/>atributos<sp/>de<sp/>MyBasicHeader</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>SaveFirstHeader(FILE*<sp/>MyFile);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>GetBasicHeader(<ref refid="classMemoryManager" kindref="compound">MemoryManager</ref>*<sp/>MyMemManager);</highlight><highlight class="comment">//Guarda<sp/>los<sp/>valores<sp/>de<sp/>los<sp/>atributos<sp/>de<sp/>Basic<sp/>Header<sp/>en<sp/>el<sp/>arreglo<sp/>buff_header<sp/>de<sp/>memory<sp/>manager</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>GetFirstHeader(<ref refid="classMemoryManager" kindref="compound">MemoryManager</ref>*<sp/>MyMemManager);</highlight><highlight class="comment">//Guarda<sp/>los<sp/>valores<sp/>de<sp/>los<sp/>atributos<sp/>de<sp/>long<sp/>header<sp/>junto<sp/>con<sp/>los<sp/>atributos<sp/>de<sp/>basic<sp/>header<sp/>en<sp/>buff_header</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FILE<sp/>*MyFileTemp;<sp/></highlight><highlight class="comment">//usado<sp/>en<sp/>fwrite////los<sp/>valores<sp/>de<sp/>los<sp/>atributos<sp/>de<sp/>LongHeader<sp/>y<sp/>basic<sp/>header<sp/>en<sp/>MyFile<sp/>los<sp/>guardará<sp/>en<sp/>MyFileTemp.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>LongHeader;<sp/></highlight><highlight class="comment">//espacios<sp/>de<sp/>memoria<sp/>del<sp/>tamaño<sp/>de<sp/>long<sp/>header</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetFileName();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>CompareTime(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37" refid="classJicaHeader_1a33f91aae161b848508cfe57fc5eabb78" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classJicaHeader_1a33f91aae161b848508cfe57fc5eabb78" kindref="member">TimeToFinish</ref>;</highlight></codeline>
+<codeline lineno="38" refid="classJicaHeader_1ad9c187ac237c49be3eb5c204dbe385a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classJicaHeader_1ad9c187ac237c49be3eb5c204dbe385a5" kindref="member">CloseSystemTime</ref>;</highlight><highlight class="comment">//toma<sp/>valor<sp/>de<sp/>true<sp/>si<sp/>ya<sp/>se<sp/>paso<sp/>la<sp/>hora</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classJicaHeader" kindref="compound">JicaHeader</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>~<ref refid="classJicaHeader" kindref="compound">JicaHeader</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GetEndTime();<sp/></highlight><highlight class="comment">//<sp/>funcion<sp/>q<sp/>obtiene<sp/>la<sp/>cantidad<sp/>de<sp/>segundos<sp/>q<sp/>hay<sp/>desde<sp/>1970<sp/>hasta<sp/>la<sp/>hora<sp/>en<sp/>q<sp/>se<sp/>debe<sp/>apagar<sp/>el<sp/>sistema</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GetExpParameters(<ref refid="classExpParameters" kindref="compound">ExpParameters</ref>*<sp/>MyExpParam);</highlight><highlight class="comment">//Guarda<sp/>los<sp/>atributos<sp/>establecidos<sp/>en<sp/>long<sp/>header<sp/>en<sp/>espacios<sp/>de<sp/>memoria<sp/>del<sp/>arreglo<sp/>ActualPosition</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>SaveData(<ref refid="classMemoryManager" kindref="compound">MemoryManager</ref>*<sp/>MyMemManager);</highlight></codeline>
+<codeline lineno="44" refid="classJicaHeader_1af22d9db0254746719434fc93a6267a68" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>complex&lt;short&gt;*<sp/><ref refid="classJicaHeader_1af22d9db0254746719434fc93a6267a68" kindref="member">gnuradio_out</ref>;</highlight><highlight class="comment">//<sp/>almacenará<sp/>el<sp/>bloque<sp/>de<sp/>datos<sp/>para<sp/>ser<sp/>visto<sp/>a<sp/>la<sp/>salida<sp/>de<sp/>la<sp/>interfaz<sp/>en<sp/>gnuradio-companion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="classJicaHeader_1a3d8034b39057db2aedc74dad8dd492ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">tm<sp/>MyLocalTime;<sp/></highlight><highlight class="comment">//<sp/>variable<sp/>donde<sp/>se<sp/>almacena<sp/>la<sp/>fecha<sp/>actual</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="classJicaHeader_1a96558753ab2fe31e1ac16c671980a61f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__BasicHeader" kindref="compound">BasicHeader</ref><sp/><ref refid="classJicaHeader_1a96558753ab2fe31e1ac16c671980a61f" kindref="member">MyBasicHeader</ref>;<sp/></highlight><highlight class="comment">//objeto<sp/>de<sp/>la<sp/>clase<sp/>BasicHeader<sp/>para<sp/>dar<sp/>valor<sp/>al<sp/>atributo:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="classJicaHeader_1a796cbcb706094fdf9ff11d0d0820c6a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__SystemParam" kindref="compound">SystemParam</ref><sp/>*<ref refid="classJicaHeader_1a796cbcb706094fdf9ff11d0d0820c6a8" kindref="member">MySystemParam</ref>;</highlight></codeline>
+<codeline lineno="49" refid="classJicaHeader_1ad60ba4811b599c4c391c3c88ce7adb23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam" kindref="compound">GlobPParam</ref><sp/><sp/>*<ref refid="classJicaHeader_1ad60ba4811b599c4c391c3c88ce7adb23" kindref="member">MyGPParam</ref>;</highlight></codeline>
+<codeline lineno="50" refid="classJicaHeader_1add36b05e34828d71dba0f78a5152530b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__GlobRCParam" kindref="compound">GlobRCParam</ref><sp/>*<ref refid="classJicaHeader_1add36b05e34828d71dba0f78a5152530b" kindref="member">MyGRCParam</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="classJicaHeader_1a1a562e897fe66ea4c8eaf7558eb7c0df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">**<sp/><ref refid="classJicaHeader_1a1a562e897fe66ea4c8eaf7558eb7c0df" kindref="member">m_sCodeFloat</ref>;</highlight><highlight class="comment">//puntero<sp/>al<sp/>array<sp/>que<sp/>almacena<sp/>los<sp/>valores<sp/>de<sp/>NUMBER<sp/>OF<sp/>PROCESS<sp/>BAUDS<sp/>en<sp/>un<sp/>malloc<sp/>tipo<sp/>float<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="classJicaHeader_1af3faa89908e0c0fffe779a07872f4bf0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>FileSaved[<ref refid="ExperimentConstants_8h_1a865dced746336a2d6ae9141287c4ebf4" kindref="member">_MAX_PATH</ref>];</highlight><highlight class="comment">//Copia<sp/>m_sCurrentDirectory<sp/>aqui<sp/>en<sp/>formato<sp/>.r<sp/>o<sp/>.pdata<sp/>si<sp/>no<sp/>hay<sp/>digital_rf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MakeDirectory(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>Fx<sp/>q<sp/>retorna<sp/>un<sp/>puntero<sp/>a<sp/>la<sp/>cadena<sp/>de<sp/>carpetas<sp/>creadas</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/JicaHeader.h"/>
+  </compounddef>
+</doxygen>

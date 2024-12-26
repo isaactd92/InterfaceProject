@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="sp601__command_8h" kind="file" language="C++">
+    <compoundname>sp601_command.h</compoundname>
+    <includes refid="fpga__com_8h" local="yes">fpga/fpga_com.h</includes>
+    <includes refid="sp601__config_8h" local="yes">sp601_config.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">iostream</includes>
+    <includedby refid="JarsControl_8h" local="yes">JarsControl.h</includedby>
+    <incdepgraph>
+      <node id="137">
+        <label>sp601_config.h</label>
+        <link refid="sp601__config_8h"/>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="136" relation="include">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>stdlib.h</label>
+      </node>
+      <node id="136">
+        <label>string</label>
+      </node>
+      <node id="140">
+        <label>string.h</label>
+      </node>
+      <node id="142">
+        <label>vector</label>
+      </node>
+      <node id="135">
+        <label>fpga/fpga_com.h</label>
+        <link refid="fpga__com_8h"/>
+        <childnode refid="136" relation="include">
+        </childnode>
+      </node>
+      <node id="141">
+        <label>iostream</label>
+      </node>
+      <node id="134">
+        <label>sp601_command.h</label>
+        <link refid="sp601_command.h"/>
+        <childnode refid="135" relation="include">
+        </childnode>
+        <childnode refid="137" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+      </node>
+      <node id="138">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="145">
+        <label>ArgProcessor.h</label>
+        <link refid="ArgProcessor_8h"/>
+      </node>
+      <node id="144">
+        <label>JarsControl.h</label>
+        <link refid="JarsControl_8h"/>
+        <childnode refid="145" relation="include">
+        </childnode>
+      </node>
+      <node id="143">
+        <label>sp601_command.h</label>
+        <link refid="sp601_command.h"/>
+        <childnode refid="144" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structaddress" prot="public">address</innerclass>
+    <innerclass refid="structjars__cmd" prot="public">jars_cmd</innerclass>
+    <innerclass refid="classsp601__command" prot="public">sp601_command</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="sp601__command_8h_1ae6cae658beb94f4ddfcaa58ee33dd38b" prot="public" static="no">
+        <name>RCV_BUFSIZE</name>
+        <initializer>1472</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="11" column="9" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sp601__command_8h_1a1aa9678f48f9b9661062c9246e64993a" prot="public" static="no">
+        <name>RST_CTRL</name>
+        <initializer>0x05</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="16" column="10" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sp601__command_8h_1a52e278dd9e601652e8ab11b70c53ef6e" prot="public" static="no">
+        <name>MODE_OPER</name>
+        <initializer>0x03</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="17" column="10" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sp601__command_8h_1ab8923675701bbbb7f51c4e68fac5e588" prot="public" static="no">
+        <name>ELECTION_RXD</name>
+        <initializer>0x04</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="18" column="10" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sp601__command_8h_1a063240a0c681e13158e249f55ac4b750" prot="public" static="no">
+        <name>POWER_RXD</name>
+        <initializer>0x06</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="19" column="10" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sp601__command_8h_1aefde68a634d66b7039aa56de3fd5301b" prot="public" static="no">
+        <name>PROG_RXD</name>
+        <initializer>0x09</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="20" column="10" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sp601__command_8h_1ad7e5e3b2ac85d92fe9b81bac2368ca02" prot="public" static="no">
+        <name>ENABLE_TRANSF</name>
+        <initializer>0x0A</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="21" column="10" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sp601__command_8h_1aacac2365f297d20c92dac6c32a87c6a3" prot="public" static="no">
+        <name>DISABLE_TRANSF</name>
+        <initializer>0x0B</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="22" column="10" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152" prot="public" static="no">
+        <name>JARS_CMD</name>
+        <enumvalue id="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a7316843e88740cd819c6427a7f833df6" prot="public">
+          <name>NOOP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152abff6b2d1371663911c20d04738892bfd" prot="public">
+          <name>SET_SP601_IP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a578a2dc0f32dacf50c510f7009c12d1f" prot="public">
+          <name>SET_SP601_PORT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a9dd105b07676790bd963c49f607588b9" prot="public">
+          <name>GET_SP601_MAC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152abd7b2f700ca4ef2b11180557059e6bbd" prot="public">
+          <name>SET_COMMS_IP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a57446329e1b880f1e79096d89ca90abf" prot="public">
+          <name>SET_COMMS_PORT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152aedb06bfaf37d18638b99cabc860b5c4b" prot="public">
+          <name>SET_COMMS_MAC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152af2fb94d1fd1739ad68220e57882efa23" prot="public">
+          <name>GET_VALUE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a55636b09cf88b31facd828042757e8cd" prot="public">
+          <name>DATA_LOOPS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a685f467976dffd4af61e2c198bba3e07" prot="public">
+          <name>SEND_COMMAND</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a977ee7b118a6816596e05f1c5c6221f2" prot="public">
+          <name>CHECK_ACK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a28b6b130f7a5b8cdbee96bb17ef151af" prot="public">
+          <name>SEND_FILTER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="13" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="fpga__com_8h" kindref="compound">fpga/fpga_com.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="sp601__config_8h" kindref="compound">sp601_config.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&lt;boost/asio.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="sp601__command_8h_1ae6cae658beb94f4ddfcaa58ee33dd38b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RCV_BUFSIZE<sp/>1472</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a578a2dc0f32dacf50c510f7009c12d1f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152" kindref="member">JARS_CMD</ref><sp/>{<sp/><ref refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a7316843e88740cd819c6427a7f833df6" kindref="member">NOOP</ref>,<sp/><ref refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152abff6b2d1371663911c20d04738892bfd" kindref="member">SET_SP601_IP</ref>,<sp/><ref refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a578a2dc0f32dacf50c510f7009c12d1f" kindref="member">SET_SP601_PORT</ref>,<sp/><ref refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a9dd105b07676790bd963c49f607588b9" kindref="member">GET_SP601_MAC</ref>,<sp/><ref refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152abd7b2f700ca4ef2b11180557059e6bbd" kindref="member">SET_COMMS_IP</ref>,<sp/><ref refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a57446329e1b880f1e79096d89ca90abf" kindref="member">SET_COMMS_PORT</ref>,<sp/><ref refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152aedb06bfaf37d18638b99cabc860b5c4b" kindref="member">SET_COMMS_MAC</ref>,<sp/><ref refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152af2fb94d1fd1739ad68220e57882efa23" kindref="member">GET_VALUE</ref>,<sp/><ref refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a55636b09cf88b31facd828042757e8cd" kindref="member">DATA_LOOPS</ref>,<sp/><ref refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a685f467976dffd4af61e2c198bba3e07" kindref="member">SEND_COMMAND</ref>,<sp/><ref refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a977ee7b118a6816596e05f1c5c6221f2" kindref="member">CHECK_ACK</ref>,<sp/><ref refid="sp601__command_8h_1a5a3ca937b4f7181095b415041ac2a152a28b6b130f7a5b8cdbee96bb17ef151af" kindref="member">SEND_FILTER</ref>};</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Se<sp/>utilizan<sp/>las<sp/>definiciones<sp/>de<sp/>comandos<sp/>del<sp/>archivo<sp/>ExperimentConstants.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="sp601__command_8h_1a1aa9678f48f9b9661062c9246e64993a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RST_CTRL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x05</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="sp601__command_8h_1a52e278dd9e601652e8ab11b70c53ef6e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MODE_OPER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x03</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="sp601__command_8h_1ab8923675701bbbb7f51c4e68fac5e588" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ELECTION_RXD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x04</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="sp601__command_8h_1a063240a0c681e13158e249f55ac4b750" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>POWER_RXD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x06</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="sp601__command_8h_1aefde68a634d66b7039aa56de3fd5301b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PROG_RXD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x09</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="sp601__command_8h_1ad7e5e3b2ac85d92fe9b81bac2368ca02" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ENABLE_TRANSF<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0A</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="sp601__command_8h_1aacac2365f297d20c92dac6c32a87c6a3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DISABLE_TRANSF<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0B</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="structaddress" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structaddress" kindref="compound">address</ref>{</highlight></codeline>
+<codeline lineno="25" refid="structaddress_1a581926a36870deaba867743219d89d9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="structaddress_1a581926a36870deaba867743219d89d9a" kindref="member">d_path_file</ref>;</highlight></codeline>
+<codeline lineno="26" refid="structaddress_1a47c83523d9cc06ed386f29e5fcd5eeda" refkind="member"><highlight class="normal"><sp/><sp/><sp/>std::string<sp/><ref refid="structaddress_1a47c83523d9cc06ed386f29e5fcd5eeda" kindref="member">d_mac_block</ref>;</highlight></codeline>
+<codeline lineno="27" refid="structaddress_1aeeeea32d04a247d4a5351e33af8674a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structaddress_1aeeeea32d04a247d4a5351e33af8674a8" kindref="member">d_port_block</ref>;</highlight></codeline>
+<codeline lineno="28" refid="structaddress_1aacbeb5a1db9cfa6bcabb47d819818b1e" refkind="member"><highlight class="normal"><sp/><sp/><sp/>std::string<sp/><ref refid="structaddress_1aacbeb5a1db9cfa6bcabb47d819818b1e" kindref="member">d_ip_host</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//Declara<sp/>la<sp/>estructura<sp/>jars_cmd:<sp/>{&quot;NOOP&quot;,0,0,false}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="structjars__cmd" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structjars__cmd" kindref="compound">jars_cmd</ref>{</highlight></codeline>
+<codeline lineno="34" refid="structjars__cmd_1ac1538c1c69d889eefbabfc077e59d96f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structjars__cmd_1ac1538c1c69d889eefbabfc077e59d96f" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="35" refid="structjars__cmd_1a08d03301fdc843da88b71ab8d5576a97" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structjars__cmd_1a08d03301fdc843da88b71ab8d5576a97" kindref="member">val</ref>;</highlight></codeline>
+<codeline lineno="36" refid="structjars__cmd_1a2ac9bbc25760e1a29a170271d68ea390" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structjars__cmd_1a2ac9bbc25760e1a29a170271d68ea390" kindref="member">size</ref>;</highlight></codeline>
+<codeline lineno="37" refid="structjars__cmd_1a667569fb6dd6e6bc0b0699d0e1a49b22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structjars__cmd_1a667569fb6dd6e6bc0b0699d0e1a49b22" kindref="member">ack</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="classsp601__command" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsp601__command" kindref="compound">sp601_command</ref></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classsp601__command" kindref="compound">sp601_command</ref>();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>~<ref refid="classsp601__command" kindref="compound">sp601_command</ref>();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>init(<ref refid="structaddress" kindref="compound">address</ref><sp/>host_address);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ssize_t<sp/>receive(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buffer_rcv);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>send(uint8_t<sp/>cmd,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>code,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*payload,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size_payload);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h"/>
+  </compounddef>
+</doxygen>

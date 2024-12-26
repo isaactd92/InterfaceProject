@@ -1,0 +1,708 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class__JARSControl" kind="class" language="C++" prot="public">
+    <compoundname>_JARSControl</compoundname>
+    <includes refid="JarsControl_8h" local="no">JarsControl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class__JARSControl_1a3a9bee0735edcc19019ea89c876bb324" prot="public" static="no" mutable="no">
+        <type><ref refid="classExpParameters" kindref="compound">ExpParameters</ref> *</type>
+        <definition>ExpParameters* _JARSControl::MyExpParam</definition>
+        <argsstring></argsstring>
+        <name>MyExpParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="30" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a23d97fafb2a8484a913c9ae0cbf96b53" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _JARSControl::m_SizeofBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_SizeofBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="31" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1af22ac24cb398de0720ab962d79a8498f" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _JARSControl::m_AcqBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_AcqBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="32" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a83109c7d938a17dcd5344b8984489490" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* _JARSControl::ptrFunc) (bool success)</definition>
+        <argsstring>)(bool success)</argsstring>
+        <name>ptrFunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="34" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a2e519598b0f380cd1c167b0c441c8f21" prot="public" static="no" mutable="no">
+        <type>pthread_t</type>
+        <definition>pthread_t _JARSControl::_thread_rcv</definition>
+        <argsstring></argsstring>
+        <name>_thread_rcv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="43" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a5bb573744392a128014340ee4cbb9770" prot="public" static="no" mutable="no">
+        <type>pthread_t</type>
+        <definition>pthread_t _JARSControl::_thread_jars</definition>
+        <argsstring></argsstring>
+        <name>_thread_jars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="44" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a335294492af9a25a87cd9861e5c6b4ff" prot="public" static="no" mutable="no">
+        <type>pthread_t</type>
+        <definition>pthread_t _JARSControl::_thread_jars_rcv</definition>
+        <argsstring></argsstring>
+        <name>_thread_jars_rcv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="45" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class__JARSControl_1af2c55c9ade0b313c614f01f381d7fc6e" prot="private" static="no" mutable="no">
+        <type><ref refid="classsp601__command" kindref="compound">sp601_command</ref> *</type>
+        <definition>sp601_command* _JARSControl::MySP601</definition>
+        <argsstring></argsstring>
+        <name>MySP601</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="49" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1ac1d0fcec75e87d34d558379c2dda1ba5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _JARSControl::VarSetSystem</definition>
+        <argsstring></argsstring>
+        <name>VarSetSystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="54" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1af853f0f272eed0ca955df739651eb5a4" prot="private" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t _JARSControl::m_nChannelsMask</definition>
+        <argsstring></argsstring>
+        <name>m_nChannelsMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="55" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a9f3ac037aec35c612eda889c95813cba" prot="private" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t _JARSControl::m_nCardsMask</definition>
+        <argsstring></argsstring>
+        <name>m_nCardsMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="56" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a8a367362f9ac3b2d03c8d823ccce03d6" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t _JARSControl::m_nFilterCoeff[2047]</definition>
+        <argsstring>[2047]</argsstring>
+        <name>m_nFilterCoeff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="57" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a01012691c14372f45f45089e47641086" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t _JARSControl::m_nCountCoeff</definition>
+        <argsstring></argsstring>
+        <name>m_nCountCoeff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="58" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1ad7902609ce64c8c0be327e3a6c873b20" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _JARSControl::m_NumMarks</definition>
+        <argsstring></argsstring>
+        <name>m_NumMarks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="61" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1acd325d1f968db3a0e99e8e32ba926683" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _JARSControl::m_MarkRe</definition>
+        <argsstring></argsstring>
+        <name>m_MarkRe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="63" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a0f221ac2a023e06426eadc79f7f3abda" prot="private" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _JARSControl::m_AcqNIBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_AcqNIBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="65" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a34788b66b29a6269737b84bc5addc4bf" prot="private" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _JARSControl::m_AcqNIDoubleBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_AcqNIDoubleBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="67" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__JARSControl_1a63513f01960f9ee3368ffa762016f675" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _JARSControl::payload[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>payload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="69" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class__JARSControl_1a6e97ca0b4324bc1af443e36b28bb1d3e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void _JARSControl::InternalRcv</definition>
+        <argsstring>()</argsstring>
+        <name>InternalRcv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a57bb6d2e0d1c5e18bd101de314651e8c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void _JARSControl::InternalThreadEntry</definition>
+        <argsstring>()</argsstring>
+        <name>InternalThreadEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a96cc4161869c0e963d31fd2d462f7f01" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void _JARSControl::InternalCallback</definition>
+        <argsstring>()</argsstring>
+        <name>InternalCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="22" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class__JARSControl_1a8a5f2a09daffa77a92e351be46f607a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_JARSControl::_JARSControl</definition>
+        <argsstring>()</argsstring>
+        <name>_JARSControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a3373fa4a920c76cf6d66d1668d7b389c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_JARSControl::~_JARSControl</definition>
+        <argsstring>()</argsstring>
+        <name>~_JARSControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a6627542a7073fc2a460bc8b5b380f937" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void _JARSControl::jro_MatchParameters</definition>
+        <argsstring>(ExpParameters *ExpParam)</argsstring>
+        <name>jro_MatchParameters</name>
+        <param>
+          <type><ref refid="classExpParameters" kindref="compound">ExpParameters</ref> *</type>
+          <declname>ExpParam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a1dc4dd8d70448789ea8df65ee92eae82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void _JARSControl::jro_AssignMemory</definition>
+        <argsstring>(MemoryManager *MemManager, void(*ptrClientFunc)(bool sucess), address host_address)</argsstring>
+        <name>jro_AssignMemory</name>
+        <param>
+          <type><ref refid="classMemoryManager" kindref="compound">MemoryManager</ref> *</type>
+          <declname>MemManager</declname>
+        </param>
+        <param>
+          <type>void(*)(bool sucess)</type>
+          <declname>ptrClientFunc</declname>
+        </param>
+        <param>
+          <type><ref refid="structaddress" kindref="compound">address</ref></type>
+          <declname>host_address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a580e2201213c8276faaa2022c28d5a03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::jro_InitAcquisition</definition>
+        <argsstring>()</argsstring>
+        <name>jro_InitAcquisition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a3a32dd8bf71407e2657267980476ca50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::jro_StopAcquisition</definition>
+        <argsstring>()</argsstring>
+        <name>jro_StopAcquisition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="39" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class__JARSControl_1aa5efa593e794a87b13f2af5482b6e206" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>static void* _JARSControl::InternalRcvFunc</definition>
+        <argsstring>(void *This)</argsstring>
+        <name>InternalRcvFunc</name>
+        <param>
+          <type>void *</type>
+          <declname>This</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1aed242879aa7d8e1b0b6c8ef39eb2678e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>static void* _JARSControl::InternalThreadEntryFunc</definition>
+        <argsstring>(void *This)</argsstring>
+        <name>InternalThreadEntryFunc</name>
+        <param>
+          <type>void *</type>
+          <declname>This</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a9efe58dd0e9e72ee6b0e52c36946e964" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>static void* _JARSControl::InternalCallbackFunc</definition>
+        <argsstring>(void *This)</argsstring>
+        <name>InternalCallbackFunc</name>
+        <param>
+          <type>void *</type>
+          <declname>This</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="42" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class__JARSControl_1a1f27f7a3c63882d8856f53581b13a834" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void _JARSControl::RemoveMark</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveMark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1aa65814986c93ce5d420b4287f7eb8238" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::RESET_CTRL_COMMAND</definition>
+        <argsstring>()</argsstring>
+        <name>RESET_CTRL_COMMAND</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="73" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a56a2da34d863317fc6e7df9cdf7d4484" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::MODE_OPER_COMMAND</definition>
+        <argsstring>()</argsstring>
+        <name>MODE_OPER_COMMAND</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a38a9532a2960f085bcea1050999523e4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::SELECT_RXD_COMMAND</definition>
+        <argsstring>()</argsstring>
+        <name>SELECT_RXD_COMMAND</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1aebc1443f83beb9a2e849ba264c4462fa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::PW_RXD_COMMAND</definition>
+        <argsstring>()</argsstring>
+        <name>PW_RXD_COMMAND</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="76" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a169aad7ff69b10275117a35a830c3124" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::PROG_RXD_COMMAND</definition>
+        <argsstring>()</argsstring>
+        <name>PROG_RXD_COMMAND</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a3564fc23793b0c34cb5dfcfcbd4f3f54" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::HAB_TRANS_COMMAND</definition>
+        <argsstring>()</argsstring>
+        <name>HAB_TRANS_COMMAND</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="78" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a5ec74c0455a907b293a4725e195980f0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::DESHAB_TRANS_COMMAND</definition>
+        <argsstring>()</argsstring>
+        <name>DESHAB_TRANS_COMMAND</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="79" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a164e55b01d5707b8899812e04b5f5660" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::LoadMask</definition>
+        <argsstring>()</argsstring>
+        <name>LoadMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a5e6f3a93bd4ff115145090ed1e93cb16" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::ConfigDataTransfer</definition>
+        <argsstring>()</argsstring>
+        <name>ConfigDataTransfer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a27b6de0bd322535d498d02697f157eca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::SetSystem</definition>
+        <argsstring>(address host_address)</argsstring>
+        <name>SetSystem</name>
+        <param>
+          <type><ref refid="structaddress" kindref="compound">address</ref></type>
+          <declname>host_address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1a8401e05389d448f2fffc0f888d5b34e9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::LoadFilter</definition>
+        <argsstring>()</argsstring>
+        <name>LoadFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="84" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class__JARSControl_1ae6c8bc3f7eed8295cbef56394acad44d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _JARSControl::WriteFilter</definition>
+        <argsstring>()</argsstring>
+        <name>WriteFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="85" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="13">
+        <label>_GlobRCParam</label>
+        <link refid="struct__GlobRCParam"/>
+        <childnode refid="14" relation="usage">
+          <edgelabel>FixRCP</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>_JARSControl</label>
+        <link refid="class__JARSControl"/>
+        <childnode refid="10" relation="usage">
+          <edgelabel>MyExpParam</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>_RadarControllerParam</label>
+        <link refid="struct__RadarControllerParam"/>
+      </node>
+      <node id="11">
+        <label>_GlobPParam</label>
+        <link refid="struct__GlobPParam"/>
+        <childnode refid="12" relation="usage">
+          <edgelabel>FixPP</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>_ProcessParam</label>
+        <link refid="struct__ProcessParam"/>
+      </node>
+      <node id="15">
+        <label>_SystemParam</label>
+        <link refid="struct__SystemParam"/>
+      </node>
+      <node id="10">
+        <label>ExpParameters</label>
+        <link refid="classExpParameters"/>
+        <childnode refid="11" relation="usage">
+          <edgelabel>MyGPParam</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>MyGRCParam</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>MySystemParam</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="17" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" bodystart="16" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class__JARSControl_1a8a5f2a09daffa77a92e351be46f607a2" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>_JARSControl</name></member>
+      <member refid="class__JARSControl_1a5bb573744392a128014340ee4cbb9770" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>_thread_jars</name></member>
+      <member refid="class__JARSControl_1a335294492af9a25a87cd9861e5c6b4ff" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>_thread_jars_rcv</name></member>
+      <member refid="class__JARSControl_1a2e519598b0f380cd1c167b0c441c8f21" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>_thread_rcv</name></member>
+      <member refid="class__JARSControl_1a5e6f3a93bd4ff115145090ed1e93cb16" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>ConfigDataTransfer</name></member>
+      <member refid="class__JARSControl_1a5ec74c0455a907b293a4725e195980f0" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>DESHAB_TRANS_COMMAND</name></member>
+      <member refid="class__JARSControl_1a3564fc23793b0c34cb5dfcfcbd4f3f54" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>HAB_TRANS_COMMAND</name></member>
+      <member refid="class__JARSControl_1a96cc4161869c0e963d31fd2d462f7f01" prot="protected" virt="non-virtual"><scope>_JARSControl</scope><name>InternalCallback</name></member>
+      <member refid="class__JARSControl_1a9efe58dd0e9e72ee6b0e52c36946e964" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>InternalCallbackFunc</name></member>
+      <member refid="class__JARSControl_1a6e97ca0b4324bc1af443e36b28bb1d3e" prot="protected" virt="non-virtual"><scope>_JARSControl</scope><name>InternalRcv</name></member>
+      <member refid="class__JARSControl_1aa5efa593e794a87b13f2af5482b6e206" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>InternalRcvFunc</name></member>
+      <member refid="class__JARSControl_1a57bb6d2e0d1c5e18bd101de314651e8c" prot="protected" virt="non-virtual"><scope>_JARSControl</scope><name>InternalThreadEntry</name></member>
+      <member refid="class__JARSControl_1aed242879aa7d8e1b0b6c8ef39eb2678e" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>InternalThreadEntryFunc</name></member>
+      <member refid="class__JARSControl_1a1dc4dd8d70448789ea8df65ee92eae82" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>jro_AssignMemory</name></member>
+      <member refid="class__JARSControl_1a580e2201213c8276faaa2022c28d5a03" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>jro_InitAcquisition</name></member>
+      <member refid="class__JARSControl_1a6627542a7073fc2a460bc8b5b380f937" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>jro_MatchParameters</name></member>
+      <member refid="class__JARSControl_1a3a32dd8bf71407e2657267980476ca50" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>jro_StopAcquisition</name></member>
+      <member refid="class__JARSControl_1a8401e05389d448f2fffc0f888d5b34e9" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>LoadFilter</name></member>
+      <member refid="class__JARSControl_1a164e55b01d5707b8899812e04b5f5660" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>LoadMask</name></member>
+      <member refid="class__JARSControl_1af22ac24cb398de0720ab962d79a8498f" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>m_AcqBuffer</name></member>
+      <member refid="class__JARSControl_1a0f221ac2a023e06426eadc79f7f3abda" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>m_AcqNIBuffer</name></member>
+      <member refid="class__JARSControl_1a34788b66b29a6269737b84bc5addc4bf" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>m_AcqNIDoubleBuffer</name></member>
+      <member refid="class__JARSControl_1acd325d1f968db3a0e99e8e32ba926683" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>m_MarkRe</name></member>
+      <member refid="class__JARSControl_1a9f3ac037aec35c612eda889c95813cba" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>m_nCardsMask</name></member>
+      <member refid="class__JARSControl_1af853f0f272eed0ca955df739651eb5a4" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>m_nChannelsMask</name></member>
+      <member refid="class__JARSControl_1a01012691c14372f45f45089e47641086" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>m_nCountCoeff</name></member>
+      <member refid="class__JARSControl_1a8a367362f9ac3b2d03c8d823ccce03d6" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>m_nFilterCoeff</name></member>
+      <member refid="class__JARSControl_1ad7902609ce64c8c0be327e3a6c873b20" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>m_NumMarks</name></member>
+      <member refid="class__JARSControl_1a23d97fafb2a8484a913c9ae0cbf96b53" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>m_SizeofBuffer</name></member>
+      <member refid="class__JARSControl_1a56a2da34d863317fc6e7df9cdf7d4484" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>MODE_OPER_COMMAND</name></member>
+      <member refid="class__JARSControl_1a3a9bee0735edcc19019ea89c876bb324" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>MyExpParam</name></member>
+      <member refid="class__JARSControl_1af2c55c9ade0b313c614f01f381d7fc6e" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>MySP601</name></member>
+      <member refid="class__JARSControl_1a63513f01960f9ee3368ffa762016f675" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>payload</name></member>
+      <member refid="class__JARSControl_1a169aad7ff69b10275117a35a830c3124" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>PROG_RXD_COMMAND</name></member>
+      <member refid="class__JARSControl_1a83109c7d938a17dcd5344b8984489490" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>ptrFunc</name></member>
+      <member refid="class__JARSControl_1aebc1443f83beb9a2e849ba264c4462fa" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>PW_RXD_COMMAND</name></member>
+      <member refid="class__JARSControl_1a1f27f7a3c63882d8856f53581b13a834" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>RemoveMark</name></member>
+      <member refid="class__JARSControl_1aa65814986c93ce5d420b4287f7eb8238" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>RESET_CTRL_COMMAND</name></member>
+      <member refid="class__JARSControl_1a38a9532a2960f085bcea1050999523e4" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>SELECT_RXD_COMMAND</name></member>
+      <member refid="class__JARSControl_1a27b6de0bd322535d498d02697f157eca" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>SetSystem</name></member>
+      <member refid="class__JARSControl_1ac1d0fcec75e87d34d558379c2dda1ba5" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>VarSetSystem</name></member>
+      <member refid="class__JARSControl_1ae6c8bc3f7eed8295cbef56394acad44d" prot="private" virt="non-virtual"><scope>_JARSControl</scope><name>WriteFilter</name></member>
+      <member refid="class__JARSControl_1a3373fa4a920c76cf6d66d1668d7b389c" prot="public" virt="non-virtual"><scope>_JARSControl</scope><name>~_JARSControl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

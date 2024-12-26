@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classsp601__config" kind="class" language="C++" prot="public">
+    <compoundname>sp601_config</compoundname>
+    <includes refid="sp601__config_8h" local="no">sp601_config.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsp601__config_1a647d1666043bbbff8ea0212544c9fd5d" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* sp601_config::sp601_ip</definition>
+        <argsstring></argsstring>
+        <name>sp601_ip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" line="14" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsp601__config_1a8425fde699cfd9476b57621d6ef53129" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* sp601_config::SP601_MAC</definition>
+        <argsstring></argsstring>
+        <name>SP601_MAC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" line="15" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsp601__config_1ad6492c0298daa685d0ba7dfc38a85b14" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* sp601_config::SP601_IP</definition>
+        <argsstring></argsstring>
+        <name>SP601_IP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" line="16" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsp601__config_1af3c1756c00b9954a476698c62911feb7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sp601_config::SP601_PORT</definition>
+        <argsstring></argsstring>
+        <name>SP601_PORT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" line="17" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsp601__config_1a67d08111f19266ac84a3781d1c204b6e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string sp601_config::sp601_ip_string</definition>
+        <argsstring></argsstring>
+        <name>sp601_ip_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" line="18" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsp601__config_1a5f4214fdc2d5b4cc6cf2665ad6233838" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* sp601_config::IP_host</definition>
+        <argsstring></argsstring>
+        <name>IP_host</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" line="19" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsp601__config_1a2c2cf407fda2eff4bfb66c2624105c7f" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* sp601_config::MAC_host</definition>
+        <argsstring></argsstring>
+        <name>MAC_host</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" line="20" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsp601__config_1aa8d75acd776756f7b46560c340a4817d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int sp601_config::PORT_host</definition>
+        <argsstring></argsstring>
+        <name>PORT_host</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" line="21" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsp601__config_1a26dac3fc752ef1cac9c9a9f6f05782b0" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char sp601_config::REPLY_START_DATA_PAYLOAD[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>REPLY_START_DATA_PAYLOAD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" line="23" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsp601__config_1a6d8f61af0597bc1c6ca208898fc76f77" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool sp601_config::VERBOSE_MODE</definition>
+        <argsstring></argsstring>
+        <name>VERBOSE_MODE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" line="26" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsp601__config_1a0f455ea81940b646c26beefe54ce475a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sp601_config::sp601_config</definition>
+        <argsstring>()</argsstring>
+        <name>sp601_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" line="27" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="75">
+        <label>sp601_config</label>
+        <link refid="classsp601__config"/>
+        <childnode refid="76" relation="usage">
+          <edgelabel>sp601_ip_string</edgelabel>
+        </childnode>
+      </node>
+      <node id="77">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="76">
+        <label>std::string</label>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" line="11" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h" bodystart="10" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classsp601__config_1a5f4214fdc2d5b4cc6cf2665ad6233838" prot="public" virt="non-virtual"><scope>sp601_config</scope><name>IP_host</name></member>
+      <member refid="classsp601__config_1a2c2cf407fda2eff4bfb66c2624105c7f" prot="public" virt="non-virtual"><scope>sp601_config</scope><name>MAC_host</name></member>
+      <member refid="classsp601__config_1aa8d75acd776756f7b46560c340a4817d" prot="public" virt="non-virtual"><scope>sp601_config</scope><name>PORT_host</name></member>
+      <member refid="classsp601__config_1a26dac3fc752ef1cac9c9a9f6f05782b0" prot="public" virt="non-virtual"><scope>sp601_config</scope><name>REPLY_START_DATA_PAYLOAD</name></member>
+      <member refid="classsp601__config_1a0f455ea81940b646c26beefe54ce475a" prot="public" virt="non-virtual"><scope>sp601_config</scope><name>sp601_config</name></member>
+      <member refid="classsp601__config_1a647d1666043bbbff8ea0212544c9fd5d" prot="public" virt="non-virtual"><scope>sp601_config</scope><name>sp601_ip</name></member>
+      <member refid="classsp601__config_1ad6492c0298daa685d0ba7dfc38a85b14" prot="public" virt="non-virtual"><scope>sp601_config</scope><name>SP601_IP</name></member>
+      <member refid="classsp601__config_1a67d08111f19266ac84a3781d1c204b6e" prot="public" virt="non-virtual"><scope>sp601_config</scope><name>sp601_ip_string</name></member>
+      <member refid="classsp601__config_1a8425fde699cfd9476b57621d6ef53129" prot="public" virt="non-virtual"><scope>sp601_config</scope><name>SP601_MAC</name></member>
+      <member refid="classsp601__config_1af3c1756c00b9954a476698c62911feb7" prot="public" virt="non-virtual"><scope>sp601_config</scope><name>SP601_PORT</name></member>
+      <member refid="classsp601__config_1a6d8f61af0597bc1c6ca208898fc76f77" prot="public" virt="non-virtual"><scope>sp601_config</scope><name>VERBOSE_MODE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

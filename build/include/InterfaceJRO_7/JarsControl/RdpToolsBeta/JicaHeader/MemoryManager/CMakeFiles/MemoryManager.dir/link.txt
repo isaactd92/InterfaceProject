@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMemoryManager.a  CMakeFiles/MemoryManager.dir/MemoryManager.cpp.o
+/usr/bin/ranlib libMemoryManager.a

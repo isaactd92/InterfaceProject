@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="ExperimentParameters_8h" kind="file" language="C++">
+    <compoundname>ExperimentParameters.h</compoundname>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">string</includes>
+    <includes refid="ExperimentConstants_8h" local="yes">ExperimentConstants/ExperimentConstants.h</includes>
+    <includedby refid="MemoryManager_8h" local="yes">MemoryManager.h</includedby>
+    <incdepgraph>
+      <node id="39">
+        <label>stdlib.h</label>
+      </node>
+      <node id="38">
+        <label>ExperimentParameters.h</label>
+        <link refid="ExperimentParameters.h"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>string</label>
+      </node>
+      <node id="43">
+        <label>ExperimentConstants/ExperimentConstants.h</label>
+        <link refid="ExperimentConstants_8h"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>string.h</label>
+      </node>
+      <node id="45">
+        <label>time.h</label>
+      </node>
+      <node id="44">
+        <label>sys/timeb.h</label>
+      </node>
+      <node id="40">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="49">
+        <label>RdpToolsBeta.h</label>
+        <link refid="RdpToolsBeta_8h"/>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>ExperimentParameters.h</label>
+        <link refid="ExperimentParameters.h"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>MemoryManager.h</label>
+        <link refid="MemoryManager_8h"/>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>ArgProcessor.h</label>
+        <link refid="ArgProcessor_8h"/>
+      </node>
+      <node id="50">
+        <label>JarsControl.h</label>
+        <link refid="JarsControl_8h"/>
+        <childnode refid="51" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>JicaHeader.h</label>
+        <link refid="JicaHeader_8h"/>
+        <childnode refid="49" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classExpParameters" prot="public">ExpParameters</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>ARGPROCESSOR_JARSCONTROL_RDPTOOLSBETA_JICAHEADER_MEMORYMANAGER_EXPERIMENTPARAMETER_EXPERIMENTPARAMETERS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ARGPROCESSOR_JARSCONTROL_RDPTOOLSBETA_JICAHEADER_MEMORYMANAGER_EXPERIMENTPARAMETER_EXPERIMENTPARAMETERS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>usr/include</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>usr/include</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//usr/include</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//usr/include/c++</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="ExperimentConstants_8h" kindref="compound">ExperimentConstants/ExperimentConstants.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classExpParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classExpParameters" kindref="compound">ExpParameters</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/></highlight><highlight class="comment">//http://www.cplusplus.com/reference/cstdio/<sp/>(stdio<sp/>,<sp/>FILE)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ReadRCParameters(FILE*<sp/>RACPFile,</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>StrTemp);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ReadSysParameters(FILE*<sp/>RACPFile,</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>StrTemp);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ReadProcessParameters(FILE*<sp/>RACPFile,</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>StrTemp);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ReadJARSParameters(FILE*<sp/>RACPFile,</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>StrTemp);<sp/></highlight><highlight class="comment">/*Agregado<sp/>x<sp/>Marcos<sp/>20<sp/>mayo<sp/>2010*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>FindValue(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>MyCad);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19" refid="classExpParameters_1a3b97a95ea010ca20056bbc9f6807fc00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="classExpParameters_1a3b97a95ea010ca20056bbc9f6807fc00" kindref="member">PathExperiment</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classExpParameters_1aded6d8c3b1bce0f9c25d0d54f38c86d4" kindref="member">ExpParameters</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classExpParameters_1a1d2cdb6a0e68a772e40d435fb5e3f3e3" kindref="member">Initialize</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classExpParameters_1a67d7dd1c56044ab9f858ef01f4ad4916" kindref="member">ReadRACPFileParameters</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>RACPFileName);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classExpParameters_1ab7fee74dc5c37afaa4ec2dd350b68941" kindref="member">~ExpParameters</ref>();</highlight></codeline>
+<codeline lineno="24" refid="classExpParameters_1ad295cabf051467354884f7dc952aced6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__SystemParam" kindref="compound">SystemParam</ref><sp/><ref refid="classExpParameters_1ad295cabf051467354884f7dc952aced6" kindref="member">MySystemParam</ref>;</highlight></codeline>
+<codeline lineno="25" refid="classExpParameters_1a6f9185d4fae1038b1bf6672cd5937eef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__GlobPParam" kindref="compound">GlobPParam</ref><sp/><sp/><ref refid="classExpParameters_1a6f9185d4fae1038b1bf6672cd5937eef" kindref="member">MyGPParam</ref>;</highlight></codeline>
+<codeline lineno="26" refid="classExpParameters_1a3101e02498e631d62ed0a08bbdd97ce4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__GlobRCParam" kindref="compound">GlobRCParam</ref><sp/><ref refid="classExpParameters_1a3101e02498e631d62ed0a08bbdd97ce4" kindref="member">MyGRCParam</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Added<sp/>April<sp/>5th<sp/>2011</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>FtpParam<sp/>MyFtpParam;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//---------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="classExpParameters_1a44eeb0bb43da22f9b96e3ccf9b864e54" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classExpParameters_1a44eeb0bb43da22f9b96e3ccf9b864e54" kindref="member">SaveData</ref>;</highlight><highlight class="comment">//atributo<sp/>definido<sp/>en<sp/>experiment<sp/>parameter<sp/>.cpp.Nos<sp/>da<sp/>el<sp/>valor<sp/>de<sp/>SAVE<sp/>DATA<sp/>del<sp/>.racp<sp/>(yes=<sp/>true,no=false)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classExpParameters_1ac72964b04dc924d0916d94435407715d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classExpParameters_1ac72964b04dc924d0916d94435407715d" kindref="member">FlagSIR</ref>;</highlight><highlight class="comment">//atributo<sp/>definido<sp/>en<sp/>experiment<sp/>parameter<sp/>.cpp.Nos<sp/>da<sp/>el<sp/>valor<sp/>de<sp/>ENABLE<sp/>SIR<sp/>del<sp/>.racp(yes=<sp/>true,no=false)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="classExpParameters_1a749ba5fb272f835591296dae9bcccd53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classExpParameters_1a749ba5fb272f835591296dae9bcccd53" kindref="member">OwnWindow</ref>;<sp/></highlight><highlight class="comment">//atributo<sp/>definido<sp/>en<sp/>experiment<sp/>parameter<sp/>.cpp<sp/>.<sp/>Nos<sp/>da<sp/>el<sp/>valor<sp/>de<sp/>GENERATE<sp/>OWN<sp/>SAMPLING<sp/>WINDOW<sp/>del.racp<sp/>(yes=<sp/>true,no=false)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">/*************Agregado<sp/>el<sp/>03Nov2009<sp/>por<sp/>Marcos<sp/>Inoñan***************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="classExpParameters_1a04868e35f3f05bfa80d2a2e6e382ca68" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classExpParameters_1a04868e35f3f05bfa80d2a2e6e382ca68" kindref="member">EnableJARS</ref>;</highlight><highlight class="comment">//usado<sp/>para<sp/>definir<sp/>el<sp/>tamaño<sp/>total<sp/>de<sp/>memoria<sp/>que<sp/>guardará<sp/>las<sp/>muestras//Adquiere<sp/>valor<sp/>en<sp/>ArgProcessor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classExpParameters_1af62cf5ce717f2c5a8529ca7e709e9715" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classExpParameters_1af62cf5ce717f2c5a8529ca7e709e9715" kindref="member">EnableCooperSimulation</ref>;</highlight><highlight class="comment">//Adquiere<sp/>valor<sp/>en<sp/>ArgProcessor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">/*************Agregado<sp/>el<sp/>09<sp/>de<sp/>febrero<sp/>del<sp/>2010<sp/>por<sp/>Alan<sp/>Aguilar***************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="classExpParameters_1a94423e2a632a70b5565f462b31cf0451" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="classExpParameters_1a94423e2a632a70b5565f462b31cf0451" kindref="member">RacpFileName</ref>;</highlight><highlight class="comment">//Guarda<sp/>una<sp/>copia<sp/>del<sp/>.racp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentParameters.h"/>
+  </compounddef>
+</doxygen>

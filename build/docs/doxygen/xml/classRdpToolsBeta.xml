@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classRdpToolsBeta" kind="class" language="C++" prot="public">
+    <compoundname>RdpToolsBeta</compoundname>
+    <includes refid="RdpToolsBeta_8h" local="no">RdpToolsBeta.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classRdpToolsBeta_1a8417bc27718a5695442794a969dabf64" prot="private" static="no" mutable="no">
+        <type><ref refid="classExpParameters" kindref="compound">ExpParameters</ref> *</type>
+        <definition>ExpParameters* RdpToolsBeta::MyExpParam</definition>
+        <argsstring></argsstring>
+        <name>MyExpParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" line="82" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRdpToolsBeta_1a01d50e2b6ba0fc698830ccc1315a58bf" prot="private" static="no" mutable="no">
+        <type><ref refid="classMemoryManager" kindref="compound">MemoryManager</ref> *</type>
+        <definition>MemoryManager* RdpToolsBeta::MyMemManager</definition>
+        <argsstring></argsstring>
+        <name>MyMemManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" line="83" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRdpToolsBeta_1a7d16fd73e88508cebd358cae0a3595aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>RdpToolsBeta::RdpToolsBeta</definition>
+        <argsstring>()</argsstring>
+        <name>RdpToolsBeta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classRdpToolsBeta_1a0b0f4ee66ef5b97685b5516df8c67d32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>RdpToolsBeta::~RdpToolsBeta</definition>
+        <argsstring>()</argsstring>
+        <name>~RdpToolsBeta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classRdpToolsBeta_1aaecbe9ab223710a25f9aff8422834ebc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RdpToolsBeta::GetExtParameters</definition>
+        <argsstring>(ExpParameters *ExpParam, MemoryManager *MemManger)</argsstring>
+        <name>GetExtParameters</name>
+        <param>
+          <type><ref refid="classExpParameters" kindref="compound">ExpParameters</ref> *</type>
+          <declname>ExpParam</declname>
+        </param>
+        <param>
+          <type><ref refid="classMemoryManager" kindref="compound">MemoryManager</ref> *</type>
+          <declname>MemManger</declname>
+        </param>
+        <exceptions> throw ()</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" line="76" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classRdpToolsBeta_1ac1847de2ce7448c0229f7a1dfa576a3a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RdpToolsBeta::initVariables</definition>
+        <argsstring>()</argsstring>
+        <name>initVariables</name>
+        <exceptions> throw ()</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" line="88" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" line="69" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" bodystart="68" bodyend="89"/>
+    <listofallmembers>
+      <member refid="classRdpToolsBeta_1aaecbe9ab223710a25f9aff8422834ebc" prot="public" virt="non-virtual"><scope>RdpToolsBeta</scope><name>GetExtParameters</name></member>
+      <member refid="classRdpToolsBeta_1ac1847de2ce7448c0229f7a1dfa576a3a" prot="private" virt="non-virtual"><scope>RdpToolsBeta</scope><name>initVariables</name></member>
+      <member refid="classRdpToolsBeta_1a8417bc27718a5695442794a969dabf64" prot="private" virt="non-virtual"><scope>RdpToolsBeta</scope><name>MyExpParam</name></member>
+      <member refid="classRdpToolsBeta_1a01d50e2b6ba0fc698830ccc1315a58bf" prot="private" virt="non-virtual"><scope>RdpToolsBeta</scope><name>MyMemManager</name></member>
+      <member refid="classRdpToolsBeta_1a7d16fd73e88508cebd358cae0a3595aa" prot="public" virt="non-virtual"><scope>RdpToolsBeta</scope><name>RdpToolsBeta</name></member>
+      <member refid="classRdpToolsBeta_1a0b0f4ee66ef5b97685b5516df8c67d32" prot="public" virt="non-virtual"><scope>RdpToolsBeta</scope><name>~RdpToolsBeta</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

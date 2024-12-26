@@ -1,0 +1,2 @@
+/usr/bin/ar qc libArgProcessor.a  CMakeFiles/ArgProcessor.dir/ArgProcessor.cpp.o
+/usr/bin/ranlib libArgProcessor.a

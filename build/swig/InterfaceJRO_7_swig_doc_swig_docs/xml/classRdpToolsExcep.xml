@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classRdpToolsExcep" kind="class" language="C++" prot="public">
+    <compoundname>RdpToolsExcep</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::exception</basecompoundref>
+    <includes refid="RdpToolsBeta_8h" local="no">RdpToolsBeta.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classRdpToolsExcep_1acb0b618015a0e342c8cd4f8dcf7653eb" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string RdpToolsExcep::msg</definition>
+        <argsstring></argsstring>
+        <name>msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" line="63" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRdpToolsExcep_1a828352790674770d59dbf4fc4c3ee35f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string RdpToolsExcep::info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" line="64" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classRdpToolsExcep_1a10ddf5b5a078ffd988549c7bfa323359" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string RdpToolsExcep::logfilename</definition>
+        <argsstring></argsstring>
+        <name>logfilename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" line="65" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRdpToolsExcep_1a0629676f8ca01ae673816c54a9222c4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RdpToolsExcep::RdpToolsExcep</definition>
+        <argsstring>(int err, char *logpath)</argsstring>
+        <name>RdpToolsExcep</name>
+        <param>
+          <type>int</type>
+          <declname>err</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>logpath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" line="20" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" bodystart="20" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classRdpToolsExcep_1a0c2578969fefc405555829efe7edc477" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RdpToolsExcep::~RdpToolsExcep</definition>
+        <argsstring>()</argsstring>
+        <name>~RdpToolsExcep</name>
+        <exceptions> throw ()</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" line="50" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classRdpToolsExcep_1a13cb3c2f351ba520216e69bfa5a5bbd3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* RdpToolsExcep::what</definition>
+        <argsstring>() const </argsstring>
+        <name>what</name>
+        <exceptions> throw ()</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" line="52" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" bodystart="52" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="62">
+        <label>std::exception</label>
+      </node>
+      <node id="61">
+        <label>RdpToolsExcep</label>
+        <link refid="classRdpToolsExcep"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="64">
+        <label>std::exception</label>
+      </node>
+      <node id="63">
+        <label>RdpToolsExcep</label>
+        <link refid="classRdpToolsExcep"/>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" line="16" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/RdpToolsBeta.h" bodystart="15" bodyend="66"/>
+    <listofallmembers>
+      <member refid="classRdpToolsExcep_1a828352790674770d59dbf4fc4c3ee35f" prot="private" virt="non-virtual"><scope>RdpToolsExcep</scope><name>info</name></member>
+      <member refid="classRdpToolsExcep_1a10ddf5b5a078ffd988549c7bfa323359" prot="private" virt="non-virtual"><scope>RdpToolsExcep</scope><name>logfilename</name></member>
+      <member refid="classRdpToolsExcep_1acb0b618015a0e342c8cd4f8dcf7653eb" prot="private" virt="non-virtual"><scope>RdpToolsExcep</scope><name>msg</name></member>
+      <member refid="classRdpToolsExcep_1a0629676f8ca01ae673816c54a9222c4c" prot="public" virt="non-virtual"><scope>RdpToolsExcep</scope><name>RdpToolsExcep</name></member>
+      <member refid="classRdpToolsExcep_1a13cb3c2f351ba520216e69bfa5a5bbd3" prot="public" virt="non-virtual"><scope>RdpToolsExcep</scope><name>what</name></member>
+      <member refid="classRdpToolsExcep_1a0c2578969fefc405555829efe7edc477" prot="public" virt="non-virtual"><scope>RdpToolsExcep</scope><name>~RdpToolsExcep</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

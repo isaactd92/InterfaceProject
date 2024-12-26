@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio INTERFACEJRO_7 C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the INTERFACEJRO_7 GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+

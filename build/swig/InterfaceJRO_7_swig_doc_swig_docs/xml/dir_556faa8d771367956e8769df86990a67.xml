@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_556faa8d771367956e8769df86990a67" kind="dir">
+    <compoundname>JicaHeader</compoundname>
+    <innerdir refid="dir_742457667b5a4ca4ab908cd6f9a74e06">MemoryManager</innerdir>
+    <innerfile refid="JicaHeader_8h">JicaHeader.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/"/>
+  </compounddef>
+</doxygen>

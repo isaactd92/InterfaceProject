@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<block>
+  <name>InterfaceJRO_7</name>
+  <key>InterfaceJRO_7_InterfaceJRO_7</key>
+  <category>[InterfaceJRO_7]</category>
+  <import>import InterfaceJRO_7</import>
+  <make>InterfaceJRO_7.InterfaceJRO_7($path_file, $mac_block, $port_block, $ip_host)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Path_racp</name>
+    <key>path_file</key>
+    <value></value>
+    <type>file_open</type>
+  </param>
+  <param>
+    <name>MAC_host</name>
+    <key>mac_block</key>
+    <value></value>
+    <type>string</type>
+  </param>
+  <param>
+    <name>Port_host</name>
+    <key>port_block</key>
+    <value></value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>IP_host</name>
+    <key>ip_host</key>
+    <value></value>
+    <type>string</type>
+  </param>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

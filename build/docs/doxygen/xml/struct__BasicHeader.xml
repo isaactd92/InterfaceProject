@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="struct__BasicHeader" kind="struct" language="C++" prot="public">
+    <compoundname>_BasicHeader</compoundname>
+    <includes refid="ExperimentConstants_8h" local="no">ExperimentConstants.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__BasicHeader_1a461e829d4d07d706cd2e12f4c09fe2bb" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _BasicHeader::nHeaderTotallength</definition>
+        <argsstring></argsstring>
+        <name>nHeaderTotallength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="120" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__BasicHeader_1a534994750402c2afd8f9f478a5ba7a94" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _BasicHeader::nHeaderBasiclength</definition>
+        <argsstring></argsstring>
+        <name>nHeaderBasiclength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="121" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__BasicHeader_1a3ca85523702521305482fb0c930c0e4c" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short _BasicHeader::nHeaderVer</definition>
+        <argsstring></argsstring>
+        <name>nHeaderVer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="122" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__BasicHeader_1a2dcbc08d1bcf9c32dba64431de4673ee" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _BasicHeader::nBlockCounter</definition>
+        <argsstring></argsstring>
+        <name>nBlockCounter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="123" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__BasicHeader_1ab2f87b6ca375cee352e379ebb97b04de" prot="public" static="no" mutable="no">
+        <type>struct timeb</type>
+        <definition>struct timeb _BasicHeader::FullTime</definition>
+        <argsstring></argsstring>
+        <name>FullTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="123" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__BasicHeader_1af37c04e71ace072c6b096b4c16708ef4" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _BasicHeader::nError</definition>
+        <argsstring></argsstring>
+        <name>nError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="125" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" line="120" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/ExperimentParameters/ExperimentConstants/ExperimentConstants.h" bodystart="119" bodyend="126"/>
+    <listofallmembers>
+      <member refid="struct__BasicHeader_1ab2f87b6ca375cee352e379ebb97b04de" prot="public" virt="non-virtual"><scope>_BasicHeader</scope><name>FullTime</name></member>
+      <member refid="struct__BasicHeader_1a2dcbc08d1bcf9c32dba64431de4673ee" prot="public" virt="non-virtual"><scope>_BasicHeader</scope><name>nBlockCounter</name></member>
+      <member refid="struct__BasicHeader_1af37c04e71ace072c6b096b4c16708ef4" prot="public" virt="non-virtual"><scope>_BasicHeader</scope><name>nError</name></member>
+      <member refid="struct__BasicHeader_1a534994750402c2afd8f9f478a5ba7a94" prot="public" virt="non-virtual"><scope>_BasicHeader</scope><name>nHeaderBasiclength</name></member>
+      <member refid="struct__BasicHeader_1a461e829d4d07d706cd2e12f4c09fe2bb" prot="public" virt="non-virtual"><scope>_BasicHeader</scope><name>nHeaderTotallength</name></member>
+      <member refid="struct__BasicHeader_1a3ca85523702521305482fb0c930c0e4c" prot="public" virt="non-virtual"><scope>_BasicHeader</scope><name>nHeaderVer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

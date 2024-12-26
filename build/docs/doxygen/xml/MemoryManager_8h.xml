@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="MemoryManager_8h" kind="file" language="C++">
+    <compoundname>MemoryManager.h</compoundname>
+    <includes refid="ExperimentParameters_8h" local="yes">ExperimentParameters/ExperimentParameters.h</includes>
+    <includes local="no">complex</includes>
+    <includedby refid="JicaHeader_8h" local="yes">JicaHeader.h</includedby>
+    <incdepgraph>
+      <node id="145">
+        <label>stdlib.h</label>
+      </node>
+      <node id="144">
+        <label>ExperimentParameters/ExperimentParameters.h</label>
+        <link refid="ExperimentParameters_8h"/>
+        <childnode refid="145" relation="include">
+        </childnode>
+        <childnode refid="146" relation="include">
+        </childnode>
+        <childnode refid="147" relation="include">
+        </childnode>
+        <childnode refid="148" relation="include">
+        </childnode>
+        <childnode refid="149" relation="include">
+        </childnode>
+      </node>
+      <node id="148">
+        <label>string</label>
+      </node>
+      <node id="149">
+        <label>ExperimentConstants/ExperimentConstants.h</label>
+        <link refid="ExperimentConstants_8h"/>
+        <childnode refid="145" relation="include">
+        </childnode>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="151" relation="include">
+        </childnode>
+      </node>
+      <node id="143">
+        <label>MemoryManager.h</label>
+        <link refid="MemoryManager.h"/>
+        <childnode refid="144" relation="include">
+        </childnode>
+        <childnode refid="152" relation="include">
+        </childnode>
+      </node>
+      <node id="147">
+        <label>string.h</label>
+      </node>
+      <node id="151">
+        <label>time.h</label>
+      </node>
+      <node id="150">
+        <label>sys/timeb.h</label>
+      </node>
+      <node id="152">
+        <label>complex</label>
+      </node>
+      <node id="146">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="155">
+        <label>RdpToolsBeta.h</label>
+        <link refid="RdpToolsBeta_8h"/>
+        <childnode refid="156" relation="include">
+        </childnode>
+      </node>
+      <node id="153">
+        <label>MemoryManager.h</label>
+        <link refid="MemoryManager.h"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+      </node>
+      <node id="157">
+        <label>ArgProcessor.h</label>
+        <link refid="ArgProcessor_8h"/>
+        <childnode refid="158" relation="include">
+        </childnode>
+      </node>
+      <node id="158">
+        <label>InterfaceJRO_7_impl.h</label>
+        <link refid="InterfaceJRO__7__impl_8h"/>
+      </node>
+      <node id="156">
+        <label>JarsControl.h</label>
+        <link refid="JarsControl_8h"/>
+        <childnode refid="157" relation="include">
+        </childnode>
+      </node>
+      <node id="154">
+        <label>JicaHeader.h</label>
+        <link refid="JicaHeader_8h"/>
+        <childnode refid="155" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classMemoryManager" prot="public">MemoryManager</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/RdpToolsBeta/JicaHeader/MemoryManager/MemoryManager.h"/>
+  </compounddef>
+</doxygen>

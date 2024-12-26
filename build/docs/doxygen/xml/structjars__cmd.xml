@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structjars__cmd" kind="struct" language="C++" prot="public">
+    <compoundname>jars_cmd</compoundname>
+    <includes refid="sp601__command_8h" local="no">sp601_command.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structjars__cmd_1ac1538c1c69d889eefbabfc077e59d96f" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* jars_cmd::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="34" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structjars__cmd_1a08d03301fdc843da88b71ab8d5576a97" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char jars_cmd::val</definition>
+        <argsstring></argsstring>
+        <name>val</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="35" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structjars__cmd_1a2ac9bbc25760e1a29a170271d68ea390" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char jars_cmd::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="36" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structjars__cmd_1a667569fb6dd6e6bc0b0699d0e1a49b22" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool jars_cmd::ack</definition>
+        <argsstring></argsstring>
+        <name>ack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="37" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="33" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="33" bodyend="38"/>
+    <listofallmembers>
+      <member refid="structjars__cmd_1a667569fb6dd6e6bc0b0699d0e1a49b22" prot="public" virt="non-virtual"><scope>jars_cmd</scope><name>ack</name></member>
+      <member refid="structjars__cmd_1ac1538c1c69d889eefbabfc077e59d96f" prot="public" virt="non-virtual"><scope>jars_cmd</scope><name>name</name></member>
+      <member refid="structjars__cmd_1a2ac9bbc25760e1a29a170271d68ea390" prot="public" virt="non-virtual"><scope>jars_cmd</scope><name>size</name></member>
+      <member refid="structjars__cmd_1a08d03301fdc843da88b71ab8d5576a97" prot="public" virt="non-virtual"><scope>jars_cmd</scope><name>val</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

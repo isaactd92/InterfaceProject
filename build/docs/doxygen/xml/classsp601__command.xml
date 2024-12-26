@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classsp601__command" kind="class" language="C++" prot="public">
+    <compoundname>sp601_command</compoundname>
+    <includes refid="sp601__command_8h" local="no">sp601_command.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsp601__command_1ab96dc6299f8ee6dd7bde84584ea72d5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sp601_command::sp601_command</definition>
+        <argsstring>()</argsstring>
+        <name>sp601_command</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsp601__command_1a4acdc1e7593b27a8831b0bea12e27aa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sp601_command::~sp601_command</definition>
+        <argsstring>()</argsstring>
+        <name>~sp601_command</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsp601__command_1a00e7747470750f26ba33b69b9a1b028b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sp601_command::init</definition>
+        <argsstring>(address host_address)</argsstring>
+        <name>init</name>
+        <param>
+          <type><ref refid="structaddress" kindref="compound">address</ref></type>
+          <declname>host_address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsp601__command_1a0f20108067e472db69a628ecb02e2c4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ssize_t</type>
+        <definition>ssize_t sp601_command::receive</definition>
+        <argsstring>(char *buffer_rcv)</argsstring>
+        <name>receive</name>
+        <param>
+          <type>char *</type>
+          <declname>buffer_rcv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsp601__command_1a190c6be31617bd6b50fc7f4a451a56ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sp601_command::send</definition>
+        <argsstring>(uint8_t cmd, char code, const char *payload, size_t size_payload)</argsstring>
+        <name>send</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>cmd</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>payload</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size_payload</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="48" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="42" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="41" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classsp601__command_1a00e7747470750f26ba33b69b9a1b028b" prot="public" virt="non-virtual"><scope>sp601_command</scope><name>init</name></member>
+      <member refid="classsp601__command_1a0f20108067e472db69a628ecb02e2c4a" prot="public" virt="non-virtual"><scope>sp601_command</scope><name>receive</name></member>
+      <member refid="classsp601__command_1a190c6be31617bd6b50fc7f4a451a56ac" prot="public" virt="non-virtual"><scope>sp601_command</scope><name>send</name></member>
+      <member refid="classsp601__command_1ab96dc6299f8ee6dd7bde84584ea72d5f" prot="public" virt="non-virtual"><scope>sp601_command</scope><name>sp601_command</name></member>
+      <member refid="classsp601__command_1a4acdc1e7593b27a8831b0bea12e27aa5" prot="public" virt="non-virtual"><scope>sp601_command</scope><name>~sp601_command</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

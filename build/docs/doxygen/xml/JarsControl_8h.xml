@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="JarsControl_8h" kind="file" language="C++">
+    <compoundname>JarsControl.h</compoundname>
+    <includes refid="RdpToolsBeta_8h" local="yes">RdpToolsBeta/RdpToolsBeta.h</includes>
+    <includes refid="sp601__command_8h" local="yes">SP601/sp601_command.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">pthread.h</includes>
+    <includes local="no">unistd.h</includes>
+    <includedby refid="ArgProcessor_8h" local="yes">ArgProcessor.h</includedby>
+    <incdepgraph>
+      <node id="117">
+        <label>sp601_config.h</label>
+        <link refid="sp601__config_8h"/>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>RdpToolsBeta/RdpToolsBeta.h</label>
+        <link refid="RdpToolsBeta_8h"/>
+        <childnode refid="102" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+      </node>
+      <node id="106">
+        <label>stdlib.h</label>
+      </node>
+      <node id="111">
+        <label>ExperimentParameters/ExperimentParameters.h</label>
+        <link refid="ExperimentParameters_8h"/>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>string</label>
+      </node>
+      <node id="112">
+        <label>ExperimentConstants/ExperimentConstants.h</label>
+        <link refid="ExperimentConstants_8h"/>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>exception</label>
+      </node>
+      <node id="110">
+        <label>MemoryManager/MemoryManager.h</label>
+        <link refid="MemoryManager_8h"/>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+      </node>
+      <node id="119">
+        <label>pthread.h</label>
+      </node>
+      <node id="109">
+        <label>string.h</label>
+      </node>
+      <node id="120">
+        <label>unistd.h</label>
+      </node>
+      <node id="118">
+        <label>vector</label>
+      </node>
+      <node id="116">
+        <label>fpga/fpga_com.h</label>
+        <link refid="fpga__com_8h"/>
+        <childnode refid="103" relation="include">
+        </childnode>
+      </node>
+      <node id="107">
+        <label>time.h</label>
+      </node>
+      <node id="100">
+        <label>JarsControl.h</label>
+        <link refid="JarsControl.h"/>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="119" relation="include">
+        </childnode>
+        <childnode refid="120" relation="include">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>iostream</label>
+      </node>
+      <node id="113">
+        <label>sys/timeb.h</label>
+      </node>
+      <node id="105">
+        <label>JicaHeader/JicaHeader.h</label>
+        <link refid="JicaHeader_8h"/>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+      </node>
+      <node id="114">
+        <label>complex</label>
+      </node>
+      <node id="115">
+        <label>SP601/sp601_command.h</label>
+        <link refid="sp601__command_8h"/>
+        <childnode refid="116" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="122">
+        <label>ArgProcessor.h</label>
+        <link refid="ArgProcessor_8h"/>
+        <childnode refid="123" relation="include">
+        </childnode>
+      </node>
+      <node id="123">
+        <label>InterfaceJRO_7_impl.h</label>
+        <link refid="InterfaceJRO__7__impl_8h"/>
+      </node>
+      <node id="121">
+        <label>JarsControl.h</label>
+        <link refid="JarsControl.h"/>
+        <childnode refid="122" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class__JARSControl" prot="public">_JARSControl</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="JarsControl_8h_1ab25fcf174daff72a94fd8a69424c6a2e" prot="public" static="no" mutable="no">
+        <type><ref refid="class__JARSControl" kindref="compound">_JARSControl</ref></type>
+        <definition>_JARSControl JARSControl</definition>
+        <argsstring></argsstring>
+        <name>JARSControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h" line="89" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/JarsControl.h"/>
+  </compounddef>
+</doxygen>

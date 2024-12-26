@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classArgProcessor" kind="class" language="C++" prot="public">
+    <compoundname>ArgProcessor</compoundname>
+    <includes refid="ArgProcessor_8h" local="no">ArgProcessor.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classArgProcessor_1a01359a1ff1a6a9f19a71c97f992eec7a" prot="private" static="no" mutable="no">
+        <type><ref refid="classExpParameters" kindref="compound">ExpParameters</ref> &amp;</type>
+        <definition>ExpParameters&amp; ArgProcessor::MyParameters</definition>
+        <argsstring></argsstring>
+        <name>MyParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/ArgProcessor.h" line="10" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/ArgProcessor.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classArgProcessor_1a389b174af18021e3e81d0ddc58599a6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ArgProcessor::ArgProcessor</definition>
+        <argsstring>(ExpParameters &amp;MyParameters)</argsstring>
+        <name>ArgProcessor</name>
+        <param>
+          <type><ref refid="classExpParameters" kindref="compound">ExpParameters</ref> &amp;</type>
+          <declname>MyParameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/ArgProcessor.h" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classArgProcessor_1a2cad62b4bd3cb5245466d1f76876c915" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ArgProcessor::~ArgProcessor</definition>
+        <argsstring>()</argsstring>
+        <name>~ArgProcessor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/ArgProcessor.h" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classArgProcessor_1a7f00d6545730abc12fcf68ed863d2030" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArgProcessor::jro_arguments</definition>
+        <argsstring>(const char *path)</argsstring>
+        <name>jro_arguments</name>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/ArgProcessor.h" line="16" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/ArgProcessor.h" line="8" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/ArgProcessor.h" bodystart="7" bodyend="17"/>
+    <listofallmembers>
+      <member refid="classArgProcessor_1a389b174af18021e3e81d0ddc58599a6b" prot="public" virt="non-virtual"><scope>ArgProcessor</scope><name>ArgProcessor</name></member>
+      <member refid="classArgProcessor_1a7f00d6545730abc12fcf68ed863d2030" prot="public" virt="non-virtual"><scope>ArgProcessor</scope><name>jro_arguments</name></member>
+      <member refid="classArgProcessor_1a01359a1ff1a6a9f19a71c97f992eec7a" prot="private" virt="non-virtual"><scope>ArgProcessor</scope><name>MyParameters</name></member>
+      <member refid="classArgProcessor_1a2cad62b4bd3cb5245466d1f76876c915" prot="public" virt="non-virtual"><scope>ArgProcessor</scope><name>~ArgProcessor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

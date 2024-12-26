@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="sp601__config_8h" kind="file" language="C++">
+    <compoundname>sp601_config.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">string</includes>
+    <includedby refid="sp601__command_8h" local="yes">sp601_command.h</includedby>
+    <incdepgraph>
+      <node id="146">
+        <label>sp601_config.h</label>
+        <link refid="sp601_config.h"/>
+        <childnode refid="147" relation="include">
+        </childnode>
+        <childnode refid="148" relation="include">
+        </childnode>
+        <childnode refid="149" relation="include">
+        </childnode>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="151" relation="include">
+        </childnode>
+        <childnode refid="152" relation="include">
+        </childnode>
+      </node>
+      <node id="148">
+        <label>stdlib.h</label>
+      </node>
+      <node id="152">
+        <label>string</label>
+      </node>
+      <node id="149">
+        <label>string.h</label>
+      </node>
+      <node id="151">
+        <label>vector</label>
+      </node>
+      <node id="150">
+        <label>iostream</label>
+      </node>
+      <node id="147">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="153">
+        <label>sp601_config.h</label>
+        <link refid="sp601_config.h"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+      </node>
+      <node id="156">
+        <label>ArgProcessor.h</label>
+        <link refid="ArgProcessor_8h"/>
+      </node>
+      <node id="155">
+        <label>JarsControl.h</label>
+        <link refid="JarsControl_8h"/>
+        <childnode refid="156" relation="include">
+        </childnode>
+      </node>
+      <node id="154">
+        <label>sp601_command.h</label>
+        <link refid="sp601__command_8h"/>
+        <childnode refid="155" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classsp601__config" prot="public">sp601_config</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/><sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classsp601__config" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsp601__config" kindref="compound">sp601_config</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classsp601__config_1a647d1666043bbbff8ea0212544c9fd5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="classsp601__config_1a647d1666043bbbff8ea0212544c9fd5d" kindref="member">sp601_ip</ref>;</highlight></codeline>
+<codeline lineno="15" refid="classsp601__config_1a8425fde699cfd9476b57621d6ef53129" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="classsp601__config_1a8425fde699cfd9476b57621d6ef53129" kindref="member">SP601_MAC</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>Must<sp/>convert<sp/>to<sp/>hex<sp/>if<sp/>used//Espacio<sp/>de<sp/>memoria<sp/>donde<sp/>se<sp/>guarda<sp/>el<sp/>valor<sp/>de<sp/>la<sp/>MAC<sp/>del<sp/>SP601<sp/>+<sp/>null</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classsp601__config_1ad6492c0298daa685d0ba7dfc38a85b14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="classsp601__config_1ad6492c0298daa685d0ba7dfc38a85b14" kindref="member">SP601_IP</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>Xilnx<sp/>ISE<sp/>ethernet_control.v//Espacio<sp/>de<sp/>memoria<sp/>donde<sp/>se<sp/>guarda<sp/>el<sp/>valor<sp/>de<sp/>la<sp/>IP<sp/>del<sp/>SP601<sp/>+<sp/>null</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classsp601__config_1af3c1756c00b9954a476698c62911feb7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classsp601__config_1af3c1756c00b9954a476698c62911feb7" kindref="member">SP601_PORT</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>Xilnx<sp/>ISE<sp/>ethernet_control.v//Espacio<sp/>de<sp/>memoria<sp/>donde<sp/>se<sp/>guarda<sp/>el<sp/>valor<sp/>del<sp/>puerto<sp/>del<sp/>SP601<sp/>+<sp/>null</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classsp601__config_1a67d08111f19266ac84a3781d1c204b6e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classsp601__config_1a67d08111f19266ac84a3781d1c204b6e" kindref="member">sp601_ip_string</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>IP<sp/>del<sp/>SP601<sp/>usado<sp/>cuando<sp/>definimos<sp/>un<sp/>endpoint<sp/>tipo<sp/>boost.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="classsp601__config_1a5f4214fdc2d5b4cc6cf2665ad6233838" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="classsp601__config_1a5f4214fdc2d5b4cc6cf2665ad6233838" kindref="member">IP_host</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Se<sp/>usará<sp/>para<sp/>mostrar<sp/>info<sp/>de<sp/>la<sp/>IP<sp/>switch-send</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="classsp601__config_1a2c2cf407fda2eff4bfb66c2624105c7f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="classsp601__config_1a2c2cf407fda2eff4bfb66c2624105c7f" kindref="member">MAC_host</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Se<sp/>usará<sp/>para<sp/>mostrar<sp/>info<sp/>del<sp/>MAC<sp/>en<sp/>switch-send</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classsp601__config_1aa8d75acd776756f7b46560c340a4817d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classsp601__config_1aa8d75acd776756f7b46560c340a4817d" kindref="member">PORT_host</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Se<sp/>usará<sp/>para<sp/>mostrar<sp/>info<sp/>del<sp/>puerto<sp/>en<sp/>switch-send</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classsp601__config_1a26dac3fc752ef1cac9c9a9f6f05782b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>REPLY_START_DATA_PAYLOAD[2];<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>AB,<sp/>defined<sp/>in<sp/>DEFAULT_START_DATA_PAYLOAD<sp/>(ethernet_control.v)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//char<sp/>UDP_timeout;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="classsp601__config_1a6d8f61af0597bc1c6ca208898fc76f77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classsp601__config_1a6d8f61af0597bc1c6ca208898fc76f77" kindref="member">VERBOSE_MODE</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Atributo<sp/>de<sp/>sp601_config</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsp601__config" kindref="compound">sp601_config</ref>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Declara<sp/>un<sp/>constructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_config.h"/>
+  </compounddef>
+</doxygen>

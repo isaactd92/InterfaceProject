@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1InterfaceJRO__7" kind="namespace" language="C++">
+    <compoundname>gr::InterfaceJRO_7</compoundname>
+    <innerclass refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7" prot="public">gr::InterfaceJRO_7::InterfaceJRO_7</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/InterfaceJRO_7.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

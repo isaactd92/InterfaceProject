@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structaddress" kind="struct" language="C++" prot="public">
+    <compoundname>address</compoundname>
+    <includes refid="sp601__command_8h" local="no">sp601_command.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structaddress_1a581926a36870deaba867743219d89d9a" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* address::d_path_file</definition>
+        <argsstring></argsstring>
+        <name>d_path_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="25" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structaddress_1a47c83523d9cc06ed386f29e5fcd5eeda" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string address::d_mac_block</definition>
+        <argsstring></argsstring>
+        <name>d_mac_block</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="26" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structaddress_1aeeeea32d04a247d4a5351e33af8674a8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int address::d_port_block</definition>
+        <argsstring></argsstring>
+        <name>d_port_block</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="27" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structaddress_1aacbeb5a1db9cfa6bcabb47d819818b1e" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string address::d_ip_host</definition>
+        <argsstring></argsstring>
+        <name>d_ip_host</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="28" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="23">
+        <label>address</label>
+        <link refid="structaddress"/>
+        <childnode refid="24" relation="usage">
+          <edgelabel>d_mac_block</edgelabel>
+          <edgelabel>d_ip_host</edgelabel>
+        </childnode>
+      </node>
+      <node id="25">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="24">
+        <label>std::string</label>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" line="24" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/JarsControl/SP601/sp601_command.h" bodystart="24" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structaddress_1aacbeb5a1db9cfa6bcabb47d819818b1e" prot="public" virt="non-virtual"><scope>address</scope><name>d_ip_host</name></member>
+      <member refid="structaddress_1a47c83523d9cc06ed386f29e5fcd5eeda" prot="public" virt="non-virtual"><scope>address</scope><name>d_mac_block</name></member>
+      <member refid="structaddress_1a581926a36870deaba867743219d89d9a" prot="public" virt="non-virtual"><scope>address</scope><name>d_path_file</name></member>
+      <member refid="structaddress_1aeeeea32d04a247d4a5351e33af8674a8" prot="public" virt="non-virtual"><scope>address</scope><name>d_port_block</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

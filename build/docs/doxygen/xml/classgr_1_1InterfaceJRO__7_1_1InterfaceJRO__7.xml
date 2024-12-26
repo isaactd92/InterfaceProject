@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7" kind="class" language="C++" prot="public">
+    <compoundname>gr::InterfaceJRO_7::InterfaceJRO_7</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7__impl" prot="public" virt="non-virtual">gr::InterfaceJRO_7::InterfaceJRO_7_impl</derivedcompoundref>
+    <includes refid="InterfaceJRO__7_8h" local="no">InterfaceJRO_7.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7_1a249cbd564a96bf41f37b4ffe059e53b6" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7" kindref="compound">InterfaceJRO_7</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;InterfaceJRO_7&gt; gr::InterfaceJRO_7::InterfaceJRO_7::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/InterfaceJRO_7.h" line="39" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/InterfaceJRO_7.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7_1ad7a9c8a1069105daf16da7f78dee1ed0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7_1a249cbd564a96bf41f37b4ffe059e53b6" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::InterfaceJRO_7::InterfaceJRO_7::make</definition>
+        <argsstring>(const char *path_file, const std::string mac_block, int port_block, const std::string ip_host)</argsstring>
+        <name>make</name>
+        <param>
+          <type>const char *</type>
+          <declname>path_file</declname>
+        </param>
+        <param>
+          <type>const std::string</type>
+          <declname>mac_block</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port_block</declname>
+        </param>
+        <param>
+          <type>const std::string</type>
+          <declname>ip_host</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7" kindref="compound">InterfaceJRO_7::InterfaceJRO_7</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7" kindref="compound">InterfaceJRO_7::InterfaceJRO_7</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7_1ad7a9c8a1069105daf16da7f78dee1ed0" kindref="member">InterfaceJRO_7::InterfaceJRO_7::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/InterfaceJRO_7.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="37">
+        <label>gr::InterfaceJRO_7::InterfaceJRO_7_impl</label>
+        <link refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7__impl"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>gr::InterfaceJRO_7::InterfaceJRO_7</label>
+        <link refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="38">
+        <label>gr::InterfaceJRO_7::InterfaceJRO_7</label>
+        <link refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/InterfaceJRO_7.h" line="37" column="1" bodyfile="/home/jrojas/OutOfTree-gnuradio/gr-InterfaceJRO_7/include/InterfaceJRO_7/InterfaceJRO_7.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7_1ad7a9c8a1069105daf16da7f78dee1ed0" prot="public" virt="non-virtual"><scope>gr::InterfaceJRO_7::InterfaceJRO_7</scope><name>make</name></member>
+      <member refid="classgr_1_1InterfaceJRO__7_1_1InterfaceJRO__7_1a249cbd564a96bf41f37b4ffe059e53b6" prot="public" virt="non-virtual"><scope>gr::InterfaceJRO_7::InterfaceJRO_7</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
